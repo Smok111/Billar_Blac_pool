@@ -1,0 +1,452 @@
+﻿@model IEnumerable<BillarBlackPool.Models.Mesa>
+
+@{
+    ViewData["Title"] = "Mesas";
+}
+
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+<script src="https://cdn.lordicon.com/lordicon.js"></script>
+<link href="~/css/Mesa.css" rel="stylesheet" />
+
+<div class="container mt-5 mb-5">
+
+    <!-- HEADER -->
+    <div class="cliente-header-wrapper">
+        <div class="cliente-header-content">
+            <div class="cliente-header-left">
+                <div class="cliente-header-icon">
+                    <lord-icon src="https://cdn.lordicon.com/wpyrrmcq.json"
+                               trigger="loop"
+                               colors="primary:#ffffff,secondary:#ffffff"
+                               style="width:50px;height:50px">
+                    </lord-icon>
+                </div>
+                <div>
+                    <h2 class="cliente-title">Gestión de Mesas</h2>
+                    <p class="cliente-subtitle">
+                        <lord-icon src="https://cdn.lordicon.com/bgebyztw.json"
+                                   trigger="loop"
+                                   colors="primary:#6CA8FF"
+                                   style="width:18px;height:18px">
+                        </lord-icon>
+                        Total: <strong>@(Model?.Count() ?? 0)</strong> mesas registradas
+                    </p>
+                </div>
+            </div>
+
+            <a asp-action="Create" class="cliente-btn-add">
+                <lord-icon src="https://cdn.lordicon.com/mecwbjnp.json"
+                           trigger="hover"
+                           colors="primary:#ffffff"
+                           style="width:28px;height:28px">
+                </lord-icon>
+                <span>Nueva Mesa</span>
+            </a>
+        </div>
+
+        <!-- Barra de búsqueda -->
+        <div class="cliente-search-bar">
+            <lord-icon src="https://cdn.lordicon.com/kkvxgpti.json"
+                       trigger="hover"
+                       colors="primary:#6CA8FF"
+                       style="width:24px;height:24px">
+            </lord-icon>
+
+            <input type="text" id="searchInput"
+                   class="cliente-search-input"
+                   placeholder="Buscar por número de mesa..."
+                   autocomplete="off">
+
+            <button class="cliente-search-clear" id="clearSearch" style="display: none;">
+                <lord-icon src="https://cdn.lordicon.com/nqtddedc.json"
+                           trigger="hover"
+                           colors="primary:#6b7280"
+                           style="width:20px;height:20px">
+                </lord-icon>
+            </button>
+        </div>
+    </div>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    @if (Model == null || !Model.Any())
+    {
+        <div class="empty-state">
+            <lord-icon src="https://cdn.lordicon.com/wloilxuq.json"
+                       trigger="loop"
+                       colors="primary:#6CA8FF,secondary:#72D672"
+                       style="width:120px;height:120px"></lord-icon>
+            <h3>No hay mesas registradas</h3>
+            <p>Comienza agregando tu primera mesa al sistema</p>
+
+            <a asp-action="Create" class="btn-empty-state">
+                <lord-icon src="https://cdn.lordicon.com/mecwbjnp.json"
+                           trigger="hover"
+                           colors="primary:#ffffff"
+                           style="width:24px;height:24px"></lord-icon>
+                Agregar Primera Mesa
+            </a>
+        </div>
+    }
+    else
+    {
+        <!-- GRID DE MESAS -->
+        <div class="mesas-grid" id="mesasGrid">
+            @foreach (var mesa in Model)
+            {
+                var estadoClass = mesa.Estado switch
+                {
+                    "Disponible" => "mesa-disponible",
+                    "Ocupada" => "mesa-ocupada",
+                    "Reservada" => "mesa-reservada",
+                    _ => "mesa-mantenimiento"
+                };
+
+                var consumoActivo = mesa.Consumos?.FirstOrDefault(c => c.Estado == "Abierto");
+
+                <div class="mesa-card @estadoClass"
+                     data-mesa-id="@mesa.IdMesa"
+                     data-mesa-numero="@mesa.NumeroMesa"
+                     data-mesa-estado="@mesa.Estado"
+                     data-fecha-inicio="@(consumoActivo?.FechaInicio.ToString("o") ?? "")"
+                     data-fecha-fin="@(consumoActivo?.FechaFin?.ToString("o") ?? "")"
+                     data-tipo-cobro="@(consumoActivo?.TipoCobro ?? "")"
+                     data-precio-minuto="@(consumoActivo?.PrecioLibrePorMinuto.ToString(System.Globalization.CultureInfo.InvariantCulture) ?? "0.10")"
+                     data-precio-hora="@(consumoActivo?.PrecioHora.ToString(System.Globalization.CultureInfo.InvariantCulture) ?? "6")"
+                     data-precio-mediahora="@(consumoActivo?.PrecioMediaHora.ToString(System.Globalization.CultureInfo.InvariantCulture) ?? "3")">
+                    <div class="mesa-header">
+                        <h3 class="mesa-numero">Mesa @mesa.NumeroMesa</h3>
+                        <span class="mesa-estado estado-@mesa.Estado.ToLower()">@mesa.Estado</span>
+                    </div>
+
+                    @if (consumoActivo != null)
+                    {
+                        <div class="mesa-timer-card">
+                            <span class="badge bg-warning text-dark">Tiempo en vivo</span>
+                            <div>Inicio: <strong class="js-mesa-inicio">@consumoActivo.FechaInicio.ToString("dd/MM/yyyy HH:mm")</strong></div>
+                            <div>Fin estimado: <strong class="js-mesa-fin">--:--</strong></div>
+                            <div>Transcurrido: <strong class="js-mesa-tiempo">00:00:00</strong></div>
+                            <div>Costo actual: <strong class="js-mesa-costo">S/ 0.00</strong></div>
+                        </div>
+                    }
+
+                    <div class="mesa-actions">
+                        <!-- DETALLES -->
+                        <button class="action-btn btn-info" title="Ver detalles" data-bs-toggle="modal" data-bs-target="#modalInfo-@mesa.IdMesa">
+                            <lord-icon src="https://cdn.lordicon.com/yxczfiyc.json"
+                                       trigger="hover"
+                                       colors="primary:#ffffff"
+                                       style="width:20px;height:20px"></lord-icon>
+                        </button>
+
+                        <!-- EDITAR -->
+                        <a asp-action="Edit" asp-route-id="@mesa.IdMesa" class="action-btn btn-edit" title="Editar">
+                            <lord-icon src="https://cdn.lordicon.com/wuvorxbv.json"
+                                       trigger="hover"
+                                       colors="primary:#ffffff"
+                                       style="width:20px;height:20px"></lord-icon>
+                        </a>
+
+                        <!-- ELIMINAR -->
+                        <button class="action-btn btn-delete" title="Eliminar" data-bs-toggle="modal" data-bs-target="#modalDelete-@mesa.IdMesa">
+                            <lord-icon src="https://cdn.lordicon.com/wpyrrmcq.json"
+                                       trigger="hover"
+                                       colors="primary:#ffffff"
+                                       style="width:20px;height:20px"></lord-icon>
+                        </button>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <div id="noResultsMessage" class="no-results" style="display: none;">
+            <lord-icon src="https://cdn.lordicon.com/hrqwmuhr.json"
+                       trigger="loop"
+                       colors="primary:#9ca3af"
+                       style="width:80px;height:80px"></lord-icon>
+            <p>No se encontraron mesas con ese criterio de búsqueda</p>
+        </div>
+    }
+</div>
+
+<!-- MODALES -->
+@if (Model != null && Model.Any())
+{
+    @foreach (var mesa in Model)
+    {
+        <!-- Modal Info -->
+        <div class="modal fade" id="modalInfo-@mesa.IdMesa" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content cliente-modal-info">
+                    <div class="modal-header">
+                        <h5 class="modal-title">
+                            <lord-icon src="https://cdn.lordicon.com/yxczfiyc.json"
+                                       trigger="loop"
+                                       colors="primary:#6CA8FF"
+                                       style="width:36px;height:36px">
+                            </lord-icon>
+                            <span>Detalles de la Mesa</span>
+                        </h5>
+                        <button type="button" class="btn-close-custom" data-bs-dismiss="modal" aria-label="Close">
+                            <lord-icon src="https://cdn.lordicon.com/nqtddedc.json"
+                                       trigger="hover"
+                                       colors="primary:#6b7280"
+                                       style="width:24px;height:24px">
+                            </lord-icon>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="cliente-detail-card">
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <lord-icon src="https://cdn.lordicon.com/zpxybbhl.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                </div>
+                                <div class="detail-content">
+                                    <span class="detail-label">ID Mesa</span>
+                                    <span class="detail-value">#@mesa.IdMesa</span>
+                                </div>
+                            </div>
+
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <lord-icon src="https://cdn.lordicon.com/hrjifpbq.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                </div>
+                                <div class="detail-content">
+                                    <span class="detail-label">Número de Mesa</span>
+                                    <span class="detail-value">@mesa.NumeroMesa</span>
+                                </div>
+                            </div>
+
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <lord-icon src="https://cdn.lordicon.com/srsgifqc.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                </div>
+                                <div class="detail-content">
+                                    <span class="detail-label">Estado</span>
+                                    <span class="detail-value">
+                                        <span class="mesa-estado estado-@mesa.Estado.ToLower()">@mesa.Estado</span>
+                                    </span>
+                                </div>
+                            </div>
+
+                            @if (mesa.Consumos != null && mesa.Consumos.Any())
+                            {
+                                var ultimoConsumo = mesa.Consumos.OrderByDescending(c => c.FechaInicio).FirstOrDefault();
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <lord-icon src="https://cdn.lordicon.com/tdrtiskw.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                </div>
+                                <div class="detail-content">
+                                    <span class="detail-label">Último Consumo</span>
+                                    <span class="detail-value">
+                                        @if (ultimoConsumo != null)
+                                        {
+                                            <div>
+                                                <strong>Inicio:</strong> @ultimoConsumo.FechaInicio.ToString("g")
+                                            </div>
+                                            <div>
+                                                <strong>Fin:</strong> @ultimoConsumo.FechaFin?.ToString("g") ?? "En curso"
+                                            </div>
+                                            <div>
+                                                <strong>Tipo de Cobro:</strong> @ultimoConsumo.TipoCobro
+                                            </div>
+                                            <div>
+                                                <strong>Precio por Minuto:</strong> S/ @ultimoConsumo.PrecioLibrePorMinuto
+                                            </div>
+                                            <div>
+                                                <strong>Precio por Hora:</strong> S/ @ultimoConsumo.PrecioHora
+                                            </div>
+                                            <div>
+                                                <strong>Precio por Media Hora:</strong> S/ @ultimoConsumo.PrecioMediaHora
+                                            </div>
+                                        }
+                                        else
+                                        {
+                                            <span>No hay registros de consumo</span>
+                                        }
+                                    </span>
+                                </div>
+                            </div>
+                            }
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="modal-btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <a asp-action="Edit" asp-route-id="@mesa.IdMesa" class="modal-btn-primary">
+                            <lord-icon src="https://cdn.lordicon.com/wuvorxbv.json"
+                                       trigger="hover"
+                                       colors="primary:#ffffff"
+                                       style="width:20px;height:20px"></lord-icon>
+                            Editar
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Delete -->
+        <div class="modal fade" id="modalDelete-@mesa.IdMesa" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content cliente-modal-delete">
+                    <div class="modal-header">
+                        <h5 class="modal-title">
+                            <lord-icon src="https://cdn.lordicon.com/wpyrrmcq.json"
+                                       trigger="loop"
+                                       colors="primary:#FF6B6B"
+                                       style="width:36px;height:36px"></lord-icon>
+                            <span>Confirmar Eliminación</span>
+                        </h5>
+                        <button type="button" class="btn-close-custom" data-bs-dismiss="modal" aria-label="Close">
+                            <lord-icon src="https://cdn.lordicon.com/nqtddedc.json"
+                                       trigger="hover"
+                                       colors="primary:#6b7280"
+                                       style="width:24px;height:24px"></lord-icon>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="delete-warning">
+                            <lord-icon src="https://cdn.lordicon.com/tdrtiskw.json"
+                                       trigger="loop"
+                                       colors="primary:#FF6B6B"
+                                       style="width:100px;height:100px"></lord-icon>
+
+                            <h4>¿Estás seguro?</h4>
+                            <p>Vas a eliminar la mesa:</p>
+
+                            <div class="delete-client-name">
+                                <lord-icon src="https://cdn.lordicon.com/hrjifpbq.json"
+                                           trigger="hover"
+                                           colors="primary:#FF6B6B"
+                                           style="width:24px;height:24px"></lord-icon>
+                                <strong>Mesa @mesa.NumeroMesa</strong>
+                            </div>
+
+                            <div class="delete-alert">
+                                <lord-icon src="https://cdn.lordicon.com/keaiyjcx.json"
+                                           trigger="loop"
+                                           colors="primary:#FF6B6B"
+                                           style="width:20px;height:20px"></lord-icon>
+                                Esta acción no se puede deshacer
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="modal-btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                        <form asp-action="Delete" method="post" style="display:inline;">
+                            <input type="hidden" name="id" value="@mesa.IdMesa" />
+                            <button type="submit" class="modal-btn-danger">
+                                <lord-icon src="https://cdn.lordicon.com/wpyrrmcq.json"
+                                           trigger="hover"
+                                           colors="primary:#ffffff"
+                                           style="width:20px;height:20px"></lord-icon>
+                                Eliminar Mesa
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+}
+
+@section Scripts {
+    <script>
+        // BÚSQUEDA EN TIEMPO REAL
+        document.addEventListener('DOMContentLoaded', function () {
+            const searchInput = document.getElementById('searchInput');
+            const clearSearch = document.getElementById('clearSearch');
+            const grid = document.getElementById('mesasGrid');
+            const noResults = document.getElementById('noResultsMessage');
+
+            const pad = (n) => String(n).padStart(2, '0');
+            const formatDuration = (totalSeconds) => {
+                const safe = Math.max(0, Math.floor(totalSeconds));
+                const h = Math.floor(safe / 3600);
+                const m = Math.floor((safe % 3600) / 60);
+                const s = safe % 60;
+                return `${pad(h)}:${pad(m)}:${pad(s)}`;
+            };
+            const formatDateTime = (date) => new Intl.DateTimeFormat('es-PE', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' }).format(date);
+
+            const refreshMesaTimers = () => {
+                document.querySelectorAll('.mesa-card[data-fecha-inicio]').forEach(card => {
+                    const inicioRaw = card.getAttribute('data-fecha-inicio');
+                    const tipoCobro = card.getAttribute('data-tipo-cobro') || 'Libre';
+                    const inicioLabel = card.querySelector('.js-mesa-inicio');
+                    const finLabel = card.querySelector('.js-mesa-fin');
+                    const tiempoLabel = card.querySelector('.js-mesa-tiempo');
+                    const costoLabel = card.querySelector('.js-mesa-costo');
+
+                    if (!inicioRaw || !inicioLabel || !finLabel || !tiempoLabel || !costoLabel) return;
+
+                    const inicio = new Date(inicioRaw);
+                    const ahora = new Date();
+                    const elapsedSeconds = (ahora - inicio) / 1000;
+                    const elapsedMinutes = elapsedSeconds / 60;
+
+                    inicioLabel.textContent = formatDateTime(inicio);
+                    tiempoLabel.textContent = formatDuration(elapsedSeconds);
+
+                    let finEstimado;
+                    let costo = 0;
+                    if (tipoCobro === 'Hora') {
+                        finEstimado = new Date(inicio.getTime() + 60 * 60000);
+                        costo = 6 * (elapsedMinutes / 60);
+                    } else if (tipoCobro === 'MediaHora') {
+                        finEstimado = new Date(inicio.getTime() + 30 * 60000);
+                        costo = 3 * (elapsedMinutes / 30);
+                    } else {
+                        finEstimado = null;
+                        costo = elapsedMinutes * 0.10;
+                    }
+
+                    finLabel.textContent = finEstimado ? formatDateTime(finEstimado) : 'En vivo';
+                    costoLabel.textContent = `S/ ${costo.toFixed(2)}`;
+                });
+            };
+
+            if (grid) {
+                setInterval(refreshMesaTimers, 1000);
+                refreshMesaTimers();
+            }
+
+            if (searchInput && grid) {
+                searchInput.addEventListener('input', function () {
+                    const searchTerm = this.value.toLowerCase();
+                    const cards = grid.querySelectorAll('.mesa-card');
+                    let visibleCount = 0;
+
+                    cards.forEach(card => {
+                        const numero = card.getAttribute('data-mesa-numero').toLowerCase();
+                        const estado = card.getAttribute('data-mesa-estado').toLowerCase();
+
+                        if (numero.includes(searchTerm) || estado.includes(searchTerm)) {
+                            card.style.display = '';
+                            visibleCount++;
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+
+                    if (noResults) noResults.style.display = (visibleCount === 0) ? 'flex' : 'none';
+                    if (clearSearch) clearSearch.style.display = searchTerm ? 'flex' : 'none';
+                });
+            }
+        });
+    </script>
+}

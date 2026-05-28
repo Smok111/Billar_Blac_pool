@@ -1,0 +1,123 @@
+﻿/* ==================== MEJORAS PARA TABLA ALINEADA ==================== */
+.cliente-table {
+    width: 100% !important;
+    table-layout: fixed;
+}
+
+    .cliente-table th {
+        vertical-align: middle !important;
+        text-align: center !important;
+        font-weight: 800 !important;
+        padding: 15px 10px !important;
+    }
+
+    .cliente-table td {
+        vertical-align: middle !important;
+        padding: 12px 10px !important;
+        word-wrap: break-word;
+    }
+
+    /* Asegurar que las celdas tengan el mismo alto */
+    .cliente-table tbody tr {
+        height: 70px;
+    }
+
+/* Mejorar la responsividad */
+.table-responsive {
+    border-radius: var(--radius-md);
+    overflow: hidden;
+}
+
+/* Ajustes específicos para columnas */
+.cliente-table th:nth-child(1),
+.cliente-table td:nth-child(1) {
+    width: 80px;
+    min-width: 80px;
+}
+
+.cliente-table th:nth-child(2),
+.cliente-table td:nth-child(2) {
+    width: 250px;
+    min-width: 200px;
+}
+
+.cliente-table th:nth-child(3),
+.cliente-table td:nth-child(3) {
+    width: 250px;
+    min-width: 200px;
+}
+
+.cliente-table th:nth-child(4),
+.cliente-table td:nth-child(4) {
+    width: 150px;
+    min-width: 120px;
+}
+
+.cliente-table th:nth-child(5),
+.cliente-table td:nth-child(5) {
+    width: 180px;
+    min-width: 150px;
+}
+
+/* Mejorar el avatar */
+.cliente-avatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.2rem;
+    box-shadow: 0 4px 12px rgba(108, 168, 255, 0.3);
+    flex-shrink: 0;
+}
+
+/* Badge mejorado */
+.badge-date {
+    display: inline-block;
+    padding: 8px 16px;
+    background: linear-gradient(135deg, #f0f7ff 0%, #e0f2fe 100%);
+    color: var(--color-dark);
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 0.85rem;
+    border: 2px solid #e5e7eb;
+}
+
+/* Responsive mejorado */
+@media (max-width: 768px) {
+    .cliente-table th,
+    .cliente-table td {
+        padding: 10px 8px !important;
+        font-size: 0.85rem;
+    }
+
+    .cliente-avatar {
+        width: 35px;
+        height: 35px;
+        font-size: 1rem;
+    }
+
+    .actions-wrapper {
+        gap: 5px;
+    }
+
+    .action-btn {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media (max-width: 576px) {
+    .cliente-table {
+        font-size: 0.8rem;
+    }
+
+        .cliente-table th,
+        .cliente-table td {
+            padding: 8px 5px !important;
+        }
+}

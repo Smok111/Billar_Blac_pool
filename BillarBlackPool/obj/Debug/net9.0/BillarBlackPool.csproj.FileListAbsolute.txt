@@ -1,0 +1,1295 @@
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\appsettings.json
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\BillarBlackPool.staticwebassets.runtime.json
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\BillarBlackPool.staticwebassets.endpoints.json
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\BillarBlackPool.exe
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\BillarBlackPool.deps.json
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\BillarBlackPool.runtimeconfig.json
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\BillarBlackPool.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\BillarBlackPool.pdb
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Azure.Core.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Azure.Identity.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Humanizer.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.ClientModel.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.CodeDom.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Drawing.Common.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Memory.Data.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Runtime.Caching.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Security.Permissions.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Windows.Extensions.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.csproj.AssemblyReference.cache
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.AssemblyInfoInputs.cache
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.AssemblyInfo.cs
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.csproj.CoreCompileInputs.cache
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.RazorAssemblyInfo.cache
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.RazorAssemblyInfo.cs
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\scopedcss\bundle\BillarBlackPool.styles.css
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\scopedcss\projectbundle\BillarBlackPool.bundle.scp.css
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\0l4rhmiy49-{0}-b9sayid5wm-b9sayid5wm.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\53kcdk3t0e-{0}-61n19gt1b8-61n19gt1b8.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\8z4scob2j8-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\klp41a9d3i-{0}-bqjiyaj88i-bqjiyaj88i.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\5lq8olguc0-{0}-c2jlpeoesf-c2jlpeoesf.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\hbvw0g2mee-{0}-erw9l3u2r3-erw9l3u2r3.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\s6oynxb1gi-{0}-aexeepp0ev-aexeepp0ev.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\qfop7t77xp-{0}-d7shbmvgxk-d7shbmvgxk.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\zli6rmypgn-{0}-ausgxo2sd3-ausgxo2sd3.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\fsm7l31ig3-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\r1s0npwk4q-{0}-cosvhxvwiu-cosvhxvwiu.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\mozsuq6f8q-{0}-ub07r2b239-ub07r2b239.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\45mmft4qj2-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\zvx1otqh63-{0}-b7pk76d08c-b7pk76d08c.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\xso1zh1fvr-{0}-fsbi9cje9m-fsbi9cje9m.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\0zte7dn3kv-{0}-rzd6atqjts-rzd6atqjts.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\lmqmiiaabk-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\72tq201xkz-{0}-dxx9fxp4il-dxx9fxp4il.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\zayqvyebn4-{0}-jd9uben2k1-jd9uben2k1.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\4n5a1agzvb-{0}-khv3u5hwcm-khv3u5hwcm.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\vj7tvhz8de-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\1fpdmzgs0m-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\n5sj5uo9c6-{0}-c2oey78nd0-c2oey78nd0.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\pq6ipyyyt5-{0}-tdbxkamptv-tdbxkamptv.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\4dvoq611x9-{0}-j5mq2jizvt-j5mq2jizvt.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\nzoifp2s8g-{0}-06098lyss8-06098lyss8.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\j4x1rmx95r-{0}-nvvlpmu67g-nvvlpmu67g.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\w1c3udk76h-{0}-s35ty4nyc5-s35ty4nyc5.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\moo9cs7l1b-{0}-pj5nd1wqec-pj5nd1wqec.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\jh2vy2id0u-{0}-46ein0sx1k-46ein0sx1k.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\qqp2fayq95-{0}-v0zj4ognzu-v0zj4ognzu.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\yleuv3kqav-{0}-37tfw0ft22-37tfw0ft22.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\5221gfqk5p-{0}-hrwsygsryq-hrwsygsryq.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\t9fs4p88xe-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\hu1f6n49jm-{0}-ft3s53vfgj-ft3s53vfgj.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\22wo2thrzn-{0}-6cfz1n2cew-6cfz1n2cew.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\ru02rs3xd5-{0}-6pdc2jztkx-6pdc2jztkx.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\jdk0lltcki-{0}-493y06b0oq-493y06b0oq.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\58scxugm7r-{0}-iovd86k7lj-iovd86k7lj.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\q88vhicrud-{0}-vr1egmr9el-vr1egmr9el.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\hllxqyo9xa-{0}-kbrnm935zg-kbrnm935zg.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\d373f5otma-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\83cpk30bzq-{0}-y7v9cxd14o-y7v9cxd14o.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\pd2lmcmof1-{0}-notf2xhcfb-notf2xhcfb.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\4zowubyizs-{0}-h1s4sie4z3-h1s4sie4z3.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\85zgll7xph-{0}-63fj8s7r0e-63fj8s7r0e.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\4sdq8z46gs-{0}-0j3bgjxly4-0j3bgjxly4.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\arzyddvqt8-{0}-47otxtyo56-47otxtyo56.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\qolklke1oi-{0}-4v8eqarkd7-4v8eqarkd7.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\m6hnpd7jgv-{0}-356vix0kms-356vix0kms.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\h4m4n9zcja-{0}-83jwlth58m-83jwlth58m.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\pqyrwbuv4x-{0}-mrlpezrjn3-mrlpezrjn3.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\un79wb9aey-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\y0xa4lo9r0-{0}-ag7o75518u-ag7o75518u.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\y99u004j0n-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\hsbfeaujjn-{0}-0i3buxo5is-0i3buxo5is.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\yjx7q0a0j0-{0}-o1o13a6vjx-o1o13a6vjx.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\n8x15suvi4-{0}-ttgo8qnofa-ttgo8qnofa.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\bl2729j748-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\050ndlp4pt-{0}-muycvpuwrr-muycvpuwrr.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\jk77coddwo-{0}-87fc7y1x7t-87fc7y1x7t.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\jqg1orbvmp-{0}-mlv21k5csn-mlv21k5csn.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\v0v1bfc9jj-{0}-bp7h8wtpbc-bp7h8wtpbc.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\1etjx7vfzv-{0}-bp7h8wtpbc-bp7h8wtpbc.gz
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\swae.build.ex.cache
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBl.FECB5DD9.Up2Date
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\refint\BillarBlackPool.dll
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.pdb
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.genruntimeconfig.cache
+C:\Users\Luis Anthony\Downloads\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\ref\BillarBlackPool.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.csproj.AssemblyReference.cache
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.AssemblyInfoInputs.cache
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.AssemblyInfo.cs
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.csproj.CoreCompileInputs.cache
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.RazorAssemblyInfo.cache
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.RazorAssemblyInfo.cs
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\refint\BillarBlackPool.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.pdb
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\appsettings.json
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\BillarBlackPool.staticwebassets.runtime.json
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\BillarBlackPool.staticwebassets.endpoints.json
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\BillarBlackPool.exe
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\BillarBlackPool.deps.json
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\BillarBlackPool.runtimeconfig.json
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\BillarBlackPool.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\BillarBlackPool.pdb
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Azure.Core.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Azure.Identity.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Humanizer.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.ClientModel.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.CodeDom.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Drawing.Common.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Memory.Data.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Runtime.Caching.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Security.Permissions.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Windows.Extensions.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\scopedcss\bundle\BillarBlackPool.styles.css
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\scopedcss\projectbundle\BillarBlackPool.bundle.scp.css
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\2www7453tn-61n19gt1b8.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\titgpym0zm-xtxxf3hu2r.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\h33k4ntnv3-bqjiyaj88i.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\w82mkvs380-c2jlpeoesf.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\wl1mqy215k-erw9l3u2r3.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\cpwcofc97c-aexeepp0ev.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\dyv318nnwg-d7shbmvgxk.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\8grxi4yme6-ausgxo2sd3.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\9wyekn06pd-k8d9w2qqmf.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\yfrlr9f0tg-cosvhxvwiu.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\fyincxoya0-ub07r2b239.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\7abat93ufy-fvhpjtyr6v.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\9kkvv0oy2r-b7pk76d08c.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\ys2tyof1t4-fsbi9cje9m.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\y8osjc97bw-rzd6atqjts.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\enost3qr0a-ee0r1s7dh0.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\6bbowpkx9m-dxx9fxp4il.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\xm9zuuyjtz-jd9uben2k1.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\qc8kvfaqco-khv3u5hwcm.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\a6d1ctqmgr-r4e9w2rdcm.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\uoq06w34x2-lcd1t2u6c8.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\rewg3s2v3s-c2oey78nd0.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\hyu4hizp1a-tdbxkamptv.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\zu69x47waw-j5mq2jizvt.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\35oyx9tkyo-06098lyss8.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\1rypyx9i89-nvvlpmu67g.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\a37pzu47ck-s35ty4nyc5.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\xv8gol2pv7-pj5nd1wqec.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\ccxqurggew-46ein0sx1k.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\2lenvjlocd-v0zj4ognzu.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\ywqp0tcn3e-37tfw0ft22.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\ccpm0wvpf9-hrwsygsryq.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\tbbd7506o1-pk9g2wxc8p.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\iijy95a0zz-ft3s53vfgj.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\gbutq2c3uu-6cfz1n2cew.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\bqkqafm72d-6pdc2jztkx.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\z9czmbtgp1-493y06b0oq.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\9srke24uha-iovd86k7lj.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\7hvrdgfig3-vr1egmr9el.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\vgglef3r8t-kbrnm935zg.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\q1405iqyrm-jj8uyg4cgr.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\i25iu25qlt-y7v9cxd14o.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\nn1ftgak53-notf2xhcfb.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\7t3xd065xx-h1s4sie4z3.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\2qwe7s2dpx-63fj8s7r0e.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\cir0zmm771-0j3bgjxly4.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\aedapjey6g-47otxtyo56.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\po8rx41c80-4v8eqarkd7.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\5460lpbaqa-356vix0kms.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\2yyslpws9j-83jwlth58m.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\310qlxpj9r-mrlpezrjn3.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\wy99ugt3b6-lzl9nlhx6b.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\3918to9mco-ag7o75518u.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\mgnu2cifsn-x0q3zqp4vz.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\xt7x7pukzf-0i3buxo5is.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\9ybab9q2g3-o1o13a6vjx.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\70ncrql2t9-ttgo8qnofa.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\xplohylrqw-2z0ns9nrw6.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\eqku3uisep-muycvpuwrr.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\i8mxbc2fgt-87fc7y1x7t.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\i0pga829ft-mlv21k5csn.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBl.FECB5DD9.Up2Date
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.genruntimeconfig.cache
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\ref\BillarBlackPool.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\1hup405esw-nljztkz7xw.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\59b6yh5zrr-5v7ouz1nld.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\6g7wamex90-izzkhe027z.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\vplv9zeigu-i1cvy5eex3.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\x0vl25kf04-uiexjtx74g.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\BouncyCastle.Cryptography.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\iTextSharp.LGPLv2.Core.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Rotativa.AspNetCore.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\SkiaSharp.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\uq4suuj112-ci29rsqlcn.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\js23g505x2-vp9twcnvto.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\wscy0rqw4i-07xyppnwsz.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\itext.barcodes.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\itext.bouncy-castle-connector.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\itext.forms.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\itext.io.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\itext.kernel.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\itext.layout.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\itext.pdfa.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\itext.pdfua.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\itext.sign.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\itext.styledxmlparser.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\itext.svg.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\itext.commons.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\BouncyCastle.Crypto.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\itext.bouncy-castle-adapter.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\0kemw0upol-eni7sl353f.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\BCrypt.Net-Next.dll
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\j9i7uffdty-w935acarxi.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\ubgsj7myho-ux098uni1f.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\x43wth6hol-ux098uni1f.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\12903etbng-vf1imhq0j6.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\mbbfdhxuz6-eq0l1k6phe.gz
+C:\Users\tony\Pictures\BillarBlackPool\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\zvke8ilglh-m1bbkxdxc6.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\appsettings.json
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\BillarBlackPool.staticwebassets.endpoints.json
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\BillarBlackPool.staticwebassets.runtime.json
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\BillarBlackPool.exe
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\BillarBlackPool.deps.json
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\BillarBlackPool.runtimeconfig.json
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\BillarBlackPool.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\BillarBlackPool.pdb
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\Azure.Core.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\Azure.Identity.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\BCrypt.Net-Next.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\BouncyCastle.Cryptography.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\BouncyCastle.Crypto.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\Humanizer.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\itext.barcodes.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\itext.bouncy-castle-connector.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\itext.forms.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\itext.io.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\itext.kernel.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\itext.layout.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\itext.pdfa.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\itext.pdfua.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\itext.sign.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\itext.styledxmlparser.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\itext.svg.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\itext.bouncy-castle-adapter.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\itext.commons.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\iTextSharp.LGPLv2.Core.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\Rotativa.AspNetCore.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\SkiaSharp.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\System.ClientModel.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\System.CodeDom.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\System.Drawing.Common.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\System.Memory.Data.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\System.Runtime.Caching.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\System.Security.Permissions.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\System.Windows.Extensions.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.csproj.AssemblyReference.cache
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.AssemblyInfoInputs.cache
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.AssemblyInfo.cs
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.csproj.CoreCompileInputs.cache
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.RazorAssemblyInfo.cache
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.RazorAssemblyInfo.cs
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\scopedcss\bundle\BillarBlackPool.styles.css
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\scopedcss\projectbundle\BillarBlackPool.bundle.scp.css
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\uq4suuj112-ci29rsqlcn.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\0kemw0upol-eni7sl353f.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\59b6yh5zrr-5v7ouz1nld.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\wscy0rqw4i-07xyppnwsz.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\j9i7uffdty-w935acarxi.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\mbbfdhxuz6-eq0l1k6phe.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\6g7wamex90-izzkhe027z.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\js23g505x2-vp9twcnvto.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\zvke8ilglh-m1bbkxdxc6.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\vplv9zeigu-i1cvy5eex3.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\12903etbng-vf1imhq0j6.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\x0vl25kf04-uiexjtx74g.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\2www7453tn-61n19gt1b8.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\1hup405esw-nljztkz7xw.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\titgpym0zm-xtxxf3hu2r.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\h33k4ntnv3-bqjiyaj88i.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\w82mkvs380-c2jlpeoesf.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\wl1mqy215k-erw9l3u2r3.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\cpwcofc97c-aexeepp0ev.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\dyv318nnwg-d7shbmvgxk.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\8grxi4yme6-ausgxo2sd3.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\9wyekn06pd-k8d9w2qqmf.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\yfrlr9f0tg-cosvhxvwiu.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\fyincxoya0-ub07r2b239.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\7abat93ufy-fvhpjtyr6v.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\9kkvv0oy2r-b7pk76d08c.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\ys2tyof1t4-fsbi9cje9m.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\y8osjc97bw-rzd6atqjts.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\enost3qr0a-ee0r1s7dh0.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\6bbowpkx9m-dxx9fxp4il.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\xm9zuuyjtz-jd9uben2k1.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\qc8kvfaqco-khv3u5hwcm.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\a6d1ctqmgr-r4e9w2rdcm.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\uoq06w34x2-lcd1t2u6c8.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\rewg3s2v3s-c2oey78nd0.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\hyu4hizp1a-tdbxkamptv.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\zu69x47waw-j5mq2jizvt.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\35oyx9tkyo-06098lyss8.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\1rypyx9i89-nvvlpmu67g.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\a37pzu47ck-s35ty4nyc5.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\xv8gol2pv7-pj5nd1wqec.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\ccxqurggew-46ein0sx1k.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\2lenvjlocd-v0zj4ognzu.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\ywqp0tcn3e-37tfw0ft22.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\ccpm0wvpf9-hrwsygsryq.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\tbbd7506o1-pk9g2wxc8p.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\iijy95a0zz-ft3s53vfgj.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\gbutq2c3uu-6cfz1n2cew.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\bqkqafm72d-6pdc2jztkx.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\z9czmbtgp1-493y06b0oq.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\9srke24uha-iovd86k7lj.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\7hvrdgfig3-vr1egmr9el.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\vgglef3r8t-kbrnm935zg.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\q1405iqyrm-jj8uyg4cgr.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\i25iu25qlt-y7v9cxd14o.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\nn1ftgak53-notf2xhcfb.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\7t3xd065xx-h1s4sie4z3.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\2qwe7s2dpx-63fj8s7r0e.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\cir0zmm771-0j3bgjxly4.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\aedapjey6g-47otxtyo56.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\po8rx41c80-4v8eqarkd7.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\5460lpbaqa-356vix0kms.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\2yyslpws9j-83jwlth58m.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\310qlxpj9r-mrlpezrjn3.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\wy99ugt3b6-lzl9nlhx6b.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\3918to9mco-ag7o75518u.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\mgnu2cifsn-x0q3zqp4vz.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\xt7x7pukzf-0i3buxo5is.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\9ybab9q2g3-o1o13a6vjx.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\70ncrql2t9-ttgo8qnofa.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\xplohylrqw-2z0ns9nrw6.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\eqku3uisep-muycvpuwrr.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\i8mxbc2fgt-87fc7y1x7t.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\i0pga829ft-mlv21k5csn.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\ubgsj7myho-ux098uni1f.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\compressed\x43wth6hol-ux098uni1f.gz
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\BillarBl.FECB5DD9.Up2Date
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\refint\BillarBlackPool.dll
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.pdb
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.genruntimeconfig.cache
+C:\Users\tony\Pictures\BillarBlackPool\fN\BillarBlackPool\obj\Debug\net9.0\ref\BillarBlackPool.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\appsettings.json
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\BillarBlackPool.staticwebassets.runtime.json
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\BillarBlackPool.staticwebassets.endpoints.json
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\BillarBlackPool.exe
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\BillarBlackPool.deps.json
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\BillarBlackPool.runtimeconfig.json
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\BillarBlackPool.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\BillarBlackPool.pdb
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Azure.Core.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Azure.Identity.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\BCrypt.Net-Next.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\BouncyCastle.Cryptography.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\BouncyCastle.Crypto.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Humanizer.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\itext.barcodes.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\itext.bouncy-castle-connector.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\itext.forms.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\itext.io.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\itext.kernel.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\itext.layout.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\itext.pdfa.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\itext.pdfua.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\itext.sign.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\itext.styledxmlparser.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\itext.svg.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\itext.bouncy-castle-adapter.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\itext.commons.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\iTextSharp.LGPLv2.Core.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Mono.TextTemplating.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Rotativa.AspNetCore.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\SkiaSharp.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.ClientModel.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.CodeDom.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Composition.Convention.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Composition.Hosting.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Composition.Runtime.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Composition.TypedParts.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Drawing.Common.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Memory.Data.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Runtime.Caching.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Security.Permissions.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Windows.Extensions.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\osx\native\libSkiaSharp.dylib
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win-arm64\native\libSkiaSharp.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win-x64\native\libSkiaSharp.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win-x86\native\libSkiaSharp.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.csproj.AssemblyReference.cache
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.AssemblyInfoInputs.cache
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.AssemblyInfo.cs
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.csproj.CoreCompileInputs.cache
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.RazorAssemblyInfo.cache
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.RazorAssemblyInfo.cs
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\scopedcss\bundle\BillarBlackPool.styles.css
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\scopedcss\projectbundle\BillarBlackPool.bundle.scp.css
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\uq4suuj112-ci29rsqlcn.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\0kemw0upol-eni7sl353f.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\59b6yh5zrr-5v7ouz1nld.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\wscy0rqw4i-07xyppnwsz.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\j9i7uffdty-w935acarxi.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\mbbfdhxuz6-eq0l1k6phe.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\6g7wamex90-izzkhe027z.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\js23g505x2-vp9twcnvto.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\zvke8ilglh-m1bbkxdxc6.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\vplv9zeigu-i1cvy5eex3.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\12903etbng-vf1imhq0j6.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\x0vl25kf04-uiexjtx74g.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\2www7453tn-61n19gt1b8.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\1hup405esw-nljztkz7xw.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\titgpym0zm-xtxxf3hu2r.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\h33k4ntnv3-bqjiyaj88i.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\w82mkvs380-c2jlpeoesf.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\wl1mqy215k-erw9l3u2r3.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\cpwcofc97c-aexeepp0ev.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\dyv318nnwg-d7shbmvgxk.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\8grxi4yme6-ausgxo2sd3.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\9wyekn06pd-k8d9w2qqmf.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\yfrlr9f0tg-cosvhxvwiu.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\fyincxoya0-ub07r2b239.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\7abat93ufy-fvhpjtyr6v.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\9kkvv0oy2r-b7pk76d08c.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\ys2tyof1t4-fsbi9cje9m.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\y8osjc97bw-rzd6atqjts.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\enost3qr0a-ee0r1s7dh0.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\6bbowpkx9m-dxx9fxp4il.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\xm9zuuyjtz-jd9uben2k1.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\qc8kvfaqco-khv3u5hwcm.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\a6d1ctqmgr-r4e9w2rdcm.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\uoq06w34x2-lcd1t2u6c8.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\rewg3s2v3s-c2oey78nd0.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\hyu4hizp1a-tdbxkamptv.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\zu69x47waw-j5mq2jizvt.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\35oyx9tkyo-06098lyss8.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\1rypyx9i89-nvvlpmu67g.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\a37pzu47ck-s35ty4nyc5.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\xv8gol2pv7-pj5nd1wqec.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\ccxqurggew-46ein0sx1k.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\2lenvjlocd-v0zj4ognzu.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\ywqp0tcn3e-37tfw0ft22.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\ccpm0wvpf9-hrwsygsryq.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\tbbd7506o1-pk9g2wxc8p.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\iijy95a0zz-ft3s53vfgj.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\gbutq2c3uu-6cfz1n2cew.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\bqkqafm72d-6pdc2jztkx.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\z9czmbtgp1-493y06b0oq.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\9srke24uha-iovd86k7lj.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\7hvrdgfig3-vr1egmr9el.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\vgglef3r8t-kbrnm935zg.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\q1405iqyrm-jj8uyg4cgr.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\i25iu25qlt-y7v9cxd14o.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\nn1ftgak53-notf2xhcfb.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\7t3xd065xx-h1s4sie4z3.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\2qwe7s2dpx-63fj8s7r0e.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\cir0zmm771-0j3bgjxly4.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\aedapjey6g-47otxtyo56.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\po8rx41c80-4v8eqarkd7.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\5460lpbaqa-356vix0kms.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\2yyslpws9j-83jwlth58m.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\310qlxpj9r-mrlpezrjn3.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\wy99ugt3b6-lzl9nlhx6b.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\3918to9mco-ag7o75518u.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\mgnu2cifsn-x0q3zqp4vz.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\xt7x7pukzf-0i3buxo5is.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\9ybab9q2g3-o1o13a6vjx.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\70ncrql2t9-ttgo8qnofa.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\xplohylrqw-2z0ns9nrw6.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\eqku3uisep-muycvpuwrr.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\i8mxbc2fgt-87fc7y1x7t.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\i0pga829ft-mlv21k5csn.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\ubgsj7myho-ux098uni1f.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\x43wth6hol-ux098uni1f.gz
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBl.FECB5DD9.Up2Date
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\refint\BillarBlackPool.dll
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.pdb
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.genruntimeconfig.cache
+C:\Users\Luis Anthony\Documents\Diseño y arquitectura\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\ref\BillarBlackPool.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\appsettings.Development.json
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\appsettings.json
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\BillarBlackPool.staticwebassets.runtime.json
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\BillarBlackPool.staticwebassets.endpoints.json
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\BillarBlackPool.exe
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\BillarBlackPool.deps.json
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\BillarBlackPool.runtimeconfig.json
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\BillarBlackPool.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\BillarBlackPool.pdb
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Azure.Core.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Azure.Identity.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\BCrypt.Net-Next.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\BouncyCastle.Cryptography.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\BouncyCastle.Crypto.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Humanizer.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\itext.barcodes.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\itext.bouncy-castle-connector.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\itext.forms.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\itext.io.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\itext.kernel.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\itext.layout.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\itext.pdfa.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\itext.pdfua.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\itext.sign.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\itext.styledxmlparser.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\itext.svg.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\itext.bouncy-castle-adapter.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\itext.commons.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\iTextSharp.LGPLv2.Core.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Build.Locator.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.CodeAnalysis.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Data.SqlClient.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.DependencyModel.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Identity.Client.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.IdentityModel.Abstractions.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.IdentityModel.Logging.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.IdentityModel.Tokens.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.SqlServer.Server.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Microsoft.Win32.SystemEvents.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Mono.TextTemplating.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\Rotativa.AspNetCore.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\SkiaSharp.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.ClientModel.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.CodeDom.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Composition.AttributedModel.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Composition.Convention.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Composition.Hosting.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Composition.Runtime.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Composition.TypedParts.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Configuration.ConfigurationManager.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Drawing.Common.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.IdentityModel.Tokens.Jwt.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Memory.Data.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Runtime.Caching.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Security.Permissions.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\System.Windows.Extensions.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\osx\native\libSkiaSharp.dylib
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win-arm64\native\libSkiaSharp.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win-x64\native\libSkiaSharp.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win-x86\native\libSkiaSharp.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.csproj.AssemblyReference.cache
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\rpswa.dswa.cache.json
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.AssemblyInfoInputs.cache
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.AssemblyInfo.cs
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.csproj.CoreCompileInputs.cache
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.MvcApplicationPartsAssemblyInfo.cs
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.MvcApplicationPartsAssemblyInfo.cache
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.RazorAssemblyInfo.cache
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.RazorAssemblyInfo.cs
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\rjimswa.dswa.cache.json
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\scopedcss\bundle\BillarBlackPool.styles.css
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\scopedcss\projectbundle\BillarBlackPool.bundle.scp.css
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\staticwebassets.build.json
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\staticwebassets.build.json.cache
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\staticwebassets.development.json
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBl.FECB5DD9.Up2Date
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\refint\BillarBlackPool.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.pdb
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\BillarBlackPool.genruntimeconfig.cache
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\ref\BillarBlackPool.dll
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\co2oz952gw-{0}-ci29rsqlcn-ci29rsqlcn.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\jp7c6mdmtp-{0}-eni7sl353f-eni7sl353f.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\aswzqameg6-{0}-5v7ouz1nld-5v7ouz1nld.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\3ycljvz76i-{0}-07xyppnwsz-07xyppnwsz.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\l0ojs9dfkc-{0}-w935acarxi-w935acarxi.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\z163uxkjr4-{0}-eq0l1k6phe-eq0l1k6phe.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\qetsi0kpso-{0}-izzkhe027z-izzkhe027z.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\kxlmka019d-{0}-vp9twcnvto-vp9twcnvto.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\k8ijelxs85-{0}-m1bbkxdxc6-m1bbkxdxc6.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\ljlm37mn2b-{0}-i1cvy5eex3-i1cvy5eex3.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\bvt365r1ik-{0}-uiexjtx74g-uiexjtx74g.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\53kcdk3t0e-{0}-61n19gt1b8-61n19gt1b8.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\grryptx94i-{0}-nljztkz7xw-nljztkz7xw.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\8z4scob2j8-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\klp41a9d3i-{0}-bqjiyaj88i-bqjiyaj88i.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\5lq8olguc0-{0}-c2jlpeoesf-c2jlpeoesf.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\hbvw0g2mee-{0}-erw9l3u2r3-erw9l3u2r3.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\s6oynxb1gi-{0}-aexeepp0ev-aexeepp0ev.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\qfop7t77xp-{0}-d7shbmvgxk-d7shbmvgxk.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\zli6rmypgn-{0}-ausgxo2sd3-ausgxo2sd3.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\fsm7l31ig3-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\r1s0npwk4q-{0}-cosvhxvwiu-cosvhxvwiu.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\mozsuq6f8q-{0}-ub07r2b239-ub07r2b239.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\45mmft4qj2-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\zvx1otqh63-{0}-b7pk76d08c-b7pk76d08c.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\xso1zh1fvr-{0}-fsbi9cje9m-fsbi9cje9m.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\0zte7dn3kv-{0}-rzd6atqjts-rzd6atqjts.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\lmqmiiaabk-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\72tq201xkz-{0}-dxx9fxp4il-dxx9fxp4il.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\zayqvyebn4-{0}-jd9uben2k1-jd9uben2k1.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\4n5a1agzvb-{0}-khv3u5hwcm-khv3u5hwcm.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\vj7tvhz8de-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\1fpdmzgs0m-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\n5sj5uo9c6-{0}-c2oey78nd0-c2oey78nd0.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\pq6ipyyyt5-{0}-tdbxkamptv-tdbxkamptv.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\4dvoq611x9-{0}-j5mq2jizvt-j5mq2jizvt.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\nzoifp2s8g-{0}-06098lyss8-06098lyss8.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\j4x1rmx95r-{0}-nvvlpmu67g-nvvlpmu67g.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\w1c3udk76h-{0}-s35ty4nyc5-s35ty4nyc5.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\moo9cs7l1b-{0}-pj5nd1wqec-pj5nd1wqec.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\jh2vy2id0u-{0}-46ein0sx1k-46ein0sx1k.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\qqp2fayq95-{0}-v0zj4ognzu-v0zj4ognzu.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\yleuv3kqav-{0}-37tfw0ft22-37tfw0ft22.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\5221gfqk5p-{0}-hrwsygsryq-hrwsygsryq.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\t9fs4p88xe-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\hu1f6n49jm-{0}-ft3s53vfgj-ft3s53vfgj.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\22wo2thrzn-{0}-6cfz1n2cew-6cfz1n2cew.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\ru02rs3xd5-{0}-6pdc2jztkx-6pdc2jztkx.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\jdk0lltcki-{0}-493y06b0oq-493y06b0oq.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\58scxugm7r-{0}-iovd86k7lj-iovd86k7lj.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\q88vhicrud-{0}-vr1egmr9el-vr1egmr9el.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\hllxqyo9xa-{0}-kbrnm935zg-kbrnm935zg.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\d373f5otma-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\83cpk30bzq-{0}-y7v9cxd14o-y7v9cxd14o.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\pd2lmcmof1-{0}-notf2xhcfb-notf2xhcfb.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\4zowubyizs-{0}-h1s4sie4z3-h1s4sie4z3.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\85zgll7xph-{0}-63fj8s7r0e-63fj8s7r0e.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\4sdq8z46gs-{0}-0j3bgjxly4-0j3bgjxly4.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\arzyddvqt8-{0}-47otxtyo56-47otxtyo56.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\qolklke1oi-{0}-4v8eqarkd7-4v8eqarkd7.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\m6hnpd7jgv-{0}-356vix0kms-356vix0kms.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\h4m4n9zcja-{0}-83jwlth58m-83jwlth58m.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\pqyrwbuv4x-{0}-mrlpezrjn3-mrlpezrjn3.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\un79wb9aey-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\y0xa4lo9r0-{0}-ag7o75518u-ag7o75518u.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\y99u004j0n-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\hsbfeaujjn-{0}-0i3buxo5is-0i3buxo5is.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\yjx7q0a0j0-{0}-o1o13a6vjx-o1o13a6vjx.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\n8x15suvi4-{0}-ttgo8qnofa-ttgo8qnofa.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\bl2729j748-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\050ndlp4pt-{0}-muycvpuwrr-muycvpuwrr.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\jk77coddwo-{0}-87fc7y1x7t-87fc7y1x7t.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\jqg1orbvmp-{0}-mlv21k5csn-mlv21k5csn.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\v0v1bfc9jj-{0}-rb5dqfhmlu-rb5dqfhmlu.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\1etjx7vfzv-{0}-rb5dqfhmlu-rb5dqfhmlu.gz
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\swae.build.ex.cache
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\obj\Debug\net9.0\compressed\0l4rhmiy49-{0}-fisg3ut0xo-fisg3ut0xo.gz

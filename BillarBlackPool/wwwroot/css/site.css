@@ -1,0 +1,550 @@
+﻿:root {
+    --primary-pastel: #a8d8ea;
+    --secondary-pastel: #aa96da;
+    --accent-pastel: #fcbad3;
+    --light-pastel: #ffffd2;
+    --dark-pastel: #6b5b95;
+    --success-pastel: #b5e7a0;
+    --warning-pastel: #ffd8a6;
+    --danger-pastel: #ffaaa7;
+    --info-pastel: #a2d2ff;
+    --text-dark: #333333;
+    --text-light: #ffffff;
+    --shadow-soft: 0 4px 12px rgba(0, 0, 0, 0.08);
+    --shadow-medium: 0 8px 24px rgba(0, 0, 0, 0.12);
+    --transition-fast: 0.3s ease;
+    --transition-medium: 0.5s ease;
+    --transition-slow: 0.8s ease;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f7fe;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #f9f7fe 100%);
+    color: var(--text-dark);
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    transition: background-color var(--transition-medium);
+    margin: 0;
+    padding: 0;
+}
+
+/* Header y navegación */
+.bp-navbar {
+    /* Nueva paleta: Fondo oscuro (casi negro) con un toque de gris */
+    background: linear-gradient(135deg, #2c3e50 0%, #1a2b3c 100%); /* Gris oscuro a casi negro */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Borde más sutil */
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: all var(--transition-medium);
+    overflow: visible;
+    /* Nueva fuente para el nav */
+    font-family: 'Montserrat', sans-serif; /* Puedes cambiar por 'Open Sans', 'Lato', etc. */
+    width: min(1600px, calc(100% - 2rem));
+    margin: 0.75rem auto 0;
+    border-radius: 18px;
+    box-shadow: var(--shadow-soft);
+}
+
+    .bp-navbar:hover {
+        box-shadow: var(--shadow-medium);
+    }
+
+    .bp-navbar .navbar {
+        width: 100%;
+        padding: 0.75rem 1.25rem;
+        flex-wrap: wrap;
+    }
+
+.navbar-brand {
+    /* Texto del brand blanco para contrastar con el fondo oscuro */
+    color: #f8f9fa !important; /* Blanco ligeramente roto */
+    font-size: 1.5rem;
+    transition: transform var(--transition-fast);
+    /* Fuente específica para el brand si se desea */
+    font-family: 'Orbitron', sans-serif; /* Ejemplo de fuente más futurista o impactante */
+    font-weight: 700;
+}
+
+    .navbar-brand:hover {
+        transform: scale(1.05);
+    }
+
+    .navbar-brand lord-icon {
+        transition: transform var(--transition-medium);
+    }
+
+    .navbar-brand:hover lord-icon {
+        transform: rotate(15deg);
+    }
+
+.nav-link {
+    /* Links de navegación en blanco o gris claro para visibilidad */
+    color: #e0e0e0 !important; /* Gris muy claro */
+    font-weight: 500;
+    padding: 0.5rem 1rem !important;
+    margin: 0 0.2rem;
+    border-radius: 25px;
+    position: relative;
+    overflow: hidden;
+    transition: all var(--transition-fast);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+    .nav-link i {
+        font-size: 1.1rem;
+        transition: transform var(--transition-fast);
+    }
+
+    .nav-link:hover i {
+        transform: scale(1.2);
+    }
+
+    .nav-link::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        /* Efecto de brillo con el color amarillo del logo */
+        background: linear-gradient(90deg, transparent, rgba(255, 204, 0, 0.4), transparent); /* Amarillo más intenso semitransparente */
+        transition: left var(--transition-medium);
+    }
+
+    .nav-link:hover::before {
+        left: 100%;
+    }
+
+    .nav-link:hover {
+        /* Fondo al pasar el mouse con un acento amarillo sutil */
+        background-color: rgba(255, 204, 0, 0.1); /* Amarillo muy claro y sutil */
+        color: #FFC107 !important; /* Texto amarillo vibrante en hover */
+        transform: translateY(-2px);
+    }
+
+    .nav-link.logout-btn {
+        /* Botón de logout con un color de contraste, por ejemplo, rojo sutil */
+        background-color: #dc3545; /* Rojo de Bootstrap */
+        color: var(--text-light) !important; /* Texto blanco */
+        font-weight: 600;
+        margin-left: 0.5rem;
+        transition: all var(--transition-fast);
+    }
+
+        .nav-link.logout-btn:hover {
+            background-color: #c82333; /* Rojo más oscuro en hover */
+            transform: translateY(-2px) scale(1.05);
+            box-shadow: var(--shadow-soft);
+        }
+
+/* Botón toggler personalizado */
+.bp-toggler {
+    border: none;
+    /* Fondo del toggler que combine con la navbar */
+    background: rgba(255, 255, 255, 0.2); /* Blanco semitransparente */
+    border-radius: 8px;
+    padding: 0.5rem 0.75rem;
+    transition: all var(--transition-fast);
+}
+
+    .bp-toggler:hover {
+        background: rgba(255, 204, 0, 0.3); /* Un toque de amarillo en hover */
+        transform: scale(1.05);
+    }
+
+    .bp-toggler i {
+        /* Color del icono del toggler, blanco para contraste */
+        color: #f8f9fa; /* Blanco roto */
+        font-size: 1.5rem;
+    }
+
+/* Contenido principal */
+main {
+    flex: 1;
+    animation: fadeInUp 0.8s ease-out;
+    padding: 1rem;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Footer */
+.bp-footer {
+    /* Manteniendo la paleta pastel para el footer, o se podría ajustar a la nueva si es necesario */
+    background: linear-gradient(135deg, var(--secondary-pastel) 0%, var(--dark-pastel) 100%);
+    color: var(--text-light);
+    padding: 1.5rem 0;
+    margin-top: auto;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    transition: all var(--transition-medium);
+    text-align: center;
+}
+
+    .bp-footer:hover {
+        background: linear-gradient(135deg, var(--dark-pastel) 0%, var(--secondary-pastel) 100%);
+    }
+
+/* Efectos de tarjetas (sin cambios, mantienen el tema pastel general) */
+.card-pastel {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    border: none;
+    box-shadow: var(--shadow-soft);
+    transition: all var(--transition-medium);
+    overflow: hidden;
+}
+
+    .card-pastel:hover {
+        transform: translateY(-5px);
+        box-shadow: var(--shadow-medium);
+    }
+
+.card-pastel-header {
+    background: linear-gradient(135deg, var(--primary-pastel) 0%, var(--info-pastel) 100%);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 1rem 1.5rem;
+    font-weight: 600;
+    color: var(--dark-pastel);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.card-pastel-body {
+    padding: 1.5rem;
+}
+
+/* Botones personalizados (sin cambios, mantienen el tema pastel general) */
+.btn-pastel-primary,
+.btn-pastel-secondary,
+.btn-pastel-success,
+.btn-pastel-danger {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 25px;
+    font-weight: 500;
+    border: none;
+    box-shadow: var(--shadow-soft);
+    transition: all var(--transition-fast);
+}
+
+.btn-pastel-primary {
+    background: linear-gradient(135deg, var(--primary-pastel) 0%, var(--info-pastel) 100%);
+    color: var(--dark-pastel);
+}
+
+.btn-pastel-secondary {
+    background: linear-gradient(135deg, var(--secondary-pastel) 0%, var(--accent-pastel) 100%);
+    color: var(--text-light);
+}
+
+.btn-pastel-success {
+    background: linear-gradient(135deg, var(--success-pastel) 0%, #9de09d 100%);
+    color: var(--text-dark);
+}
+
+.btn-pastel-danger {
+    background: linear-gradient(135deg, var(--danger-pastel) 0%, #ff9e9c 100%);
+    color: var(--text-dark);
+}
+
+    .btn-pastel-primary:hover,
+    .btn-pastel-secondary:hover,
+    .btn-pastel-success:hover,
+    .btn-pastel-danger:hover {
+        transform: translateY(-2px);
+        box-shadow: var(--shadow-medium);
+    }
+
+/* Formularios (sin cambios, mantienen el tema pastel general) */
+.form-control-pastel {
+    border: 1px solid var(--primary-pastel);
+    border-radius: 12px;
+    padding: 0.75rem 1rem;
+    transition: all var(--transition-fast);
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+    .form-control-pastel:focus {
+        border-color: var(--secondary-pastel);
+        box-shadow: 0 0 0 0.25rem rgba(170, 150, 218, 0.25);
+        background-color: rgba(255, 255, 255, 0.9);
+        transform: scale(1.02);
+    }
+
+/* Tablas (sin cambios, mantienen el tema pastel general) */
+.table-pastel {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: var(--shadow-soft);
+    width: 100%;
+    table-layout: auto;
+}
+
+    .table-pastel thead {
+        background: linear-gradient(135deg, var(--primary-pastel) 0%, var(--info-pastel) 100%);
+        color: var(--dark-pastel);
+    }
+
+    .table-pastel tbody tr {
+        transition: all var(--transition-fast);
+    }
+
+        .table-pastel tbody tr:hover {
+            background-color: rgba(168, 216, 234, 0.2);
+            transform: scale(1.01);
+        }
+
+/* Estadísticas (sin cambios, mantienen el tema pastel general) */
+.stats-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.stat-card {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 1.5rem;
+    box-shadow: var(--shadow-soft);
+    transition: all var(--transition-medium);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+    .stat-card:hover {
+        transform: translateY(-5px);
+        box-shadow: var(--shadow-medium);
+    }
+
+.stat-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.stat-content {
+    flex: 1;
+}
+
+.stat-value {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 0.2rem;
+}
+
+.stat-label {
+    font-size: 0.9rem;
+    color: var(--dark-pastel);
+    font-weight: 500;
+}
+
+/* Animaciones (sin cambios) */
+.loading-spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid rgba(170, 150, 218, 0.3);
+    border-top: 4px solid var(--secondary-pastel);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 2rem auto;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.pulse {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.float {
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+/* Responsivo (sin cambios) */
+@media (max-width: 1200px) {
+    .card-pastel-body, .card-pastel-header {
+        padding: 1rem;
+    }
+
+    .btn-pastel-primary, .btn-pastel-secondary, .btn-pastel-success, .btn-pastel-danger {
+        padding: 0.4rem 1.2rem;
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar-nav {
+        /* Para el menú desplegable en móvil, lo hacemos oscuro para que combine con la navbar */
+        background: #2c3e50; /* Fondo oscuro */
+        backdrop-filter: blur(10px);
+        border-radius: 12px;
+        padding: 1rem;
+        margin-top: 1rem;
+        box-shadow: var(--shadow-medium);
+    }
+
+    .nav-link {
+        margin: 0.2rem 0;
+        color: #e0e0e0 !important; /* Texto claro en el menú móvil */
+    }
+
+        .nav-link:hover {
+            background-color: rgba(255, 204, 0, 0.15); /* Amarillo sutil en hover */
+            color: #FFC107 !important; /* Texto amarillo en hover */
+        }
+
+        .nav-link.logout-btn {
+            margin-top: 0.5rem;
+        }
+
+    .stats-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.3rem;
+    }
+
+    .stat-value {
+        font-size: 1.5rem;
+    }
+
+    .stat-label {
+        font-size: 0.8rem;
+    }
+
+    .btn-pastel-primary, .btn-pastel-secondary, .btn-pastel-success, .btn-pastel-danger {
+        font-size: 0.85rem;
+        padding: 0.4rem 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-brand {
+        font-size: 1.1rem;
+    }
+
+    .bp-toggler i {
+        font-size: 1.3rem;
+    }
+
+    .stat-card {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+}
+
+/****/
+/* AJUSTES DE ESTILOS DEL DROPDOWN PARA EL TEMA DE NAVEGACIÓN (oscuro) */
+.bp-dropdown-menu {
+    /* Fondo oscuro para el dropdown que combine con la navbar */
+    background: #1a2b3c; /* Fondo oscuro casi negro */
+    border: 1px solid rgba(255, 204, 0, 0.5); /* Borde amarillo sutil */
+    border-radius: 8px;
+    box-shadow: var(--shadow-soft);
+}
+
+    .bp-dropdown-menu .dropdown-item {
+        /* Color de texto claro para contraste */
+        color: #e0e0e0;
+        transition: background-color var(--transition-fast), color var(--transition-fast);
+    }
+
+        .bp-dropdown-menu .dropdown-item:hover {
+            /* Efecto al pasar el mouse con acento amarillo */
+            background-color: rgba(255, 204, 0, 0.15);
+            color: #FFC107 !important;
+        }
+
+    .bp-dropdown-menu .dropdown-item-text {
+        /* Estilo para el texto del rol que no es cliclable */
+        color: #FFC107 !important; /* Texto amarillo para destacar el rol */
+        font-weight: 600;
+        background-color: rgba(255, 204, 0, 0.05); /* Un ligero fondo amarillo */
+        border-radius: 4px;
+    }
+
+    /* Estilo específico para el botón de Cerrar Sesión dentro del dropdown */
+    .bp-dropdown-menu .logout-link {
+        color: #dc3545 !important; /* Rojo de peligro */
+        font-weight: 600;
+    }
+
+        .bp-dropdown-menu .logout-link:hover {
+            background-color: #dc3545;
+            color: var(--text-light) !important;
+        }
+
+.bp-divider {
+    /* Divisor con un color que combine con el tema oscuro */
+    border-color: rgba(255, 204, 0, 0.3); /* Amarillo con opacidad */
+}

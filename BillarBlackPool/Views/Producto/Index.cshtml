@@ -1,0 +1,297 @@
+﻿@model IEnumerable<BillarBlackPool.Models.Producto>
+
+@{
+    ViewData["Title"] = "Productos";
+}
+
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+<script src="https://cdn.lordicon.com/lordicon.js"></script>
+
+<link href="~/css/Producto.css" rel="stylesheet" />
+
+<div class="container mt-5 mb-5">
+
+    <div class="producto-header-wrapper">
+        <div class="producto-header-content">
+            <div class="producto-header-left">
+                <div class="producto-header-icon">
+                    <lord-icon src="https://cdn.lordicon.com/pcllgpqm.json"
+                               trigger="loop"
+                               colors="primary:#ffffff,secondary:#ffffff"
+                               style="width:50px;height:50px">
+                    </lord-icon>
+                </div>
+                <div>
+                    <h2 class="producto-title">Gestión de Productos</h2>
+                    <p class="producto-subtitle">
+                        <lord-icon src="https://cdn.lordicon.com/bgebyztw.json"
+                                   trigger="loop"
+                                   colors="primary:#6CA8FF"
+                                   style="width:18px;height:18px">
+                        </lord-icon>
+                        Total: <strong>@(Model?.Count() ?? 0)</strong> productos registrados
+                    </p>
+                </div>
+            </div>
+
+            <a asp-action="Create" class="producto-btn-add">
+                <lord-icon src="https://cdn.lordicon.com/mecwbjnp.json"
+                           trigger="hover"
+                           colors="primary:#ffffff"
+                           style="width:28px;height:28px">
+                </lord-icon>
+                <span>Nuevo Producto</span>
+            </a>
+        </div>
+
+        <div class="producto-search-bar">
+            <lord-icon src="https://cdn.lordicon.com/kkvxgpti.json"
+                       trigger="hover"
+                       colors="primary:#6CA8FF"
+                       style="width:24px;height:24px">
+            </lord-icon>
+
+            <input type="text" id="searchInput"
+                   class="producto-search-input"
+                   placeholder="Buscar por nombre, categoría o precio..."
+                   autocomplete="off">
+
+            <button class="producto-search-clear" id="clearSearch" style="display: none;">
+                <lord-icon src="https://cdn.lordicon.com/nqtddedc.json"
+                           trigger="hover"
+                           colors="primary:#6b7280"
+                           style="width:20px;height:20px">
+                </lord-icon>
+            </button>
+        </div>
+    </div>
+
+    @if (Model == null || !Model.Any())
+    {
+        <div class="empty-state">
+            <lord-icon src="https://cdn.lordicon.com/wloilxuq.json"
+                       trigger="loop"
+                       colors="primary:#6CA8FF,secondary:#72D672"
+                       style="width:120px;height:120px"></lord-icon>
+            <h3>No hay productos registrados</h3>
+            <p>Comienza agregando tu primer producto al sistema</p>
+
+            <a asp-action="Create" class="btn-empty-state">
+                <lord-icon src="https://cdn.lordicon.com/mecwbjnp.json"
+                           trigger="hover"
+                           colors="primary:#ffffff"
+                           style="width:24px;height:24px"></lord-icon>
+                Agregar Primer Producto
+            </a>
+        </div>
+    }
+    else
+    {
+        var grouped = Model.GroupBy(p => p.CategoriaProducto?.Nombre ?? "Sin categoría").OrderBy(g => g.Key);
+
+        @foreach (var group in grouped)
+        {
+            <div class="producto-table-card mb-4">
+                <div class="d-flex justify-content-between align-items-center px-3 pt-3 pb-2">
+                    <h4 class="mb-0">@group.Key</h4>
+                    <span class="badge bg-primary">@group.Count() productos</span>
+                </div>
+                <div class="table-responsive">
+                    <table class="table table-hover text-center align-middle producto-table" id="productosTable-@group.Key.Replace(" ", "-")">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Nombre</th>
+                                <th>Precio</th>
+                                <th>Categoría</th>
+                                <th>Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var producto in group)
+                            {
+                                var nombre = producto.Nombre ?? "";
+                                var categoria = producto.CategoriaProducto?.Nombre ?? "Sin categoría";
+
+                                <tr class="producto-row" data-producto-id="@producto.IdProducto" data-producto-nombre="@nombre" data-producto-precio="@producto.Precio" data-producto-categoria="@categoria">
+                                    <td>#@producto.IdProducto</td>
+                                    <td>
+                                        <div class="producto-name">
+                                            <div class="producto-avatar">@nombre.Substring(0, 1).ToUpper()</div>
+                                            <span>@nombre</span>
+                                        </div>
+                                    </td>
+                                    <td>S/ @producto.Precio.ToString("0.00")</td>
+                                    <td>@categoria</td>
+                                    <td>
+                                        <div class="actions-wrapper">
+                                            <button class="action-btn btn-info" title="Ver detalles" data-bs-toggle="modal" data-bs-target="#modalInfo-@producto.IdProducto">
+                                                <lord-icon src="https://cdn.lordicon.com/yxczfiyc.json"
+                                                           trigger="hover"
+                                                           colors="primary:#ffffff"
+                                                           style="width:20px;height:20px"></lord-icon>
+                                            </button>
+
+                                            <a asp-action="Edit" asp-route-id="@producto.IdProducto" class="action-btn btn-edit" title="Editar">
+                                                <lord-icon src="https://cdn.lordicon.com/wuvorxbv.json"
+                                                           trigger="hover"
+                                                           colors="primary:#ffffff"
+                                                           style="width:20px;height:20px"></lord-icon>
+                                            </a>
+
+                                            <button class="action-btn btn-delete" title="Eliminar" data-bs-toggle="modal" data-bs-target="#modalDelete-@producto.IdProducto">
+                                                <lord-icon src="https://cdn.lordicon.com/wpyrrmcq.json"
+                                                           trigger="hover"
+                                                           colors="primary:#ffffff"
+                                                           style="width:20px;height:20px"></lord-icon>
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+
+                                <div class="modal fade" id="modalInfo-@producto.IdProducto" tabindex="-1" aria-labelledby="modalInfoLabel-@producto.IdProducto" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered">
+                                        <div class="modal-content producto-modal-info">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="modalInfoLabel-@producto.IdProducto">
+                                                    <lord-icon src="https://cdn.lordicon.com/yxczfiyc.json"
+                                                               trigger="hover"
+                                                               colors="primary:#6CA8FF"
+                                                               style="width:32px;height:32px"></lord-icon>
+                                                    Detalles del Producto
+                                                </h5>
+                                                <button type="button" class="btn-close-custom" data-bs-dismiss="modal" aria-label="Close">
+                                                    <lord-icon src="https://cdn.lordicon.com/nqtddedc.json"
+                                                               trigger="hover"
+                                                               colors="primary:#6b7280"
+                                                               style="width:24px;height:24px"></lord-icon>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body producto-detail-card">
+                                                <div class="detail-item">
+                                                    <div class="detail-icon">
+                                                        <lord-icon src="https://cdn.lordicon.com/jtkfplbf.json"
+                                                                   trigger="hover"
+                                                                   colors="primary:#6CA8FF"
+                                                                   style="width:28px;height:28px"></lord-icon>
+                                                    </div>
+                                                    <div class="detail-content">
+                                                        <span class="detail-label">ID del Producto</span>
+                                                        <span class="detail-value">#@producto.IdProducto</span>
+                                                    </div>
+                                                </div>
+                                                <div class="detail-item">
+                                                    <div class="detail-icon">
+                                                        <lord-icon src="https://cdn.lordicon.com/ivhjpjsw.json"
+                                                                   trigger="hover"
+                                                                   colors="primary:#72D672"
+                                                                   style="width:28px;height:28px"></lord-icon>
+                                                    </div>
+                                                    <div class="detail-content">
+                                                        <span class="detail-label">Nombre</span>
+                                                        <span class="detail-value">@nombre</span>
+                                                    </div>
+                                                </div>
+                                                <div class="detail-item">
+                                                    <div class="detail-icon">
+                                                        <lord-icon src="https://cdn.lordicon.com/wuvorxbv.json"
+                                                                   trigger="hover"
+                                                                   colors="primary:#FFB86C"
+                                                                   style="width:28px;height:28px"></lord-icon>
+                                                    </div>
+                                                    <div class="detail-content">
+                                                        <span class="detail-label">Precio (Soles)</span>
+                                                        <span class="detail-value">S/ @producto.Precio.ToString("0.00")</span>
+                                                    </div>
+                                                </div>
+                                                <div class="detail-item">
+                                                    <div class="detail-icon">
+                                                        <lord-icon src="https://cdn.lordicon.com/kbtnqfbl.json"
+                                                                   trigger="hover"
+                                                                   colors="primary:#6CA8FF"
+                                                                   style="width:28px;height:28px"></lord-icon>
+                                                    </div>
+                                                    <div class="detail-content">
+                                                        <span class="detail-label">Categoría</span>
+                                                        <span class="detail-value">@categoria</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="modal-btn-secondary" data-bs-dismiss="modal">
+                                                    <lord-icon src="https://cdn.lordicon.com/gmwfdqen.json"
+                                                               trigger="hover"
+                                                               colors="primary:#2c3e50"
+                                                               style="width:20px;height:20px"></lord-icon>
+                                                    Cerrar
+                                                </button>
+                                                <a asp-action="Edit" asp-route-id="@producto.IdProducto" class="modal-btn-primary">
+                                                    <lord-icon src="https://cdn.lordicon.com/wuvorxbv.json"
+                                                               trigger="hover"
+                                                               colors="primary:#ffffff"
+                                                               style="width:20px;height:20px"></lord-icon>
+                                                    Editar
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        }
+
+        <div id="noResultsMessage" class="no-results" style="display: none;">
+            <lord-icon src="https://cdn.lordicon.com/hrqwmuhr.json"
+                       trigger="loop"
+                       colors="primary:#9ca3af"
+                       style="width:80px;height:80px"></lord-icon>
+            <p>No se encontraron productos con ese criterio de búsqueda</p>
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const searchInput = document.getElementById('searchInput');
+            const clearSearch = document.getElementById('clearSearch');
+            const rows = document.querySelectorAll('.producto-row');
+            const noResults = document.getElementById('noResultsMessage');
+
+            if (searchInput && rows.length > 0) {
+                searchInput.addEventListener('input', function () {
+                    const searchTerm = this.value.toLowerCase();
+                    let visibleCount = 0;
+
+                    if (searchTerm.length > 0) {
+                        clearSearch.style.display = 'block';
+                    } else {
+                        clearSearch.style.display = 'none';
+                    }
+
+                    rows.forEach(row => {
+                        const name = (row.dataset.productoNombre || '').toLowerCase();
+                        const category = (row.dataset.productoCategoria || '').toLowerCase();
+                        const price = (row.dataset.productoPrecio || '').toLowerCase();
+
+                        const match = name.includes(searchTerm) || category.includes(searchTerm) || price.includes(searchTerm);
+                        row.style.display = match ? '' : 'none';
+                        if (match) visibleCount++;
+                    });
+
+                    if (noResults) {
+                        noResults.style.display = visibleCount === 0 ? 'flex' : 'none';
+                    }
+                });
+
+                clearSearch.addEventListener('click', function () {
+                    searchInput.value = '';
+                    searchInput.dispatchEvent(new Event('input'));
+                });
+            }
+        });
+    </script>
+}

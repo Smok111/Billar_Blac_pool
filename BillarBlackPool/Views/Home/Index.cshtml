@@ -1,0 +1,80 @@
+﻿@{
+    ViewData["Title"] = "Inicio";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Billar BlackPool</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet" />
+<link href="~/css/Home.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- Fondos -->
+    <div class="brick-pattern"></div>
+    <div class="graffiti-bg">
+        <div class="graffiti-shape graffiti-1"></div>
+        <div class="graffiti-shape graffiti-2"></div>
+    </div>
+
+    <!-- Logo Principal -->
+    <main class="logo-container">
+        <div class="badge">
+            <!-- Círculos decorativos -->
+            <div class="rotating-circle circle-1"></div>
+            <div class="rotating-circle circle-2"></div>
+
+            <!-- Salpicaduras -->
+            <div class="splash splash-1"></div>
+            <div class="splash splash-2"></div>
+            <div class="splash splash-3"></div>
+
+            <!-- Partículas -->
+            <div class="particle particle-1"></div>
+            <div class="particle particle-2"></div>
+            <div class="particle particle-3"></div>
+            <div class="particle particle-4"></div>
+
+            <!-- Tacos cruzados -->
+            <div class="cue-stick cue-1"></div>
+            <div class="cue-stick cue-2"></div>
+
+            <!-- Bola 8 -->
+            <div class="eight-ball">
+                <div class="eight-ball-inner">
+                    <span class="eight-number">8</span>
+                </div>
+            </div>
+
+            <!-- Estrellas -->
+            <div class="star star-1">★</div>
+            <div class="star star-2">★</div>
+            <div class="star star-3">★</div>
+            <div class="star star-4">★</div>
+
+            <!-- Texto -->
+            <div class="text-container">
+                <h1 class="main-text">BILLAR</h1>
+                <h2 class="sub-text">BLACK POOL</h2>
+            </div>
+
+            <!-- Tagline con descripción -->
+            <div class="tagline">
+                <div class="tagline-title">POOL HALL</div>
+                <div class="tagline-subtitle">
+                 
+                </div>
+            </div>
+
+            <!-- Botón de acceso -->
+            
+            <a href="@Url.Action("Login", "Acceso")" class="btn-access">
+                🎱 ACCESO 🎱
+            </a>
+        </div>
+    </main>
+</body>
+</html>

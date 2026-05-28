@@ -1,0 +1,157 @@
+wwwroot\css\Categoria.css
+wwwroot\css\Cliente.css
+wwwroot\css\Consumo.css
+wwwroot\css\ConsumoDetalle.css
+wwwroot\css\Home.css
+wwwroot\css\Login.css
+wwwroot\css\Mesa.css
+wwwroot\css\Producto.css
+wwwroot\css\Reserva.css
+wwwroot\css\Rol.css
+wwwroot\css\site.css
+wwwroot\css\Usuario.css
+wwwroot\favicon.ico
+wwwroot\Images\Logo.png
+wwwroot\Images\productos\78.jpg
+wwwroot\Images\productos\san_luis_sin_gas_750ml.webp
+wwwroot\Images\productos\sao-paulo-brazil-april-17-600nw-2617117201-removebg-preview.png
+wwwroot\Images\productos\_3c85cb28-70f6-42a6-a8e5-23755db6d26b.jpg
+wwwroot\Images\productos\_6ea5b8fa-a0da-4188-bddc-bf3dbb0e8608.jpg
+wwwroot\Images\productos\_d1f4c2f8-7534-4442-b0e5-98fd81588123.jpg
+wwwroot\Images\productos\_e7fe2d3c-1127-443a-8575-6bcb48f12ac1.jpg
+wwwroot\js\home.js
+wwwroot\js\site.js
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+wwwroot\lib\bootstrap\LICENSE
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+wwwroot\lib\jquery-validation\dist\additional-methods.js
+wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.js
+wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+wwwroot\lib\jquery-validation\LICENSE.md
+wwwroot\lib\jquery\dist\jquery.js
+wwwroot\lib\jquery\dist\jquery.min.js
+wwwroot\lib\jquery\dist\jquery.min.map
+wwwroot\lib\jquery\dist\jquery.slim.js
+wwwroot\lib\jquery\dist\jquery.slim.min.js
+wwwroot\lib\jquery\dist\jquery.slim.min.map
+wwwroot\lib\jquery\LICENSE.txt
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\css\Login.css
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\jquery\dist\jquery.slim.min.map
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\jquery\dist\jquery.slim.min.js
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\jquery\dist\jquery.slim.js
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\jquery\dist\jquery.min.map
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\jquery\dist\jquery.min.js
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\jquery\dist\jquery.js
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\jquery-validation\LICENSE.md
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\jquery-validation\dist\additional-methods.js
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.min.js
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\jquery-validation-unobtrusive\dist\jquery.validate.unobtrusive.js
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\js\site.js
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\js\home.js
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\css\Usuario.css
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\css\Rol.css
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\css\Cliente.css
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\favicon.ico
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\css\Consumo.css
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\css\Mesa.css
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\css\ConsumoDetalle.css
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\lib\jquery\LICENSE.txt
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\css\Reserva.css
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\css\Categoria.css
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\css\site.css
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\css\Producto.css
+D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\wwwroot\css\Home.css

@@ -1,0 +1,648 @@
+﻿@model IEnumerable<BillarBlackPool.Models.Consumo>
+
+@{
+    ViewData["Title"] = "Consumos";
+}
+
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+<script src="https://cdn.lordicon.com/lordicon.js"></script>
+<link href="~/css/Consumo.css" rel="stylesheet" />
+
+<div class="container mt-5 mb-5">
+
+    <!-- HEADER -->
+    <div class="cliente-header-wrapper">
+        <div class="cliente-header-content">
+            <div class="cliente-header-left">
+                <div class="cliente-header-icon">
+                    <lord-icon src="https://cdn.lordicon.com/tdrtiskw.json"
+                               trigger="loop"
+                               colors="primary:#ffffff,secondary:#ffffff"
+                               style="width:50px;height:50px">
+                    </lord-icon>
+                </div>
+                <div>
+                    <h2 class="cliente-title">Gestión de Consumos</h2>
+                    <p class="cliente-subtitle">
+                        <lord-icon src="https://cdn.lordicon.com/bgebyztw.json"
+                                   trigger="loop"
+                                   colors="primary:#6CA8FF"
+                                   style="width:18px;height:18px">
+                        </lord-icon>
+                        Total: <strong>@(Model?.Count() ?? 0)</strong> consumos registrados
+                    </p>
+                </div>
+            </div>
+
+            <a asp-action="Create" class="cliente-btn-add">
+                <lord-icon src="https://cdn.lordicon.com/mecwbjnp.json"
+                           trigger="hover"
+                           colors="primary:#ffffff"
+                           style="width:28px;height:28px">
+                </lord-icon>
+                <span>Nuevo Consumo</span>
+            </a>
+        </div>
+
+        <!-- Barra de búsqueda -->
+        <div class="cliente-search-bar">
+            <lord-icon src="https://cdn.lordicon.com/kkvxgpti.json"
+                       trigger="hover"
+                       colors="primary:#6CA8FF"
+                       style="width:24px;height:24px">
+            </lord-icon>
+
+            <input type="text" id="searchInput"
+                   class="cliente-search-input"
+                   placeholder="Buscar por mesa, cliente o estado..."
+                   autocomplete="off">
+
+            <button class="cliente-search-clear" id="clearSearch" style="display: none;">
+                <lord-icon src="https://cdn.lordicon.com/nqtddedc.json"
+                           trigger="hover"
+                           colors="primary:#6b7280"
+                           style="width:20px;height:20px">
+                </lord-icon>
+            </button>
+        </div>
+    </div>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    @if (Model == null || !Model.Any())
+    {
+        <div class="empty-state">
+            <lord-icon src="https://cdn.lordicon.com/wloilxuq.json"
+                       trigger="loop"
+                       colors="primary:#6CA8FF,secondary:#72D672"
+                       style="width:120px;height:120px"></lord-icon>
+            <h3>No hay consumos registrados</h3>
+            <p>Comienza agregando tu primer consumo al sistema</p>
+
+            <a asp-action="Create" class="btn-empty-state">
+                <lord-icon src="https://cdn.lordicon.com/mecwbjnp.json"
+                           trigger="hover"
+                           colors="primary:#ffffff"
+                           style="width:24px;height:24px"></lord-icon>
+                Agregar Primer Consumo
+            </a>
+        </div>
+    }
+    else
+    {
+        <!-- TABLA DE CONSUMOS -->
+        <div class="cliente-table-card">
+            <div class="table-responsive">
+                <table class="table table-hover text-center align-middle cliente-table" id="consumosTable">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Mesa</th>
+                            <th>Cliente</th>
+                            <th>Usuario</th>
+                            <th>Tipo Cobro</th>
+                            <th>Minutos</th>
+                            <th>Tiempo</th>
+                            <th>Costo Mesa</th>
+                            <th>Total Productos</th>
+                            <th>Total</th>
+                            <th>Estado</th>
+                            <th>Fecha Inicio</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var consumo in Model)
+                        {
+                            <tr class="cliente-row" data-consumo-id="@consumo.IdConsumo"
+                                data-fecha-inicio="@consumo.FechaInicio.ToString("o")"
+                                data-fecha-fin="@(consumo.FechaFin.HasValue ? consumo.FechaFin.Value.ToString("o") : "")"
+                                data-tipo-cobro="@consumo.TipoCobro"
+                                data-precio-minuto="@consumo.PrecioLibrePorMinuto.ToString(System.Globalization.CultureInfo.InvariantCulture)"
+                                data-precio-hora="@consumo.PrecioHora.ToString(System.Globalization.CultureInfo.InvariantCulture)"
+                                data-precio-mediahora="@consumo.PrecioMediaHora.ToString(System.Globalization.CultureInfo.InvariantCulture)">
+                                <td><span class="badge-id">#@consumo.IdConsumo</span></td>
+                                <td><div class="cliente-name"><div class="cliente-avatar">M</div><span>Mesa @consumo.Mesa?.NumeroMesa</span></div></td>
+                                <td>
+                                    @if (consumo.Cliente != null)
+                                    {
+                                        <div class="cliente-name">
+                                            <div class="cliente-avatar" style="background: linear-gradient(135deg, #FFB86C 0%, #f59e0b 100%);">@consumo.Cliente.Nombre.Substring(0, 1).ToUpper()</div>
+                                            <span>@consumo.Cliente.Nombre</span>
+                                        </div>
+                                    }
+                                    else
+                                    {
+                                        <span class="text-muted">Sin cliente</span>
+                                    }
+                                </td>
+                                <td>
+                                    @if (consumo.Usuario != null)
+                                    {
+                                        <div class="cliente-name">
+                                            <div class="cliente-avatar" style="background: linear-gradient(135deg, #6CA8FF 0%, #4F46E5 100%);">@consumo.Usuario.NomUsuario.Substring(0, 1).ToUpper()</div>
+                                            <span>@consumo.Usuario.NomUsuario</span>
+                                        </div>
+                                    }
+                                    else
+                                    {
+                                        <span class="text-muted">Sin usuario</span>
+                                    }
+                                </td>
+                                <td><span class="badge bg-info text-dark">@consumo.TipoCobro</span></td>
+                                <td><span class="badge-date js-minutos">@(consumo.MinutosJugados?.ToString() ?? "0")</span></td>
+                                <td><span class="badge-date js-tiempo">--:--:--</span></td>
+                                <td><span class="badge-date js-costo-mesa">S/ @consumo.CostoMesa.ToString("0.00")</span></td>
+                                <td><span class="badge-date">S/ @consumo.TotalProductos.ToString("0.00")</span></td>
+                                <td><span class="badge-date fw-bold js-total">S/ @consumo.Total.ToString("0.00")</span></td>
+                                <td>
+                                    @if (consumo.Estado == "Abierto")
+                                    {
+                                        <span class="status-badge status-open">@consumo.Estado</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="status-badge status-closed">@consumo.Estado</span>
+                                    }
+                                </td>
+                                <td><span class="badge-date">@consumo.FechaInicio.ToString("dd/MM/yyyy HH:mm")</span></td>
+                                <td>
+                                    <div class="actions-wrapper">
+                                        <!-- DETALLES -->
+                                        <button class="action-btn btn-info" title="Ver detalles" data-bs-toggle="modal" data-bs-target="#modalInfo-@consumo.IdConsumo">
+                                            <lord-icon src="https://cdn.lordicon.com/yxczfiyc.json"
+                                                       trigger="hover"
+                                                       colors="primary:#ffffff"
+                                                       style="width:20px;height:20px"></lord-icon>
+                                        </button>
+
+                                        <!-- EDITAR -->
+                                        <a asp-action="Edit" asp-route-id="@consumo.IdConsumo" class="action-btn btn-edit" title="Editar">
+                                            <lord-icon src="https://cdn.lordicon.com/wuvorxbv.json"
+                                                       trigger="hover"
+                                                       colors="primary:#ffffff"
+                                                       style="width:20px;height:20px"></lord-icon>
+                                        </a>
+
+                                        <!-- CERRAR (solo si está abierto) -->
+                                        @if (consumo.Estado == "Abierto")
+                                        {
+                                            <button class="action-btn btn-success" title="Cerrar consumo" data-bs-toggle="modal" data-bs-target="#modalCerrar-@consumo.IdConsumo">
+                                                <lord-icon src="https://cdn.lordicon.com/egiwmiit.json"
+                                                           trigger="hover"
+                                                           colors="primary:#ffffff"
+                                                           style="width:20px;height:20px"></lord-icon>
+                                            </button>
+                                        }
+
+                                        <!-- ELIMINAR -->
+                                        <button class="action-btn btn-delete" title="Eliminar" data-bs-toggle="modal" data-bs-target="#modalDelete-@consumo.IdConsumo">
+                                            <lord-icon src="https://cdn.lordicon.com/wpyrrmcq.json"
+                                                       trigger="hover"
+                                                       colors="primary:#ffffff"
+                                                       style="width:20px;height:20px"></lord-icon>
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="noResultsMessage" class="no-results" style="display: none;">
+                <lord-icon src="https://cdn.lordicon.com/hrqwmuhr.json"
+                           trigger="loop"
+                           colors="primary:#9ca3af"
+                           style="width:80px;height:80px"></lord-icon>
+                <p>No se encontraron consumos con ese criterio de búsqueda</p>
+            </div>
+        </div>
+    }
+</div>
+
+<!-- MODALES -->
+@if (Model != null && Model.Any())
+{
+    @foreach (var consumo in Model)
+    {
+        var detalles = consumo.Detalles ?? new List<BillarBlackPool.Models.ConsumoDetalle>();
+
+        <!-- Modal Info -->
+        <div class="modal fade" id="modalInfo-@consumo.IdConsumo" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content cliente-modal-info">
+                    <div class="modal-header">
+                        <h5 class="modal-title">
+                            <lord-icon src="https://cdn.lordicon.com/yxczfiyc.json"
+                                       trigger="loop"
+                                       colors="primary:#6CA8FF"
+                                       style="width:36px;height:36px">
+                            </lord-icon>
+                            <span>Detalles del Consumo</span>
+                        </h5>
+                        <button type="button" class="btn-close-custom" data-bs-dismiss="modal" aria-label="Close">
+                            <lord-icon src="https://cdn.lordicon.com/nqtddedc.json"
+                                       trigger="hover"
+                                       colors="primary:#6b7280"
+                                       style="width:24px;height:24px">
+                            </lord-icon>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="cliente-detail-card">
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <lord-icon src="https://cdn.lordicon.com/zpxybbhl.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                </div>
+                                <div class="detail-content">
+                                    <span class="detail-label">ID Consumo</span>
+                                    <span class="detail-value">#@consumo.IdConsumo</span>
+                                </div>
+                            </div>
+
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <lord-icon src="https://cdn.lordicon.com/hrjifpbq.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                </div>
+                                <div class="detail-content">
+                                    <span class="detail-label">Mesa</span>
+                                    <span class="detail-value">Mesa @consumo.Mesa?.NumeroMesa</span>
+                                </div>
+                            </div>
+
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <lord-icon src="https://cdn.lordicon.com/srsgifqc.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                </div>
+                                <div class="detail-content">
+                                    <span class="detail-label">Cliente</span>
+                                    <span class="detail-value">@(consumo.Cliente?.Nombre ?? "Sin cliente")</span>
+                                </div>
+                            </div>
+
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <lord-icon src="https://cdn.lordicon.com/zpxybbhl.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                </div>
+                                <div class="detail-content">
+                                    <span class="detail-label">Usuario Responsable</span>
+                                    <span class="detail-value">@(consumo.Usuario?.NomUsuario ?? "Sin usuario") @(consumo.Usuario?.ApeUsuario ?? "")</span>
+                                </div>
+                            </div>
+
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <lord-icon src="https://cdn.lordicon.com/ehiglnfr.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                </div>
+                                <div class="detail-content">
+                                    <span class="detail-label">Estado</span>
+                                    <span class="detail-value">
+                                        @if (consumo.Estado == "Abierto")
+                                        {
+                                            <span class="status-badge status-open">@consumo.Estado</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="status-badge status-closed">@consumo.Estado</span>
+                                        }
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <lord-icon src="https://cdn.lordicon.com/abvsilkn.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                </div>
+                                <div class="detail-content">
+                                    <span class="detail-label">Fecha Inicio</span>
+                                    <span class="detail-value">@consumo.FechaInicio.ToString("dd/MM/yyyy HH:mm")</span>
+                                </div>
+                            </div>
+
+                            @if (consumo.FechaFin.HasValue)
+                            {
+                                <div class="detail-item">
+                                    <div class="detail-icon">
+                                        <lord-icon src="https://cdn.lordicon.com/qhgmphtg.json"
+                                                   trigger="hover"
+                                                   colors="primary:#6CA8FF"
+                                                   style="width:24px;height:24px">
+                                        </lord-icon>
+                                    </div>
+                                    <div class="detail-content">
+                                        <span class="detail-label">Fecha Fin</span>
+                                        <span class="detail-value">@consumo.FechaFin.Value.ToString("dd/MM/yyyy HH:mm")</span>
+                                    </div>
+                                </div>
+                            }
+
+                            @if (detalles.Any())
+                            {
+                                <div class="detail-item">
+                                    <div class="detail-icon">
+                                        <lord-icon src="https://cdn.lordicon.com/zzcjjxew.json"
+                                                   trigger="hover"
+                                                   colors="primary:#6CA8FF"
+                                                   style="width:24px;height:24px">
+                                        </lord-icon>
+                                    </div>
+                                    <div class="detail-content">
+                                        <span class="detail-label">Detalles del Consumo</span>
+                                        <span class="detail-value">
+                                            @foreach (var detalle in detalles)
+                                            {
+                                                <small>@detalle.Producto?.Nombre (x@($"{detalle.Cantidad}")) - S/ @detalle.SubTotal.ToString("0.00")</small>
+                                                <br />
+                                            }
+                                        </span>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="modal-btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <a asp-action="Edit" asp-route-id="@consumo.IdConsumo" class="modal-btn-primary">
+                            <lord-icon src="https://cdn.lordicon.com/wuvorxbv.json"
+                                       trigger="hover"
+                                       colors="primary:#ffffff"
+                                       style="width:20px;height:20px"></lord-icon>
+                            Editar
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Cerrar -->
+        @if (consumo.Estado == "Abierto")
+        {
+            <div class="modal fade" id="modalCerrar-@consumo.IdConsumo" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content cliente-modal-info">
+                        <div class="modal-header">
+                            <h5 class="modal-title">
+                                <lord-icon src="https://cdn.lordicon.com/egiwmiit.json"
+                                           trigger="loop"
+                                           colors="primary:#72D672"
+                                           style="width:36px;height:36px"></lord-icon>
+                                <span>Cerrar Consumo</span>
+                            </h5>
+                            <button type="button" class="btn-close-custom" data-bs-dismiss="modal" aria-label="Close">
+                                <lord-icon src="https://cdn.lordicon.com/nqtddedc.json"
+                                           trigger="hover"
+                                           colors="primary:#6b7280"
+                                           style="width:24px;height:24px"></lord-icon>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="delete-warning">
+                                <lord-icon src="https://cdn.lordicon.com/egiwmiit.json"
+                                           trigger="loop"
+                                           colors="primary:#72D672"
+                                           style="width:100px;height:100px"></lord-icon>
+
+                                <h4>¿Cerrar este consumo?</h4>
+                                <p>Vas a cerrar el consumo:</p>
+
+                                <div class="delete-client-name">
+                                    <lord-icon src="https://cdn.lordicon.com/hrjifpbq.json"
+                                               trigger="hover"
+                                               colors="primary:#72D672"
+                                               style="width:24px;height:24px"></lord-icon>
+                                    <strong>Consumo #@consumo.IdConsumo - Mesa @consumo.Mesa?.NumeroMesa</strong>
+                                </div>
+
+                                <div class="delete-alert" style="background-color: #72D67220; border-color: #72D672;">
+                                    <lord-icon src="https://cdn.lordicon.com/abfverha.json"
+                                               trigger="loop"
+                                               colors="primary:#72D672"
+                                               style="width:20px;height:20px"></lord-icon>
+                                    La mesa se liberará automáticamente
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="modal-btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                            <form asp-action="Cerrar" method="post" style="display:inline;">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="id" value="@consumo.IdConsumo" />
+                                <button type="submit" class="modal-btn-primary" style="background: linear-gradient(135deg, #72D672 0%, #10b981 100%);">
+                                    <lord-icon src="https://cdn.lordicon.com/egiwmiit.json"
+                                               trigger="hover"
+                                               colors="primary:#ffffff"
+                                               style="width:20px;height:20px"></lord-icon>
+                                    Cerrar Consumo
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+
+        <!-- Modal Delete -->
+        <div class="modal fade" id="modalDelete-@consumo.IdConsumo" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content cliente-modal-delete">
+                    <div class="modal-header">
+                        <h5 class="modal-title">
+                            <lord-icon src="https://cdn.lordicon.com/wpyrrmcq.json"
+                                       trigger="loop"
+                                       colors="primary:#FF6B6B"
+                                       style="width:36px;height:36px"></lord-icon>
+                            <span>Confirmar Eliminación</span>
+                        </h5>
+                        <button type="button" class="btn-close-custom" data-bs-dismiss="modal" aria-label="Close">
+                            <lord-icon src="https://cdn.lordicon.com/nqtddedc.json"
+                                       trigger="hover"
+                                       colors="primary:#6b7280"
+                                       style="width:24px;height:24px"></lord-icon>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="delete-warning">
+                            <lord-icon src="https://cdn.lordicon.com/tdrtiskw.json"
+                                       trigger="loop"
+                                       colors="primary:#FF6B6B"
+                                       style="width:100px;height:100px"></lord-icon>
+
+                            <h4>¿Estás seguro?</h4>
+                            <p>Vas a eliminar el consumo:</p>
+
+                            <div class="delete-client-name">
+                                <lord-icon src="https://cdn.lordicon.com/hrjifpbq.json"
+                                           trigger="hover"
+                                           colors="primary:#FF6B6B"
+                                           style="width:24px;height:24px"></lord-icon>
+                                <strong>Consumo #@consumo.IdConsumo - Mesa @consumo.Mesa?.NumeroMesa</strong>
+                            </div>
+
+                            <div class="delete-alert">
+                                <lord-icon src="https://cdn.lordicon.com/keaiyjcx.json"
+                                           trigger="loop"
+                                           colors="primary:#FF6B6B"
+                                           style="width:20px;height:20px"></lord-icon>
+                                Esta acción no se puede deshacer
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="modal-btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                        <form asp-action="Delete" method="post" style="display:inline;">
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" name="id" value="@consumo.IdConsumo" />
+                            <button type="submit" class="modal-btn-danger">
+                                <lord-icon src="https://cdn.lordicon.com/wpyrrmcq.json"
+                                           trigger="hover"
+                                           colors="primary:#ffffff"
+                                           style="width:20px;height:20px"></lord-icon>
+                                Eliminar Consumo
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+}
+
+@section Scripts {
+    <script>
+        // BÚSQUEDA EN TIEMPO REAL
+        document.addEventListener('DOMContentLoaded', function () {
+            const searchInput = document.getElementById('searchInput');
+            const clearSearch = document.getElementById('clearSearch');
+            const table = document.getElementById('consumosTable');
+            const noResults = document.getElementById('noResultsMessage');
+
+            const pad = (n) => String(n).padStart(2, '0');
+            const formatDuration = (totalSeconds) => {
+                const safe = Math.max(0, Math.floor(totalSeconds));
+                const h = Math.floor(safe / 3600);
+                const m = Math.floor((safe % 3600) / 60);
+                const s = safe % 60;
+                return `${pad(h)}:${pad(m)}:${pad(s)}`;
+            };
+
+            const formatDateTime = (date) => {
+                return new Intl.DateTimeFormat('es-PE', {
+                    day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit'
+                }).format(date);
+            };
+
+            const refreshTimers = () => {
+                document.querySelectorAll('.cliente-row').forEach(row => {
+                    const fechaInicio = row.getAttribute('data-fecha-inicio');
+                    const fechaFin = row.getAttribute('data-fecha-fin');
+                    const tipoCobro = row.getAttribute('data-tipo-cobro') || 'Libre';
+                    const precioMinuto = parseFloat(row.getAttribute('data-precio-minuto') || '0.1');
+                    const precioHora = parseFloat(row.getAttribute('data-precio-hora') || '6');
+                    const precioMedia = parseFloat(row.getAttribute('data-precio-mediahora') || '3');
+
+                    const inicio = new Date(fechaInicio);
+                    const fin = fechaFin ? new Date(fechaFin) : new Date();
+                    const elapsedSeconds = (fin - inicio) / 1000;
+                    const elapsedMinutes = elapsedSeconds / 60;
+
+                    const tiempoCell = row.querySelector('.js-tiempo');
+                    const minutosCell = row.querySelector('.js-minutos');
+                    const costoCell = row.querySelector('.js-costo-mesa');
+                    const totalCell = row.querySelector('.js-total');
+
+                    if (tiempoCell) tiempoCell.textContent = formatDuration(elapsedSeconds);
+                    if (minutosCell) minutosCell.textContent = String(Math.max(0, Math.ceil(elapsedMinutes)));
+
+                    let costoMesa = 0;
+                    if (tipoCobro === 'Hora') {
+                        costoMesa = fechaFin ? precioHora : precioHora * (elapsedMinutes / 60);
+                    } else if (tipoCobro === 'MediaHora') {
+                        costoMesa = fechaFin ? precioMedia : precioMedia * (elapsedMinutes / 30);
+                    } else {
+                        costoMesa = elapsedMinutes * precioMinuto;
+                    }
+
+                    if (costoCell) costoCell.textContent = `S/ ${costoMesa.toFixed(2)}`;
+
+                    const totalProductos = 0;
+                    const total = costoMesa + totalProductos;
+                    if (totalCell) totalCell.textContent = `S/ ${total.toFixed(2)}`;
+
+                    if (tipoCobro === 'Hora' || tipoCobro === 'MediaHora') {
+                        const finEstimado = tipoCobro === 'Hora'
+                            ? new Date(inicio.getTime() + 60 * 60000)
+                            : new Date(inicio.getTime() + 30 * 60000);
+                        row.setAttribute('title', `Inicio: ${formatDateTime(inicio)} | Fin estimado: ${formatDateTime(finEstimado)}`);
+                    } else {
+                        row.setAttribute('title', `Inicio: ${formatDateTime(inicio)} | Tiempo en vivo`);
+                    }
+                });
+            };
+
+            if (table) {
+                setInterval(refreshTimers, 1000);
+                refreshTimers();
+            }
+
+            if (searchInput && table) {
+                searchInput.addEventListener('input', function () {
+                    const searchTerm = this.value.toLowerCase();
+                    const rows = table.querySelectorAll('tbody tr');
+                    let visibleCount = 0;
+
+                    rows.forEach(row => {
+                        const text = row.textContent.toLowerCase();
+                        if (text.includes(searchTerm)) {
+                            row.style.display = '';
+                            visibleCount++;
+                        } else {
+                            row.style.display = 'none';
+                        }
+                    });
+
+                    if (noResults) noResults.style.display = (visibleCount === 0) ? 'flex' : 'none';
+                    if (clearSearch) clearSearch.style.display = searchTerm ? 'flex' : 'none';
+                });
+
+                if (clearSearch) {
+                    clearSearch.addEventListener('click', function () {
+                        searchInput.value = '';
+                        searchInput.dispatchEvent(new Event('input'));
+                        searchInput.focus();
+                    });
+                }
+            }
+
+            // ANIMACIÓN DE FILAS
+            const rows = document.querySelectorAll('.cliente-row');
+            rows.forEach((row, index) => {
+                row.style.animation = `fadeInUp 0.5s ease forwards ${index * 0.05}s`;
+                row.style.opacity = '0';
+            });
+        });
+    </script>
+}

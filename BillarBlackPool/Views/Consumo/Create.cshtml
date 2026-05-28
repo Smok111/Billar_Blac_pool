@@ -1,0 +1,335 @@
+﻿@model BillarBlackPool.Models.Consumo
+
+@{
+    ViewData["Title"] = "Nuevo Consumo";
+}
+
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;700;900&display=swap" rel="stylesheet" />
+<script src="https://cdn.lordicon.com/lordicon.js"></script>
+<link href="~/css/Consumo.css" rel="stylesheet" />
+
+<div class="container mt-5 mb-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-10">
+
+            <div class="cliente-form-card">
+
+                <div class="cliente-form-header">
+                    <div class="cliente-form-icon-wrapper">
+                        <lord-icon src="https://cdn.lordicon.com/mecwbjnp.json"
+                                   trigger="loop"
+                                   colors="primary:#ffffff,secondary:#ffffff"
+                                   style="width:60px;height:60px">
+                        </lord-icon>
+                    </div>
+                    <h2 class="cliente-form-title mb-2">Registrar Nuevo Consumo</h2>
+                    <p class="cliente-form-subtitle">Seleccione la mesa, cliente y usuario responsable</p>
+                </div>
+
+                <form asp-action="Create" method="post" class="cliente-form" id="formConsumo">
+                    @Html.AntiForgeryToken()
+
+                    <div asp-validation-summary="ModelOnly" class="alert alert-danger" role="alert"></div>
+
+                    <div class="row g-4">
+
+                        <div class="col-md-6">
+                            <div class="cliente-field">
+                                <label asp-for="IdMesa" class="cliente-label">
+                                    <lord-icon src="https://cdn.lordicon.com/uvqdjros.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                    <span>Mesa</span>
+                                    <span class="required-asterisk">*</span>
+                                </label>
+                                <div class="input-wrapper">
+                                    <select asp-for="IdMesa" class="cartoon-input" required>
+                                        <option value="">-- Seleccione una mesa --</option>
+                                        @if (ViewBag.Mesas != null)
+                                        {
+                                            @foreach (var mesa in ViewBag.Mesas)
+                                            {
+                                                if (mesa.Estado == "Disponible")
+                                                {
+                                                    <option value="@mesa.IdMesa">Mesa @mesa.NumeroMesa - Disponible</option>
+                                                }
+                                                else
+                                                {
+                                                    <option value="@mesa.IdMesa" disabled>Mesa @mesa.NumeroMesa - @mesa.Estado (No disponible)</option>
+                                                }
+                                            }
+                                        }
+                                    </select>
+                                    <div class="input-icon">
+                                        <lord-icon src="https://cdn.lordicon.com/dxjqoygy.json"
+                                                   trigger="hover"
+                                                   colors="primary:#6CA8FF"
+                                                   style="width:20px;height:20px">
+                                        </lord-icon>
+                                    </div>
+                                </div>
+                                <span asp-validation-for="IdMesa" class="validation-message"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="cliente-field">
+                                <label asp-for="IdUsuario" class="cliente-label">
+                                    <lord-icon src="https://cdn.lordicon.com/zpxybbhl.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                    <span>Usuario Responsable</span>
+                                    <span class="required-asterisk">*</span>
+                                </label>
+                                <div class="input-wrapper">
+                                    <select asp-for="IdUsuario" class="cartoon-input" required>
+                                        <option value="">-- Seleccione un usuario --</option>
+                                        @if (ViewBag.Usuarios != null)
+                                        {
+                                            @foreach (var usuario in ViewBag.Usuarios)
+                                            {
+                                                <option value="@usuario.IdUsuario">@usuario.NomUsuario @usuario.ApeUsuario</option>
+                                            }
+                                        }
+                                    </select>
+                                    <div class="input-icon">
+                                        <lord-icon src="https://cdn.lordicon.com/dxjqoygy.json"
+                                                   trigger="hover"
+                                                   colors="primary:#6CA8FF"
+                                                   style="width:20px;height:20px">
+                                        </lord-icon>
+                                    </div>
+                                </div>
+                                <span asp-validation-for="IdUsuario" class="validation-message"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="cliente-field">
+                                <label asp-for="IdCliente" class="cliente-label">
+                                    <lord-icon src="https://cdn.lordicon.com/qbqoivto.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                    <span>Cliente</span>
+                                    <span class="required-asterisk">*</span>
+                                </label>
+                                <div class="input-wrapper">
+                                    <select asp-for="IdCliente" class="cartoon-input" required>
+                                        <option value="">-- Seleccione un cliente --</option>
+                                        @if (ViewBag.Clientes != null)
+                                        {
+                                            @foreach (var cliente in ViewBag.Clientes)
+                                            {
+                                                <option value="@cliente.IdCliente">@cliente.Nombre</option>
+                                            }
+                                        }
+                                    </select>
+                                    <div class="input-icon">
+                                        <lord-icon src="https://cdn.lordicon.com/dxjqoygy.json"
+                                                   trigger="hover"
+                                                   colors="primary:#6CA8FF"
+                                                   style="width:20px;height:20px">
+                                        </lord-icon>
+                                    </div>
+                                </div>
+                                <span asp-validation-for="IdCliente" class="validation-message"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="cliente-field">
+                                <label asp-for="TipoCobro" class="cliente-label">
+                                    <lord-icon src="https://cdn.lordicon.com/ehiglnfr.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                    <span>Tipo de Cobro</span>
+                                    <span class="required-asterisk">*</span>
+                                </label>
+                                <div class="input-wrapper">
+                                    <select asp-for="TipoCobro" class="cartoon-input" id="TipoCobro" required>
+                                        <option value="Libre">Libre</option>
+                                        <option value="Hora">Hora</option>
+                                        <option value="MediaHora">Media hora</option>
+                                    </select>
+                                </div>
+                                <span asp-validation-for="TipoCobro" class="validation-message"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="cliente-info-box" id="billingPreview">
+                                <lord-icon src="https://cdn.lordicon.com/abfverha.json"
+                                           trigger="loop"
+                                           colors="primary:#6CA8FF"
+                                           style="width:28px;height:28px">
+                                </lord-icon>
+                                <div>
+                                    <strong>Vista previa del tiempo:</strong>
+                                    <ul style="list-style-type: none; padding-left: 0; margin-bottom: 0;" class="mb-0">
+                                        <li>• Inicio: <span id="previewInicio">--:--</span></li>
+                                        <li>• Fin estimado: <span id="previewFin">--:--</span></li>
+                                        <li>• Tiempo transcurrido: <span id="previewTranscurrido">00:00:00</span></li>
+                                        <li>• Costo estimado: S/ <span id="previewCosto">0.00</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="cliente-info-box mt-4">
+                        <lord-icon src="https://cdn.lordicon.com/abfverha.json"
+                                   trigger="loop"
+                                   colors="primary:#6CA8FF"
+                                   style="width:28px;height:28px">
+                        </lord-icon>
+                        <div>
+                            <strong>Tarifas configuradas:</strong>
+                            <ul style="list-style-type: none; padding-left: 0; margin-bottom: 0;">
+                                <li>• Hora: S/ 6.00</li>
+                                <li>• Media hora: S/ 3.00</li>
+                                <li>• Libre: S/ 0.10 por minuto</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="cliente-info-box mt-3">
+                        <lord-icon src="https://cdn.lordicon.com/abfverha.json"
+                                   trigger="loop"
+                                   colors="primary:#6CA8FF"
+                                   style="width:28px;height:28px">
+                        </lord-icon>
+                        <div>
+                            <strong>Información Importante:</strong>
+                            <ul style="list-style-type: none; padding-left: 0; margin-bottom: 0;">
+                                <li>• La <strong>Fecha de Inicio</strong> se registra automáticamente al momento de crear.</li>
+                                <li>• El <strong>Estado</strong> inicial será <strong>"Abierto"</strong>.</li>
+                                <li>• El cálculo final se realiza al cerrar el consumo.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="cliente-form-actions mt-5">
+                        <a asp-action="Index" class="cliente-btn-cancel cartoon-btn-secondary">
+                            <lord-icon src="https://cdn.lordicon.com/nqtddedc.json"
+                                       trigger="hover"
+                                       colors="primary:#ffffff"
+                                       style="width:22px;height:22px">
+                            </lord-icon>
+                            <span>Cancelar</span>
+                        </a>
+
+                        <button type="submit" class="cliente-btn-submit cartoon-btn-primary">
+                            <lord-icon src="https://cdn.lordicon.com/dangivhk.json"
+                                       trigger="hover"
+                                       colors="primary:#ffffff"
+                                       style="width:22px;height:22px">
+                            </lord-icon>
+                            <span>Registrar Consumo</span>
+                        </button>
+                    </div>
+
+                </form>
+
+            </div>
+
+            <div class="text-center mt-4">
+                <a asp-action="Index" class="cliente-back-link">← Volver a la lista de consumos</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const tipoCobro = document.getElementById('TipoCobro');
+            const previewInicio = document.getElementById('previewInicio');
+            const previewFin = document.getElementById('previewFin');
+            const previewTranscurrido = document.getElementById('previewTranscurrido');
+            const previewCosto = document.getElementById('previewCosto');
+            const start = new Date();
+
+            const formatDateTime = (date) => {
+                return new Intl.DateTimeFormat('es-PE', {
+                    day: '2-digit', month: '2-digit', year: 'numeric',
+                    hour: '2-digit', minute: '2-digit'
+                }).format(date);
+            };
+
+            const formatDuration = (totalSeconds) => {
+                const safe = Math.max(0, Math.floor(totalSeconds));
+                const h = Math.floor(safe / 3600);
+                const m = Math.floor((safe % 3600) / 60);
+                const s = safe % 60;
+                return `${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+            };
+
+            const updatePreview = () => {
+                const tipo = tipoCobro.value || 'Libre';
+                const now = new Date();
+                const elapsedSeconds = (now - start) / 1000;
+                const elapsedMinutes = elapsedSeconds / 60;
+
+                previewInicio.textContent = formatDateTime(start);
+                previewTranscurrido.textContent = formatDuration(elapsedSeconds);
+
+                if (tipo === 'Hora') {
+                    const fin = new Date(start.getTime() + 60 * 60000);
+                    previewFin.textContent = formatDateTime(fin);
+                    previewCosto.textContent = '6.00';
+                } else if (tipo === 'MediaHora') {
+                    const fin = new Date(start.getTime() + 30 * 60000);
+                    previewFin.textContent = formatDateTime(fin);
+                    previewCosto.textContent = '3.00';
+                } else {
+                    previewFin.textContent = 'Se calcula en tiempo real';
+                    previewCosto.textContent = (elapsedMinutes * 0.10).toFixed(2);
+                }
+            };
+
+            tipoCobro.addEventListener('change', updatePreview);
+            updatePreview();
+            setInterval(updatePreview, 1000);
+        });
+
+        document.getElementById('formConsumo').addEventListener('submit', function (e) {
+            const mesaSelect = document.querySelector('select[name="IdMesa"]');
+            const usuarioSelect = document.querySelector('select[name="IdUsuario"]');
+            const clienteSelect = document.querySelector('select[name="IdCliente"]');
+            let isValid = true;
+
+            if (!mesaSelect.value) { isValid = false; mesaSelect.classList.add('input-error'); } else { mesaSelect.classList.remove('input-error'); }
+            if (!usuarioSelect.value) { isValid = false; usuarioSelect.classList.add('input-error'); } else { usuarioSelect.classList.remove('input-error'); }
+            if (!clienteSelect.value) { isValid = false; clienteSelect.classList.add('input-error'); } else { clienteSelect.classList.remove('input-error'); }
+
+            if (!isValid) {
+                e.preventDefault();
+                alert('Por favor, complete todos los campos requeridos.');
+            }
+        });
+
+        document.querySelectorAll('.cartoon-input').forEach(input => {
+            input.addEventListener('focus', function () {
+                this.parentElement.classList.add('input-focused');
+            });
+
+            input.addEventListener('blur', function () {
+                this.parentElement.classList.remove('input-focused');
+            });
+        });
+    </script>
+}

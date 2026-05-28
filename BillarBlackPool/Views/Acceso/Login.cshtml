@@ -1,0 +1,112 @@
+﻿@model BillarBlackPool.ViewModels.LoginViewModel
+
+@{
+    ViewData["Title"] = "Iniciar Sesión";
+    Layout = null;
+}
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - Billar Black Pool</title>
+    <link href="~/css/Login.css" rel="stylesheet" />
+    <style>
+     
+        html {
+            height: 100%;
+            width: 100%;
+        }
+
+        body {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #1e3a8a 0%, #0891b2 50%, #06b6d4 100%);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            overflow-x: hidden;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <div class="urban-bg">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+    </div>
+    <div class="particle-bg">
+        <div class="bg-particle"></div>
+        <div class="bg-particle"></div>
+        <div class="bg-particle"></div>
+        <div class="bg-particle"></div>
+        <div class="bg-particle"></div>
+        <div class="bg-particle"></div>
+    </div>
+
+    <main class="login-container">
+        <div class="logo-mini">
+            <div class="animated-logo-wrapper">
+                <img src="~/images/logo.png" alt="Logo Billar Black Pool" class="main-logo-image" />
+            </div>
+        </div>
+        <div class="login-card">
+            <div class="corner-decoration corner-tl"></div>
+            <div class="corner-decoration corner-br"></div>
+            <header class="form-header">
+                <h1 class="form-title" id="formTitle">Iniciar Sesión</h1>
+                <p class="form-subtitle" id="formSubtitle">Ingresa tus credenciales para acceder al sistema</p>
+            </header>
+
+            <form asp-action="Login" id="loginForm">
+                <div asp-validation-summary="ModelOnly" class="alert-validation-summary" role="alert"></div>
+
+                <div class="form-group">
+                    <label asp-for="Correo" class="form-label" id="emailLabel">Correo Electrónico</label>
+                    <div class="input-wrapper">
+                        <input asp-for="Correo" type="email" id="email" class="form-input" placeholder="ejemplo@correo.com" required autocomplete="email">
+                        <span class="input-icon">
+                            <svg class="icon-envelope" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" /> <polyline points="22,6 12,13 2,6" /></svg>
+                        </span>
+                    </div>
+                    <span asp-validation-for="Correo" class="text-danger-custom"></span>
+                </div>
+
+                <div class="form-group">
+                    <label asp-for="Password" class="form-label" id="passwordLabel">Contraseña</label>
+                    <div class="input-wrapper">
+                        <input asp-for="Password" type="password" id="password" class="form-input" placeholder="••••••••" required autocomplete="current-password">
+                        <span class="input-icon">
+                            <svg class="icon-lock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2" /> <path d="M7 11V7a5 5 0 0 1 10 0v4" /></svg>
+                        </span>
+                    </div>
+                    <span asp-validation-for="Password" class="text-danger-custom"></span>
+                </div>
+
+                <button type="submit" class="submit-btn">
+                    <svg class="btn-icon icon-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7" /></svg>
+                    <span id="buttonText">Acceder</span>
+                </button>
+            </form>
+
+            <a asp-controller="Home" asp-action="Index" class="back-btn">
+                <svg class="btn-icon icon-back" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6" /></svg>
+                <span>Volver al Inicio</span>
+            </a>
+        </div>
+    </main>
+
+    @section Scripts {
+        @{
+            await Html.RenderPartialAsync("_ValidationScriptsPartial");
+        }
+    }
+</body>
+</html>

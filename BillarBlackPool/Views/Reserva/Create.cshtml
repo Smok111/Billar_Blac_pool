@@ -1,0 +1,405 @@
+﻿@model BillarBlackPool.Models.Reserva
+
+@{
+    ViewData["Title"] = "Nueva Reserva";
+}
+
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;700;900&display=swap" rel="stylesheet" />
+<script src="https://cdn.lordicon.com/lordicon.js"></script>
+<link href="~/css/Reserva.css" rel="stylesheet" />
+
+<div class="container mt-5 mb-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-10">
+
+            <div class="cliente-form-card">
+
+                <div class="cliente-form-header">
+                    <div class="cliente-form-icon-wrapper">
+                        <lord-icon src="https://cdn.lordicon.com/mecwbjnp.json"
+                                   trigger="loop"
+                                   colors="primary:#ffffff,secondary:#ffffff"
+                                   style="width:60px;height:60px">
+                        </lord-icon>
+                    </div>
+                    <h2 class="cliente-form-title mb-2">Registrar Nueva Reserva</h2>
+                    <p class="cliente-form-subtitle">Complete los datos de la reserva</p>
+                </div>
+
+                <form asp-action="Create" method="post" class="cliente-form" id="formReserva">
+                    @Html.AntiForgeryToken()
+
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="cliente-field">
+                                <label asp-for="IdMesa" class="cliente-label">
+                                    <lord-icon src="https://cdn.lordicon.com/srsgifqc.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                    <span>Mesa</span>
+                                    <span class="required-asterisk">*</span>
+                                </label>
+                                <div class="input-wrapper">
+                                    <select asp-for="IdMesa" class="cartoon-input" required>
+                                        <option value="">-- Seleccione una mesa --</option>
+                                        @if (ViewBag.Mesas != null)
+                                        {
+                                            @foreach (var item in ViewBag.Mesas)
+                                            {
+                                                <option value="@item.Value">@item.Text</option>
+                                            }
+                                        }
+                                    </select>
+                                    <div class="input-icon">
+                                        <lord-icon src="https://cdn.lordicon.com/dxjqoygy.json"
+                                                   trigger="hover"
+                                                   colors="primary:#6CA8FF"
+                                                   style="width:20px;height:20px">
+                                        </lord-icon>
+                                    </div>
+                                </div>
+                                <span asp-validation-for="IdMesa" class="validation-message"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="cliente-field">
+                                <label asp-for="IdCliente" class="cliente-label">
+                                    <lord-icon src="https://cdn.lordicon.com/hrjifpbq.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                    <span>Cliente</span>
+                                    <span class="required-asterisk">*</span>
+                                </label>
+                                <div class="input-wrapper">
+                                    <select asp-for="IdCliente" class="cartoon-input" required>
+                                        <option value="">-- Seleccione un cliente --</option>
+                                        @if (ViewBag.Clientes != null)
+                                        {
+                                            @foreach (var item in ViewBag.Clientes)
+                                            {
+                                                <option value="@item.Value">@item.Text</option>
+                                            }
+                                        }
+                                    </select>
+                                    <div class="input-icon">
+                                        <lord-icon src="https://cdn.lordicon.com/dxjqoygy.json"
+                                                   trigger="hover"
+                                                   colors="primary:#6CA8FF"
+                                                   style="width:20px;height:20px">
+                                        </lord-icon>
+                                    </div>
+                                </div>
+                                <span asp-validation-for="IdCliente" class="validation-message"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="cliente-field">
+                                <label asp-for="FechaReserva" class="cliente-label">
+                                    <lord-icon src="https://cdn.lordicon.com/abvsilkn.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                    <span>Fecha de Reserva</span>
+                                    <span class="required-asterisk">*</span>
+                                </label>
+                                <div class="input-wrapper">
+                                    <input asp-for="FechaReserva"
+                                           type="date"
+                                           class="cartoon-input"
+                                           required />
+                                    <div class="input-icon">
+                                        <lord-icon src="https://cdn.lordicon.com/dxjqoygy.json"
+                                                   trigger="hover"
+                                                   colors="primary:#6CA8FF"
+                                                   style="width:20px;height:20px">
+                                        </lord-icon>
+                                    </div>
+                                </div>
+                                <span asp-validation-for="FechaReserva" class="validation-message"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="cliente-field">
+                                <label asp-for="NumeroPersonas" class="cliente-label">
+                                    <lord-icon src="https://cdn.lordicon.com/zzcjjxew.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                    <span>Número de Personas</span>
+                                    <span class="required-asterisk">*</span>
+                                </label>
+                                <div class="input-wrapper">
+                                    <input asp-for="NumeroPersonas"
+                                           type="number"
+                                           min="1"
+                                           max="20"
+                                           class="cartoon-input"
+                                           placeholder="Ej: 4"
+                                           required />
+                                    <div class="input-icon">
+                                        <lord-icon src="https://cdn.lordicon.com/dxjqoygy.json"
+                                                   trigger="hover"
+                                                   colors="primary:#6CA8FF"
+                                                   style="width:20px;height:20px">
+                                        </lord-icon>
+                                    </div>
+                                </div>
+                                <span asp-validation-for="NumeroPersonas" class="validation-message"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="cliente-field">
+                                <label asp-for="HoraInicio" class="cliente-label">
+                                    <lord-icon src="https://cdn.lordicon.com/ehiglnfr.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                    <span>Hora de Inicio (Programada)</span>
+                                    <span class="required-asterisk">*</span>
+                                </label>
+                                <div class="input-wrapper">
+                                    <input asp-for="HoraInicio"
+                                           type="time"
+                                           class="cartoon-input"
+                                           required />
+                                    <div class="input-icon">
+                                        <lord-icon src="https://cdn.lordicon.com/dxjqoygy.json"
+                                                   trigger="hover"
+                                                   colors="primary:#6CA8FF"
+                                                   style="width:20px;height:20px">
+                                        </lord-icon>
+                                    </div>
+                                </div>
+                                <span asp-validation-for="HoraInicio" class="validation-message"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="cliente-field">
+                                <label asp-for="HoraFin" class="cliente-label">
+                                    <lord-icon src="https://cdn.lordicon.com/ehiglnfr.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                    <span>Hora de Fin (Programada)</span>
+                                    <span class="required-asterisk">*</span>
+                                </label>
+                                <div class="input-wrapper">
+                                    <input asp-for="HoraFin"
+                                           type="time"
+                                           class="cartoon-input"
+                                           required />
+                                    <div class="input-icon">
+                                        <lord-icon src="https://cdn.lordicon.com/dxjqoygy.json"
+                                                   trigger="hover"
+                                                   colors="primary:#6CA8FF"
+                                                   style="width:20px;height:20px">
+                                        </lord-icon>
+                                    </div>
+                                </div>
+                                <span asp-validation-for="HoraFin" class="validation-message"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="cliente-field">
+                                <label asp-for="FechaHoraInicioJuego" class="cliente-label">
+                                    <lord-icon src="https://cdn.lordicon.com/flcstobf.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                    <span>Fecha/Hora Inicio del Juego (Real)</span>
+                                </label>
+                                <div class="input-wrapper">
+                                    <input asp-for="FechaHoraInicioJuego"
+                                           type="datetime-local"
+                                           class="cartoon-input"
+                                           value="" />
+                                    <div class="input-icon">
+                                        <lord-icon src="https://cdn.lordicon.com/dxjqoygy.json"
+                                                   trigger="hover"
+                                                   colors="primary:#6CA8FF"
+                                                   style="width:20px;height:20px">
+                                        </lord-icon>
+                                    </div>
+                                </div>
+                                <span asp-validation-for="FechaHoraInicioJuego" class="validation-message"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="cliente-field">
+                                <label asp-for="FechaHoraFinJuego" class="cliente-label">
+                                    <lord-icon src="https://cdn.lordicon.com/jxwksmzq.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                    <span>Fecha/Hora Fin del Juego (Real)</span>
+                                </label>
+                                <div class="input-wrapper">
+                                    <input asp-for="FechaHoraFinJuego"
+                                           type="datetime-local"
+                                           class="cartoon-input"
+                                           value="" />
+                                    <div class="input-icon">
+                                        <lord-icon src="https://cdn.lordicon.com/dxjqoygy.json"
+                                                   trigger="hover"
+                                                   colors="primary:#6CA8FF"
+                                                   style="width:20px;height:20px">
+                                        </lord-icon>
+                                    </div>
+                                </div>
+                                <span asp-validation-for="FechaHoraFinJuego" class="validation-message"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="cliente-field">
+                                <label asp-for="Estado" class="cliente-label">
+                                    <lord-icon src="https://cdn.lordicon.com/diihvcfp.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                    <span>Estado</span>
+                                    <span class="required-asterisk">*</span>
+                                </label>
+                                <div class="input-wrapper">
+                                    <select asp-for="Estado" class="cartoon-input" required>
+                                        <option value="">-- Seleccione estado --</option>
+                                        <option value="Pendiente">Pendiente</option>
+                                        <option value="Confirmada">Confirmada</option>
+                                        <option value="Cancelada">Cancelada</option>
+                                    </select>
+                                    <div class="input-icon">
+                                        <lord-icon src="https://cdn.lordicon.com/dxjqoygy.json"
+                                                   trigger="hover"
+                                                   colors="primary:#6CA8FF"
+                                                   style="width:20px;height:20px">
+                                        </lord-icon>
+                                    </div>
+                                </div>
+                                <span asp-validation-for="Estado" class="validation-message"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cliente-info-box mt-4">
+                        <lord-icon src="https://cdn.lordicon.com/abfverha.json"
+                                   trigger="loop"
+                                   colors="primary:#6CA8FF"
+                                   style="width:28px;height:28px">
+                        </lord-icon>
+                        <div>
+                            <strong>Información:</strong> Los campos de Fecha/Hora Real **no son obligatorios** al crear la reserva y se usarán para el control de tiempo de juego.
+                        </div>
+                    </div>
+
+                    <div class="cliente-form-actions mt-5">
+                        <a asp-action="Index" class="cliente-btn-cancel cartoon-btn-secondary">
+                            <lord-icon src="https://cdn.lordicon.com/nqtddedc.json"
+                                       trigger="hover"
+                                       colors="primary:#ffffff"
+                                       style="width:22px;height:22px">
+                            </lord-icon>
+                            <span>Cancelar</span>
+                        </a>
+
+                        <button type="submit" class="cliente-btn-submit cartoon-btn-primary">
+                            <lord-icon src="https://cdn.lordicon.com/dangivhk.json"
+                                       trigger="hover"
+                                       colors="primary:#ffffff"
+                                       style="width:22px;height:22px">
+                            </lord-icon>
+                            <span>Crear Reserva</span>
+                        </button>
+                    </div>
+
+                </form>
+
+            </div>
+
+            <div class="text-center mt-4">
+                <a asp-action="Index" class="cliente-back-link">
+                    ← Volver a la lista de reservas
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        // Validación mejorada en tiempo real
+        document.getElementById('formReserva').addEventListener('submit', function(e) {
+            const inputs = this.querySelectorAll('input[required], select[required]');
+            let isValid = true;
+
+            inputs.forEach(input => {
+                if (!input.value.trim()) {
+                    isValid = false;
+                    input.classList.add('input-error');
+                } else {
+                    input.classList.remove('input-error');
+                }
+            });
+
+            if (!isValid) {
+                e.preventDefault();
+            }
+        });
+
+        // Efecto de focus en inputs
+        document.querySelectorAll('.cartoon-input').forEach(input => {
+            input.addEventListener('focus', function() {
+                this.parentElement.classList.add('input-focused');
+            });
+
+            input.addEventListener('blur', function() {
+                this.parentElement.classList.remove('input-focused');
+            });
+        });
+
+        // Validación de número de personas
+        const personasInput = document.querySelector('input[asp-for="NumeroPersonas"]');
+        if (personasInput) {
+            personasInput.addEventListener('input', function() {
+                // Asegurar que el valor esté dentro del rango 1-20
+                let val = parseInt(this.value);
+                if (val < 1) {
+                    this.value = 1;
+                }
+                if (val > 20) {
+                    this.value = 20;
+                }
+            });
+        }
+
+        // Validación de fechas
+        const fechaInput = document.querySelector('input[asp-for="FechaReserva"]');
+        if (fechaInput) {
+            // Establecer fecha mínima como hoy
+            const today = new Date().toISOString().split('T')[0];
+            fechaInput.setAttribute('min', today);
+        }
+    </script>
+}

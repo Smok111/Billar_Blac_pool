@@ -1,0 +1,479 @@
+﻿@model IEnumerable<BillarBlackPool.Models.CategoriaProducto>
+
+@{
+    ViewData["Title"] = "Categorías de Productos";
+}
+
+<!-- Carga de los íconos solo una vez -->
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+<script src="https://cdn.lordicon.com/lordicon.js"></script>
+<link href="~/css/Categoria.css" rel="stylesheet" />
+
+<div class="container mt-5 mb-5">
+
+    <!-- MENSAJES DE NOTIFICACIÓN -->
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show categoria-alert-success" role="alert">
+            <lord-icon src="https://cdn.lordicon.com/lomfljuq.json"
+                       trigger="loop"
+                       colors="primary:#10b981"
+                       style="width:24px;height:24px">
+            </lord-icon>
+            <span>@TempData["Success"]</span>
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    }
+
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show categoria-alert-error" role="alert">
+            <lord-icon src="https://cdn.lordicon.com/keaiyjcx.json"
+                       trigger="loop"
+                       colors="primary:#dc2626"
+                       style="width:24px;height:24px">
+            </lord-icon>
+            <span>@TempData["Error"]</span>
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    }
+
+    <!-- HEADER -->
+    <div class="categoria-header-wrapper">
+        <div class="categoria-header-content">
+            <div class="categoria-header-left">
+
+                <div class="categoria-header-icon">
+                    <lord-icon src="https://cdn.lordicon.com/mdmniuqx.json"
+                               trigger="loop"
+                               state="hover-looking-around"
+                               colors="primary:#9b59b6,secondary:#f39c12"
+                               style="width:70px;height:70px">
+                    </lord-icon>
+                </div>
+
+                <div>
+                    <h2 class="categoria-title">Gestión de Categorías</h2>
+                    <p class="categoria-subtitle">
+                        <lord-icon src="https://cdn.lordicon.com/bgebyztw.json"
+                                   trigger="loop"
+                                   colors="primary:#9b59b6"
+                                   style="width:18px;height:18px">
+                        </lord-icon>
+                        Total: <strong>@Model.Count()</strong> categorías registradas
+                    </p>
+                </div>
+            </div>
+
+            <a asp-action="Create" class="categoria-btn-add">
+                <lord-icon src="https://cdn.lordicon.com/mecwbjnp.json"
+                           trigger="hover"
+                           colors="primary:#ffffff"
+                           style="width:28px;height:28px">
+                </lord-icon>
+                <span>Nueva Categoría</span>
+            </a>
+        </div>
+
+        <!-- Barra de búsqueda -->
+        <div class="categoria-search-bar">
+            <lord-icon src="https://cdn.lordicon.com/kkvxgpti.json"
+                       trigger="hover"
+                       colors="primary:#9b59b6"
+                       style="width:24px;height:24px">
+            </lord-icon>
+
+            <input type="text" id="searchInput"
+                   class="categoria-search-input"
+                   placeholder="Buscar categoría por nombre..."
+                   autocomplete="off">
+
+            <button class="categoria-search-clear" id="clearSearch" style="display: none;">
+                <lord-icon src="https://cdn.lordicon.com/nqtddedc.json"
+                           trigger="hover"
+                           colors="primary:#6b7280"
+                           style="width:20px;height:20px">
+                </lord-icon>
+            </button>
+        </div>
+    </div>
+
+    <!-- TABLA -->
+    @if (Model.Any())
+    {
+        <div class="table-responsive">
+            <table class="table table-hover text-center align-middle categoria-table" id="categoriasTable">
+                <thead>
+                    <tr>
+                        <th>
+                            <div class="th-content">
+                                <lord-icon src="https://cdn.lordicon.com/bgebyztw.json"
+                                           trigger="hover"
+                                           colors="primary:#9b59b6"
+                                           style="width:20px;height:20px">
+                                </lord-icon>
+                                <span>ID</span>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="th-content">
+                                <lord-icon src="https://cdn.lordicon.com/puvaffet.json"
+                                           trigger="hover"
+                                           colors="primary:#9b59b6"
+                                           style="width:20px;height:20px">
+                                </lord-icon>
+                                <span>Nombre</span>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="th-content">
+                                <lord-icon src="https://cdn.lordicon.com/qhgmphtg.json"
+                                           trigger="hover"
+                                           colors="primary:#9b59b6"
+                                           style="width:20px;height:20px">
+                                </lord-icon>
+                                <span>Productos</span>
+                            </div>
+                        </th>
+                        <th>
+                            <div class="th-content">
+                                <lord-icon src="https://cdn.lordicon.com/jvihlqtw.json"
+                                           trigger="hover"
+                                           colors="primary:#9b59b6"
+                                           style="width:20px;height:20px">
+                                </lord-icon>
+                                <span>Acciones</span>
+                            </div>
+                        </th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    @foreach (var c in Model)
+                    {
+                        <tr class="categoria-row" data-categoria-id="@c.IdCategoria">
+                            <td>
+                                <div class="categoria-id">
+                                    <span class="badge-id">@c.IdCategoria</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="categoria-name">
+                                    <div class="categoria-avatar">
+                                        @c.Nombre?.Substring(0, 1).ToUpper()
+                                    </div>
+                                    <span class="categoria-name-text">@c.Nombre</span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="categoria-productos">
+                                    <span class="badge-productos">
+                                        <lord-icon src="https://cdn.lordicon.com/qhgmphtg.json"
+                                                   trigger="loop"
+                                                   colors="primary:#ffffff"
+                                                   style="width:16px;height:16px">
+                                        </lord-icon>
+                                        @(c.Productos?.Count ?? 0) productos
+                                    </span>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="actions-wrapper">
+                                    <!-- DETALLES -->
+                                    <button class="action-btn btn-info"
+                                            title="Ver detalles"
+                                            data-bs-toggle="modal"
+                                            data-bs-target="#modalInfo-@c.IdCategoria">
+                                        <lord-icon src="https://cdn.lordicon.com/yxczfiyc.json"
+                                                   trigger="hover"
+                                                   colors="primary:#ffffff"
+                                                   style="width:24px;height:24px">
+                                        </lord-icon>
+                                    </button>
+
+                                    <!-- EDITAR -->
+                                    <a asp-action="Edit"
+                                       asp-route-id="@c.IdCategoria"
+                                       class="action-btn btn-edit"
+                                       title="Editar">
+                                        <lord-icon src="https://cdn.lordicon.com/wuvorxbv.json"
+                                                   trigger="hover"
+                                                   colors="primary:#ffffff"
+                                                   style="width:24px;height:24px">
+                                        </lord-icon>
+                                    </a>
+
+                                    <!-- ELIMINAR -->
+                                    <button class="action-btn btn-delete"
+                                            title="Eliminar"
+                                            data-bs-toggle="modal"
+                                            data-bs-target="#modalDelete-@c.IdCategoria"
+                                            @(c.Productos?.Any() == true ? "disabled" : "")>
+                                        <lord-icon src="https://cdn.lordicon.com/wpyrrmcq.json"
+                                                   trigger="hover"
+                                                   colors="primary:#ffffff"
+                                                   style="width:24px;height:24px">
+                                        </lord-icon>
+                                    </button>
+                                </div>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+        <div id="noResultsMessage" class="no-results" style="display: none;">
+            <lord-icon src="https://cdn.lordicon.com/hrqwmuhr.json"
+                       trigger="loop"
+                       colors="primary:#9ca3af"
+                       style="width:80px;height:80px">
+            </lord-icon>
+            <p>No se encontraron categorías con ese criterio de búsqueda</p>
+        </div>
+    }
+    else
+    {
+        <div class="empty-state">
+            <lord-icon src="https://cdn.lordicon.com/wloilxuq.json"
+                       trigger="loop"
+                       colors="primary:#9b59b6,secondary:#f39c12"
+                       style="width:120px;height:120px">
+            </lord-icon>
+            <h3>No hay categorías registradas</h3>
+            <p>Comienza agregando tu primera categoría al sistema</p>
+
+            <a asp-action="Create" class="btn-empty-state">
+                <lord-icon src="https://cdn.lordicon.com/mecwbjnp.json"
+                           trigger="hover"
+                           colors="primary:#ffffff"
+                           style="width:24px;height:24px">
+                </lord-icon>
+                Agregar Primera Categoría
+            </a>
+        </div>
+    }
+</div>
+
+<!-- MODALES -->
+@foreach (var c in Model)
+{
+    <!-- Modal Info -->
+    <div class="modal fade" id="modalInfo-@c.IdCategoria" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content categoria-modal-info">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <lord-icon src="https://cdn.lordicon.com/yxczfiyc.json"
+                                   trigger="loop"
+                                   colors="primary:#9b59b6"
+                                   style="width:36px;height:36px">
+                        </lord-icon>
+                        <span>Detalles de la Categoría</span>
+                    </h5>
+                    <button type="button" class="btn-close-custom" data-bs-dismiss="modal">
+                        <lord-icon src="https://cdn.lordicon.com/nqtddedc.json"
+                                   trigger="hover"
+                                   colors="primary:#6b7280"
+                                   style="width:24px;height:24px">
+                        </lord-icon>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="categoria-detail-card">
+                        <div class="detail-item">
+                            <div class="detail-icon">
+                                <lord-icon src="https://cdn.lordicon.com/bgebyztw.json"
+                                           trigger="loop"
+                                           colors="primary:#9b59b6"
+                                           style="width:28px;height:28px">
+                                </lord-icon>
+                            </div>
+                            <div class="detail-content">
+                                <span class="detail-label">ID de Categoría</span>
+                                <span class="detail-value">@c.IdCategoria</span>
+                            </div>
+                        </div>
+
+                        <div class="detail-item">
+                            <div class="detail-icon">
+                                <lord-icon src="https://cdn.lordicon.com/puvaffet.json"
+                                           trigger="loop"
+                                           colors="primary:#9b59b6"
+                                           style="width:28px;height:28px">
+                                </lord-icon>
+                            </div>
+                            <div class="detail-content">
+                                <span class="detail-label">Nombre</span>
+                                <span class="detail-value">@c.Nombre</span>
+                            </div>
+                        </div>
+
+                        <div class="detail-item">
+                            <div class="detail-icon">
+                                <lord-icon src="https://cdn.lordicon.com/qhgmphtg.json"
+                                           trigger="loop"
+                                           colors="primary:#9b59b6"
+                                           style="width:28px;height:28px">
+                                </lord-icon>
+                            </div>
+                            <div class="detail-content">
+                                <span class="detail-label">Productos Asociados</span>
+                                <span class="detail-value">@(c.Productos?.Count ?? 0) productos</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="modal-btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <a asp-action="Edit" asp-route-id="@c.IdCategoria" class="modal-btn-primary">
+                        <lord-icon src="https://cdn.lordicon.com/wuvorxbv.json"
+                                   trigger="hover"
+                                   colors="primary:#ffffff"
+                                   style="width:20px;height:20px">
+                        </lord-icon>
+                        Editar
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Delete -->
+    <div class="modal fade" id="modalDelete-@c.IdCategoria" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content categoria-modal-delete">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <lord-icon src="https://cdn.lordicon.com/wpyrrmcq.json"
+                                   trigger="loop"
+                                   colors="primary:#FF6B6B"
+                                   style="width:36px;height:36px">
+                        </lord-icon>
+                        <span>Confirmar Eliminación</span>
+                    </h5>
+                    <button type="button" class="btn-close-custom" data-bs-dismiss="modal">
+                        <lord-icon src="https://cdn.lordicon.com/nqtddedc.json"
+                                   trigger="hover"
+                                   colors="primary:#6b7280"
+                                   style="width:24px;height:24px">
+                        </lord-icon>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="delete-warning">
+                        <lord-icon src="https://cdn.lordicon.com/tdrtiskw.json"
+                                   trigger="loop"
+                                   colors="primary:#FF6B6B"
+                                   style="width:100px;height:100px">
+                        </lord-icon>
+                        <h4>¿Estás seguro?</h4>
+                        <p>Vas a eliminar la categoría:</p>
+                        <div class="delete-categoria-name">
+                            <lord-icon src="https://cdn.lordicon.com/puvaffet.json"
+                                       trigger="loop"
+                                       colors="primary:#FF6B6B"
+                                       style="width:24px;height:24px">
+                            </lord-icon>
+                            <strong>@c.Nombre</strong>
+                        </div>
+
+                        @if (c.Productos?.Any() == true)
+                        {
+                            <div class="delete-blocked">
+                                <lord-icon src="https://cdn.lordicon.com/keaiyjcx.json"
+                                           trigger="loop"
+                                           colors="primary:#dc2626"
+                                           style="width:60px;height:60px">
+                                </lord-icon>
+                                <p class="blocked-text">No se puede eliminar esta categoría porque tiene <strong>@c.Productos.Count productos</strong> asignados.</p>
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="delete-alert">
+                                <lord-icon src="https://cdn.lordicon.com/jxzkkoed.json"
+                                           trigger="loop"
+                                           colors="primary:#92400e"
+                                           style="width:20px;height:20px">
+                                </lord-icon>
+                                Esta acción no se puede deshacer
+                            </div>
+                        }
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="modal-btn-secondary" data-bs-dismiss="modal">
+                        @(c.Productos?.Any() == true ? "Entendido" : "Cancelar")
+                    </button>
+                    @if (c.Productos?.Any() != true)
+                    {
+                        <form asp-action="Delete" method="post" style="display:inline;">
+                            <input type="hidden" name="id" value="@c.IdCategoria" />
+                            <button type="submit" class="modal-btn-danger">
+                                <lord-icon src="https://cdn.lordicon.com/wpyrrmcq.json"
+                                           trigger="hover"
+                                           colors="primary:#ffffff"
+                                           style="width:20px;height:20px">
+                                </lord-icon>
+                                Eliminar Categoría
+                            </button>
+                        </form>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    <script>
+        // BÚSQUEDA EN TIEMPO REAL
+        const searchInput = document.getElementById('searchInput');
+        const clearSearch = document.getElementById('clearSearch');
+        const table = document.getElementById('categoriasTable');
+        const noResults = document.getElementById('noResultsMessage');
+
+        if (searchInput && table) {
+            searchInput.addEventListener('input', function () {
+                const searchTerm = this.value.toLowerCase();
+                const rows = table.querySelectorAll('tbody tr');
+                let visibleCount = 0;
+
+                rows.forEach(row => {
+                    const text = row.textContent.toLowerCase();
+                    row.style.display = text.includes(searchTerm) ? '' : 'none';
+                    visibleCount += text.includes(searchTerm) ? 1 : 0;
+                });
+
+                noResults.style.display = (visibleCount === 0) ? 'flex' : 'none';
+                clearSearch.style.display = searchTerm ? 'flex' : 'none';
+            });
+
+            clearSearch.addEventListener('click', function () {
+                searchInput.value = '';
+                searchInput.dispatchEvent(new Event('input'));
+                searchInput.focus();
+            });
+        }
+
+        // ANIMACIÓN DE ENTRADA DE FILAS
+        document.addEventListener('DOMContentLoaded', function() {
+            const rows = document.querySelectorAll('.categoria-row');
+            rows.forEach((row, index) => {
+                setTimeout(() => {
+                    row.style.animation = 'fadeInUp 0.5s ease forwards';
+                }, index * 50);
+            });
+        });
+
+    
+        setTimeout(function() {
+            const alerts = document.querySelectorAll('.alert');
+            alerts.forEach(alert => {
+                const bsAlert = new bootstrap.Alert(alert);
+                bsAlert.close();
+            });
+        }, 5000);
+    </script>
+}

@@ -1,0 +1,182 @@
+@model BillarBlackPool.Models.Mesa
+
+@{
+    ViewData["Title"] = $"Mesa {Model.NumeroMesa}";
+}
+
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;700;900&display=swap" rel="stylesheet" />
+<script src="https://cdn.lordicon.com/lordicon.js"></script>
+<link href="~/css/Mesa.css" rel="stylesheet" />
+
+<div class="container mt-5 mb-5">
+    <div class="cliente-form-card">
+        <div class="cliente-form-header">
+            <div class="cliente-form-icon-wrapper">
+                <lord-icon src="https://cdn.lordicon.com/yxczfiyc.json"
+                           trigger="loop"
+                           colors="primary:#ffffff,secondary:#ffffff"
+                           style="width:60px;height:60px"></lord-icon>
+            </div>
+            <h2 class="cliente-form-title mb-2">Mesa @Model.NumeroMesa</h2>
+            <p class="cliente-form-subtitle">Estado actual: <strong>@Model.Estado</strong></p>
+        </div>
+
+        <div class="cliente-info-box mt-3" id="mesaTimerBox"
+             data-tipo-cobro="@((Model.Consumos?.FirstOrDefault(c => c.Estado == "Abierto")?.TipoCobro) ?? "")"
+             data-fecha-inicio="@((Model.Consumos?.FirstOrDefault(c => c.Estado == "Abierto")?.FechaInicio.ToString("o")) ?? "")"
+             data-fecha-fin="@((Model.Consumos?.FirstOrDefault(c => c.Estado == "Abierto")?.FechaFin?.ToString("o")) ?? "")"
+             data-precio-minuto="@((Model.Consumos?.FirstOrDefault(c => c.Estado == "Abierto")?.PrecioLibrePorMinuto.ToString(System.Globalization.CultureInfo.InvariantCulture)) ?? "0.10")"
+             data-precio-hora="@((Model.Consumos?.FirstOrDefault(c => c.Estado == "Abierto")?.PrecioHora.ToString(System.Globalization.CultureInfo.InvariantCulture)) ?? "6")"
+             data-precio-mediahora="@((Model.Consumos?.FirstOrDefault(c => c.Estado == "Abierto")?.PrecioMediaHora.ToString(System.Globalization.CultureInfo.InvariantCulture)) ?? "3")">
+            <lord-icon src="https://cdn.lordicon.com/abfverha.json"
+                       trigger="loop"
+                       colors="primary:#6CA8FF"
+                       style="width:28px;height:28px"></lord-icon>
+            <div>
+                <strong>Estado de la mesa</strong>
+                <ul style="list-style-type: none; padding-left: 0; margin-bottom: 0;">
+                    <li>• Número: <strong>@Model.NumeroMesa</strong></li>
+                    <li>• Estado: <strong>@Model.Estado</strong></li>
+                    <li>• Inicio: <strong id="mesaInicioLabel">--:--</strong></li>
+                    <li>• Fin estimado: <strong id="mesaFinLabel">--:--</strong></li>
+                    <li>• Tiempo transcurrido: <strong id="mesaTiempoLabel">00:00:00</strong></li>
+                    <li>• Costo actual: <strong id="mesaCostoLabel">S/ 0.00</strong></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row mt-4 g-4">
+            <div class="col-lg-6">
+                <div class="cliente-table-card p-4 h-100">
+                    <h4 class="mb-3">Consumo activo</h4>
+                    @if (Model.Consumos != null && Model.Consumos.Any(c => c.Estado == "Abierto"))
+                    {
+                        var consumoActivo = Model.Consumos.First(c => c.Estado == "Abierto");
+                        <div>
+                            <p><strong>ID:</strong> #@consumoActivo.IdConsumo</p>
+                            <p><strong>Cliente:</strong> @(consumoActivo.Cliente?.Nombre ?? "Sin cliente")</p>
+                            <p><strong>Usuario:</strong> @(consumoActivo.Usuario?.NomUsuario ?? "Sin usuario")</p>
+                            <p><strong>Tipo de cobro:</strong> @consumoActivo.TipoCobro</p>
+                            <p><strong>Inicio:</strong> @consumoActivo.FechaInicio.ToString("dd/MM/yyyy HH:mm")</p>
+                            <p><strong>Productos:</strong> S/ @consumoActivo.TotalProductos.ToString("0.00")</p>
+                            <p><strong>Total actual:</strong> S/ @consumoActivo.Total.ToString("0.00")</p>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="text-muted">No hay consumo abierto actualmente.</div>
+                    }
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="cliente-table-card p-4 h-100">
+                    <h4 class="mb-3">Historial reciente</h4>
+                    @if (Model.Consumos != null && Model.Consumos.Any())
+                    {
+                        <div class="table-responsive">
+                            <table class="table table-sm align-middle">
+                                <thead>
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Estado</th>
+                                        <th>Inicio</th>
+                                        <th>Fin</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var consumo in Model.Consumos.OrderByDescending(c => c.FechaInicio).Take(10))
+                                    {
+                                        <tr>
+                                            <td>#@consumo.IdConsumo</td>
+                                            <td>@consumo.Estado</td>
+                                            <td>@consumo.FechaInicio.ToString("dd/MM/yyyy HH:mm")</td>
+                                            <td>@(consumo.FechaFin.HasValue ? consumo.FechaFin.Value.ToString("dd/MM/yyyy HH:mm") : "En curso")</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="text-muted">No hay consumos registrados para esta mesa.</div>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <div class="cliente-form-actions mt-4">
+            <a asp-action="Index" class="cliente-btn-cancel cartoon-btn-secondary">
+                <span>Volver</span>
+            </a>
+            <a asp-action="Edit" asp-route-id="@Model.IdMesa" class="cliente-btn-submit cartoon-btn-primary">
+                <span>Editar Mesa</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const box = document.getElementById('mesaTimerBox');
+            if (!box) return;
+
+            const inicioRaw = box.getAttribute('data-fecha-inicio');
+            if (!inicioRaw) return;
+
+            const tipoCobro = box.getAttribute('data-tipo-cobro') || 'Libre';
+            const precioMinuto = parseFloat(box.getAttribute('data-precio-minuto') || '0.10');
+            const precioHora = parseFloat(box.getAttribute('data-precio-hora') || '6');
+            const precioMedia = parseFloat(box.getAttribute('data-precio-mediahora') || '3');
+
+            const inicio = new Date(inicioRaw);
+            const finGuardado = box.getAttribute('data-fecha-fin');
+
+            const inicioLabel = document.getElementById('mesaInicioLabel');
+            const finLabel = document.getElementById('mesaFinLabel');
+            const tiempoLabel = document.getElementById('mesaTiempoLabel');
+            const costoLabel = document.getElementById('mesaCostoLabel');
+
+            const pad = (n) => String(n).padStart(2, '0');
+            const formatDuration = (totalSeconds) => {
+                const safe = Math.max(0, Math.floor(totalSeconds));
+                const h = Math.floor(safe / 3600);
+                const m = Math.floor((safe % 3600) / 60);
+                const s = safe % 60;
+                return `${pad(h)}:${pad(m)}:${pad(s)}`;
+            };
+            const formatDateTime = (date) => new Intl.DateTimeFormat('es-PE', { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' }).format(date);
+
+            const refresh = () => {
+                const end = finGuardado ? new Date(finGuardado) : new Date();
+                const elapsedSeconds = (end - inicio) / 1000;
+                const elapsedMinutes = elapsedSeconds / 60;
+
+                if (inicioLabel) inicioLabel.textContent = formatDateTime(inicio);
+                if (tiempoLabel) tiempoLabel.textContent = formatDuration(elapsedSeconds);
+
+                let finEstimado = null;
+                let costo = 0;
+                if (tipoCobro === 'Hora') {
+                    finEstimado = new Date(inicio.getTime() + 60 * 60000);
+                    costo = precioHora * (elapsedMinutes / 60);
+                } else if (tipoCobro === 'MediaHora') {
+                    finEstimado = new Date(inicio.getTime() + 30 * 60000);
+                    costo = precioMedia * (elapsedMinutes / 30);
+                } else {
+                    costo = elapsedMinutes * precioMinuto;
+                }
+
+                if (finLabel) finLabel.textContent = finEstimado ? formatDateTime(finEstimado) : 'En vivo';
+                if (costoLabel) costoLabel.textContent = `S/ ${costo.toFixed(2)}`;
+            };
+
+            refresh();
+            if (!finGuardado) {
+                setInterval(refresh, 1000);
+            }
+        });
+    </script>
+}

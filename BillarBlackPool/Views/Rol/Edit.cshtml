@@ -1,0 +1,239 @@
+﻿@model BillarBlackPool.Models.Rol
+
+@{
+    ViewData["Title"] = "Editar Rol";
+}
+
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;700;900&display=swap" rel="stylesheet" />
+<script src="https://cdn.lordicon.com/lordicon.js"></script>
+<link href="~/css/Cliente.css" rel="stylesheet" />
+
+<div class="container mt-5 mb-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-10">
+
+            <!-- Card del formulario -->
+            <div class="cliente-form-card">
+
+                <!-- Header -->
+                <div class="cliente-form-header">
+                    <div class="cliente-form-icon-wrapper">
+                        <lord-icon src="https://cdn.lordicon.com/wuvorxbv.json"
+                                   trigger="loop"
+                                   colors="primary:#ffffff,secondary:#ffffff"
+                                   style="width:60px;height:60px">
+                        </lord-icon>
+                    </div>
+                    <h2 class="cliente-form-title mb-2">Editar Rol</h2>
+                    <p class="cliente-form-subtitle">Modificar información del rol #@Model.IdRol</p>
+                </div>
+
+                <!-- Formulario -->
+                <form asp-action="Edit" method="post" class="cliente-form" id="formRol">
+                    <!-- Hidden fields -->
+                    <input type="hidden" asp-for="IdRol" />
+
+                    <div class="row g-4">
+
+                        <!-- Nombre del Rol -->
+                        <div class="col-12">
+                            <div class="cliente-field">
+                                <label asp-for="NomRol" class="cliente-label">
+                                    <lord-icon src="https://cdn.lordicon.com/bgebyztw.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                    <span>Nombre del Rol</span>
+                                    <span class="required-asterisk">*</span>
+                                </label>
+                                <div class="input-wrapper">
+                                    <input asp-for="NomRol"
+                                           class="cartoon-input"
+                                           placeholder="Ej: Administrador, Usuario, Moderador"
+                                           required />
+                                    <div class="input-icon">
+                                        <lord-icon src="https://cdn.lordicon.com/dxjqoygy.json"
+                                                   trigger="hover"
+                                                   colors="primary:#6CA8FF"
+                                                   style="width:20px;height:20px">
+                                        </lord-icon>
+                                    </div>
+                                </div>
+                                <span asp-validation-for="NomRol" class="validation-message"></span>
+                            </div>
+                        </div>
+
+                        <!-- Descripción -->
+                        <div class="col-12">
+                            <div class="cliente-field">
+                                <label asp-for="DesRol" class="cliente-label">
+                                    <lord-icon src="https://cdn.lordicon.com/abvsilkn.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                    <span>Descripción</span>
+                                    <span class="required-asterisk">*</span>
+                                </label>
+                                <div class="input-wrapper">
+                                    <textarea asp-for="DesRol"
+                                              class="cartoon-input"
+                                              placeholder="Descripción de las funciones y permisos del rol..."
+                                              rows="4"
+                                              required></textarea>
+                                    <div class="input-icon">
+                                        <lord-icon src="https://cdn.lordicon.com/abvsilkn.json"
+                                                   trigger="hover"
+                                                   colors="primary:#6CA8FF"
+                                                   style="width:20px;height:20px">
+                                        </lord-icon>
+                                    </div>
+                                </div>
+                                <span asp-validation-for="DesRol" class="validation-message"></span>
+                            </div>
+                        </div>
+
+                        <!-- ID Rol (solo lectura) -->
+                        <div class="col-md-6">
+                            <div class="cliente-field">
+                                <label class="cliente-label">
+                                    <lord-icon src="https://cdn.lordicon.com/fhtaantg.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                    <span>ID del Rol</span>
+                                </label>
+                                <div class="input-wrapper input-readonly-wrapper">
+                                    <input type="text"
+                                           value="#@Model.IdRol"
+                                           readonly
+                                           class="cartoon-input cartoon-readonly" />
+                                    <div class="input-icon">
+                                        <lord-icon src="https://cdn.lordicon.com/fhtaantg.json"
+                                                   trigger="hover"
+                                                   colors="primary:#9CA3AF"
+                                                   style="width:20px;height:20px">
+                                        </lord-icon>
+                                    </div>
+                                </div>
+                                <small class="form-text text-muted">
+                                    <lord-icon src="https://cdn.lordicon.com/yqzmiobz.json"
+                                               trigger="loop"
+                                               colors="primary:#9CA3AF"
+                                               style="width:14px;height:14px">
+                                    </lord-icon>
+                                    Identificador único
+                                </small>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Caja de advertencia -->
+                    <div class="cliente-warning-box mt-4">
+                        <lord-icon src="https://cdn.lordicon.com/keaiyjcx.json"
+                                   trigger="loop"
+                                   colors="primary:#FFB86C"
+                                   style="width:28px;height:28px">
+                        </lord-icon>
+                        <div>
+                            <strong>Atención:</strong> Revisa cuidadosamente los cambios antes de guardar. Esta acción actualizará la información del rol en el sistema.
+                        </div>
+                    </div>
+
+                    <!-- Botones -->
+                    <div class="cliente-form-actions mt-5">
+                        <a asp-action="Index" class="cliente-btn-cancel cartoon-btn-secondary">
+                            <lord-icon src="https://cdn.lordicon.com/nvikmcir.json"
+                                       trigger="hover"
+                                       colors="primary:#ffffff"
+                                       style="width:22px;height:22px">
+                            </lord-icon>
+                            <span>Cancelar</span>
+                        </a>
+
+                        <button type="submit" class="cliente-btn-submit cartoon-btn-primary">
+                            <lord-icon src="https://cdn.lordicon.com/dangivhk.json"
+                                       trigger="hover"
+                                       colors="primary:#ffffff"
+                                       style="width:22px;height:22px">
+                            </lord-icon>
+                            <span>Guardar Cambios</span>
+                        </button>
+                    </div>
+
+                </form>
+
+            </div>
+
+            <!-- Link de retorno -->
+            <div class="text-center mt-4">
+                <a asp-action="Index" class="cliente-back-link">
+                    ← Volver a la lista de roles
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        // Validación en tiempo real
+        document.getElementById('formRol').addEventListener('submit', function(e) {
+            const inputs = this.querySelectorAll('input[required], textarea[required]');
+            let isValid = true;
+
+            inputs.forEach(input => {
+                if (!input.value.trim()) {
+                    isValid = false;
+                    input.classList.add('input-error');
+                } else {
+                    input.classList.remove('input-error');
+                }
+            });
+
+            if (!isValid) {
+                e.preventDefault();
+            }
+        });
+
+        // Efectos de focus
+        document.querySelectorAll('.cartoon-input:not([readonly])').forEach(input => {
+            input.addEventListener('focus', function() {
+                this.parentElement.classList.add('input-focused');
+            });
+
+            input.addEventListener('blur', function() {
+                this.parentElement.classList.remove('input-focused');
+            });
+        });
+
+        // Detectar cambios sin guardar
+        let formChanged = false;
+        document.querySelectorAll('.cartoon-input:not([readonly])').forEach(input => {
+            input.addEventListener('input', function() {
+                formChanged = true;
+            });
+        });
+
+        // Advertencia al salir
+        window.addEventListener('beforeunload', function(e) {
+            if (formChanged) {
+                e.preventDefault();
+                e.returnValue = '';
+            }
+        });
+
+        // No advertir al guardar
+        document.getElementById('formRol').addEventListener('submit', function() {
+            formChanged = false;
+        });
+    </script>
+}

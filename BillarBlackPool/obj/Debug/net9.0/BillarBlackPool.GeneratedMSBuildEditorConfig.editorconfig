@@ -1,0 +1,179 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v9.0
+build_property.RootNamespace = BillarBlackPool
+build_property.RootNamespace = BillarBlackPool
+build_property.ProjectDir = D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\PROYECTOS CURSOS SISTEMAS\DISEÑO Y ARQUITECTURA SOFWA\Diseño y arquitectura proyecto\fN\fN\BillarBlackPool\BillarBlackPool
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/PROYECTOS CURSOS SISTEMAS/DISEÑO Y ARQUITECTURA SOFWA/Diseño y arquitectura proyecto/fN/fN/BillarBlackPool/BillarBlackPool/Views/Acceso/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjZXNvXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS CURSOS SISTEMAS/DISEÑO Y ARQUITECTURA SOFWA/Diseño y arquitectura proyecto/fN/fN/BillarBlackPool/BillarBlackPool/Views/Categoria/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS CURSOS SISTEMAS/DISEÑO Y ARQUITECTURA SOFWA/Diseño y arquitectura proyecto/fN/fN/BillarBlackPool/BillarBlackPool/Views/Categoria/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS CURSOS SISTEMAS/DISEÑO Y ARQUITECTURA SOFWA/Diseño y arquitectura proyecto/fN/fN/BillarBlackPool/BillarBlackPool/Views/Categoria/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcmlhXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS CURSOS SISTEMAS/DISEÑO Y ARQUITECTURA SOFWA/Diseño y arquitectura proyecto/fN/fN/BillarBlackPool/BillarBlackPool/Views/Cliente/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS CURSOS SISTEMAS/DISEÑO Y ARQUITECTURA SOFWA/Diseño y arquitectura proyecto/fN/fN/BillarBlackPool/BillarBlackPool/Views/Cliente/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS CURSOS SISTEMAS/DISEÑO Y ARQUITECTURA SOFWA/Diseño y arquitectura proyecto/fN/fN/BillarBlackPool/BillarBlackPool/Views/Cliente/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS CURSOS SISTEMAS/DISEÑO Y ARQUITECTURA SOFWA/Diseño y arquitectura proyecto/fN/fN/BillarBlackPool/BillarBlackPool/Views/ConsumoDetalle/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3Vtb0RldGFsbGVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS CURSOS SISTEMAS/DISEÑO Y ARQUITECTURA SOFWA/Diseño y arquitectura proyecto/fN/fN/BillarBlackPool/BillarBlackPool/Views/ConsumoDetalle/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3Vtb0RldGFsbGVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS CURSOS SISTEMAS/DISEÑO Y ARQUITECTURA SOFWA/Diseño y arquitectura proyecto/fN/fN/BillarBlackPool/BillarBlackPool/Views/ConsumoDetalle/EditConsumo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3Vtb0RldGFsbGVcRWRpdENvbnN1bW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS CURSOS SISTEMAS/DISEÑO Y ARQUITECTURA SOFWA/Diseño y arquitectura proyecto/fN/fN/BillarBlackPool/BillarBlackPool/Views/ConsumoDetalle/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3Vtb0RldGFsbGVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS CURSOS SISTEMAS/DISEÑO Y ARQUITECTURA SOFWA/Diseño y arquitectura proyecto/fN/fN/BillarBlackPool/BillarBlackPool/Views/Consumo/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3Vtb1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS CURSOS SISTEMAS/DISEÑO Y ARQUITECTURA SOFWA/Diseño y arquitectura proyecto/fN/fN/BillarBlackPool/BillarBlackPool/Views/Consumo/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3Vtb1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS CURSOS SISTEMAS/DISEÑO Y ARQUITECTURA SOFWA/Diseño y arquitectura proyecto/fN/fN/BillarBlackPool/BillarBlackPool/Views/Consumo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uc3Vtb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS CURSOS SISTEMAS/DISEÑO Y ARQUITECTURA SOFWA/Diseño y arquitectura proyecto/fN/fN/BillarBlackPool/BillarBlackPool/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS CURSOS SISTEMAS/DISEÑO Y ARQUITECTURA SOFWA/Diseño y arquitectura proyecto/fN/fN/BillarBlackPool/BillarBlackPool/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS CURSOS SISTEMAS/DISEÑO Y ARQUITECTURA SOFWA/Diseño y arquitectura proyecto/fN/fN/BillarBlackPool/BillarBlackPool/Views/Mesa/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzYVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS CURSOS SISTEMAS/DISEÑO Y ARQUITECTURA SOFWA/Diseño y arquitectura proyecto/fN/fN/BillarBlackPool/BillarBlackPool/Views/Mesa/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzYVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS CURSOS SISTEMAS/DISEÑO Y ARQUITECTURA SOFWA/Diseño y arquitectura proyecto/fN/fN/BillarBlackPool/BillarBlackPool/Views/Mesa/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzYVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS CURSOS SISTEMAS/DISEÑO Y ARQUITECTURA SOFWA/Diseño y arquitectura proyecto/fN/fN/BillarBlackPool/BillarBlackPool/Views/Mesa/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS CURSOS SISTEMAS/DISEÑO Y ARQUITECTURA SOFWA/Diseño y arquitectura proyecto/fN/fN/BillarBlackPool/BillarBlackPool/Views/Producto/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS CURSOS SISTEMAS/DISEÑO Y ARQUITECTURA SOFWA/Diseño y arquitectura proyecto/fN/fN/BillarBlackPool/BillarBlackPool/Views/Producto/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS CURSOS SISTEMAS/DISEÑO Y ARQUITECTURA SOFWA/Diseño y arquitectura proyecto/fN/fN/BillarBlackPool/BillarBlackPool/Views/Producto/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS CURSOS SISTEMAS/DISEÑO Y ARQUITECTURA SOFWA/Diseño y arquitectura proyecto/fN/fN/BillarBlackPool/BillarBlackPool/Views/Reserva/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS CURSOS SISTEMAS/DISEÑO Y ARQUITECTURA SOFWA/Diseño y arquitectura proyecto/fN/fN/BillarBlackPool/BillarBlackPool/Views/Reserva/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS CURSOS SISTEMAS/DISEÑO Y ARQUITECTURA SOFWA/Diseño y arquitectura proyecto/fN/fN/BillarBlackPool/BillarBlackPool/Views/Reserva/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVzZXJ2YVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS CURSOS SISTEMAS/DISEÑO Y ARQUITECTURA SOFWA/Diseño y arquitectura proyecto/fN/fN/BillarBlackPool/BillarBlackPool/Views/Rol/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS CURSOS SISTEMAS/DISEÑO Y ARQUITECTURA SOFWA/Diseño y arquitectura proyecto/fN/fN/BillarBlackPool/BillarBlackPool/Views/Rol/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS CURSOS SISTEMAS/DISEÑO Y ARQUITECTURA SOFWA/Diseño y arquitectura proyecto/fN/fN/BillarBlackPool/BillarBlackPool/Views/Rol/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS CURSOS SISTEMAS/DISEÑO Y ARQUITECTURA SOFWA/Diseño y arquitectura proyecto/fN/fN/BillarBlackPool/BillarBlackPool/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS CURSOS SISTEMAS/DISEÑO Y ARQUITECTURA SOFWA/Diseño y arquitectura proyecto/fN/fN/BillarBlackPool/BillarBlackPool/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS CURSOS SISTEMAS/DISEÑO Y ARQUITECTURA SOFWA/Diseño y arquitectura proyecto/fN/fN/BillarBlackPool/BillarBlackPool/Views/Usuario/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS CURSOS SISTEMAS/DISEÑO Y ARQUITECTURA SOFWA/Diseño y arquitectura proyecto/fN/fN/BillarBlackPool/BillarBlackPool/Views/Usuario/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS CURSOS SISTEMAS/DISEÑO Y ARQUITECTURA SOFWA/Diseño y arquitectura proyecto/fN/fN/BillarBlackPool/BillarBlackPool/Views/Usuario/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS CURSOS SISTEMAS/DISEÑO Y ARQUITECTURA SOFWA/Diseño y arquitectura proyecto/fN/fN/BillarBlackPool/BillarBlackPool/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS CURSOS SISTEMAS/DISEÑO Y ARQUITECTURA SOFWA/Diseño y arquitectura proyecto/fN/fN/BillarBlackPool/BillarBlackPool/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS CURSOS SISTEMAS/DISEÑO Y ARQUITECTURA SOFWA/Diseño y arquitectura proyecto/fN/fN/BillarBlackPool/BillarBlackPool/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-mql5nj1czs

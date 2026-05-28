@@ -1,0 +1,208 @@
+﻿@model IEnumerable<BillarBlackPool.Models.ConsumoDetalle>
+
+@{
+    ViewData["Title"] = "Detalles de Consumo";
+}
+
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+<link href="~/css/ConsumoDetalle.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<script src="https://cdn.lordicon.com/lordicon.js"></script>
+
+<div class="container mt-4 mb-5">
+
+    <div class="detalle-header-wrapper">
+        <div class="detalle-header-content">
+            <div class="detalle-header-left">
+                <div class="detalle-header-icon">
+                    <lord-icon src="https://cdn.lordicon.com/urhcgqxz.json" trigger="loop" state="hover-looking-around" colors="primary:#38a169,secondary:#4299e1" style="width:70px;height:70px"></lord-icon>
+                </div>
+                <div>
+                    <h2 class="detalle-title">Detalles de Consumo</h2>
+                    <p class="detalle-subtitle">
+                        <i class="bi bi-tag-fill text-primary"></i>
+                        Total consumos agrupados: <strong>@(Model.GroupBy(d => d.IdConsumo).Count())</strong>
+                    </p>
+                </div>
+            </div>
+
+            <div class="detalle-actions-top">
+                <a asp-action="Create" class="detalle-btn-add">
+                    <lord-icon src="https://cdn.lordicon.com/nxooksed.json" trigger="hover" colors="primary:#ffffff,secondary:#38a169" style="width:24px;height:24px"></lord-icon>
+                    Nuevo Detalle
+                </a>
+            </div>
+        </div>
+
+        <div class="detalle-search-bar">
+            <i class="bi bi-search"></i>
+            <input type="text" id="searchInput" class="detalle-search-input" placeholder="Buscar por producto o número de consumo..." autocomplete="off">
+            <button class="detalle-search-clear" id="clearSearch">
+                <i class="bi bi-x-circle-fill"></i>
+            </button>
+        </div>
+    </div>
+
+    @if (Model.Any())
+    {
+        var consumosAgrupados = Model.GroupBy(d => d.IdConsumo);
+
+        <div class="detalle-list">
+            @foreach (var consumo in consumosAgrupados)
+            {
+                var totalProductos = consumo.Sum(x => x.SubTotal);
+                var consumoId = consumo.Key;
+                var primeraFila = consumo.First().Consumo;
+                var mesaNumero = primeraFila?.Mesa?.NumeroMesa;
+                var totalMesa = primeraFila?.CostoMesa ?? 0m;
+                var totalFinal = totalProductos + totalMesa;
+
+                <div class="detalle-card mb-4">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h5>
+                            <i class="bi bi-cup-straw me-2"></i>
+                            Consumo #@consumoId - Mesa @mesaNumero
+                        </h5>
+
+                        <div class="actions-wrapper">
+                            <a asp-action="ExportarPDF" asp-route-id="@consumo.Key" class="detalle-btn-pdf me-1">
+                                <lord-icon src="https://cdn.lordicon.com/pqxdilfs.json" trigger="hover" colors="primary:#ffffff,secondary:#ef4444" style="width:20px;height:20px"></lord-icon>
+                                PDF
+                            </a>
+
+                            <a asp-action="EditConsumo" asp-route-idConsumo="@consumoId" class="detalle-btn-edit me-1">
+                                <lord-icon src="https://cdn.lordicon.com/wloilxuq.json" trigger="hover" colors="primary:#ffffff,secondary:#f59e0b" style="width:20px;height:20px"></lord-icon>
+                                Editar
+                            </a>
+
+                            <button type="button" class="detalle-btn-delete" data-bs-toggle="modal" data-bs-target="#modalDelete-@consumoId">
+                                <lord-icon src="https://cdn.lordicon.com/wpyrrmcq.json" trigger="hover" colors="primary:#ffffff,secondary:#ef4444" style="width:20px;height:20px"></lord-icon>
+                                Eliminar
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="table-responsive">
+                        <table class="table table-hover detalle-table">
+                            <thead>
+                                <tr>
+                                    <th>Producto</th>
+                                    <th class="text-center">Cantidad</th>
+                                    <th class="text-center">Precio</th>
+                                    <th class="text-center">Subtotal</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var d in consumo)
+                                {
+                                    <tr>
+                                        <td>@d.Producto?.Nombre</td>
+                                        <td class="text-center">@d.Cantidad</td>
+                                        <td class="text-center">S/ @d.PrecioUnitario.ToString("N2")</td>
+                                        <td class="text-center text-success fw-bold">S/ @d.SubTotal.ToString("N2")</td>
+                                    </tr>
+                                }
+                            </tbody>
+                            <tfoot>
+                                <tr class="fw-bold">
+                                    <td colspan="3" class="text-end">TOTAL PRODUCTOS:</td>
+                                    <td class="text-center text-success">S/ @totalProductos.ToString("N2")</td>
+                                </tr>
+                                <tr class="fw-bold">
+                                    <td colspan="3" class="text-end">PAGO MESA:</td>
+                                    <td class="text-center text-primary">S/ @totalMesa.ToString("N2")</td>
+                                </tr>
+                                <tr class="fw-bold">
+                                    <td colspan="3" class="text-end">TOTAL CONSUMO:</td>
+                                    <td class="text-center text-success">S/ @totalFinal.ToString("N2")</td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            }
+        </div>
+
+        @foreach (var consumo in consumosAgrupados)
+        {
+            var consumoId = consumo.Key;
+            var mesaNumero = consumo.First().Consumo?.Mesa?.NumeroMesa;
+
+            <div class="modal fade" id="modalDelete-@consumoId" tabindex="-1" aria-labelledby="modalDeleteLabel-@consumoId" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content consumo-modal-delete">
+                        <div class="modal-header">
+                            <h5 class="modal-title">
+                                <lord-icon src="https://cdn.lordicon.com/wpyrrmcq.json" trigger="loop" colors="primary:#FF6B6B" style="width:36px;height:36px"></lord-icon>
+                                Confirmar Eliminación
+                            </h5>
+                            <button type="button" class="btn-close-custom" data-bs-dismiss="modal" aria-label="Close">
+                                <i class="bi bi-x-lg"></i>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="delete-warning">
+                                <lord-icon src="https://cdn.lordicon.com/tdrtiskw.json" trigger="loop" colors="primary:#FF6B6B" style="width:80px;height:80px"></lord-icon>
+                                <h4>¿Estás seguro?</h4>
+                                <p>Vas a eliminar el consumo completo:</p>
+                                <div class="delete-consumption-info">
+                                    <lord-icon src="https://cdn.lordicon.com/hrjifpbq.json" trigger="hover" colors="primary:#FF6B6B" style="width:24px;height:24px"></lord-icon>
+                                    <strong>Consumo #@consumoId - Mesa @mesaNumero</strong>
+                                </div>
+                                <div class="delete-alert">
+                                    <i class="bi bi-exclamation-triangle-fill"></i>
+                                    Esta acción no se puede deshacer
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="modal-btn-secondary" data-bs-dismiss="modal">
+                                <i class="bi bi-arrow-left"></i>
+                                Cancelar
+                            </button>
+                            <form asp-controller="Consumo" asp-action="Delete" method="post" style="display:inline;">
+                                @Html.AntiForgeryToken()
+                                <input type="hidden" name="id" value="@consumoId" />
+                                <button type="submit" class="modal-btn-danger">
+                                    <i class="bi bi-trash3"></i>
+                                    Eliminar Consumo
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        <div class="empty-state">
+            <lord-icon src="https://cdn.lordicon.com/urhcgqxz.json" trigger="loop" colors="primary:#38a169,secondary:#4299e1" style="width:120px;height:120px"></lord-icon>
+            <h3>No hay consumos registrados</h3>
+            <p>Agrega tu primer detalle al sistema</p>
+            <a asp-action="Create" class="detalle-btn-add btn-empty-state">
+                <lord-icon src="https://cdn.lordicon.com/nxooksed.json" trigger="hover" colors="primary:#ffffff,secondary:#38a169" style="width:24px;height:24px"></lord-icon>
+                Agregar Primer Detalle
+            </a>
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#searchInput").on("keyup", function () {
+                let value = $(this).val().toLowerCase();
+                $(".detalle-card").each(function () {
+                    let visible = $(this).text().toLowerCase().includes(value);
+                    $(this).toggle(visible);
+                });
+            });
+
+            $("#clearSearch").click(function () {
+                $("#searchInput").val("").trigger("keyup");
+            });
+        });
+    </script>
+}

@@ -1,0 +1,243 @@
+﻿@model BillarBlackPool.Models.Producto
+
+@{
+    ViewData["Title"] = "Nuevo Producto";
+}
+
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;700;900&display=swap" rel="stylesheet" />
+<script src="https://cdn.lordicon.com/lordicon.js"></script>
+<link href="~/css/Producto.css" rel="stylesheet" />
+
+<div class="container mt-5 mb-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-8">
+
+            <div class="producto-form-card">
+                @* CLASE ACTUALIZADA: producto-form-card *@
+
+                <div class="producto-form-header">
+                    @* CLASE ACTUALIZADA: producto-form-header *@
+                    <div class="producto-form-icon-wrapper">
+                        @* CLASE ACTUALIZADA: producto-form-icon-wrapper *@
+                        <lord-icon src="https://cdn.lordicon.com/mecwbjnp.json"
+                                   trigger="loop"
+                                   colors="primary:#ffffff,secondary:#ffffff"
+                                   style="width:60px;height:60px">
+                        </lord-icon>
+                    </div>
+                    <h2 class="producto-form-title mb-2">Registrar Nuevo Producto</h2> @* CLASE ACTUALIZADA: producto-form-title *@
+                    <p class="producto-form-subtitle">Complete los datos del producto</p> @* CLASE ACTUALIZADA: producto-form-subtitle *@
+                </div>
+
+                <form asp-action="Create" method="post" class="producto-form" id="formProducto" enctype="multipart/form-data">
+                    @* CLASE ACTUALIZADA: producto-form *@
+                    @Html.AntiForgeryToken()
+
+                    <div class="row g-4">
+                        <div class="col-12">
+                            <div class="producto-field">
+                                @* CLASE ACTUALIZADA: producto-field *@
+                                <label asp-for="Nombre" class="producto-label">
+                                    @* CLASE ACTUALIZADA: producto-label *@
+                                    <lord-icon src="https://cdn.lordicon.com/hrjifpbq.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                    <span>Nombre del Producto</span>
+                                    <span class="required-asterisk">*</span>
+                                </label>
+                                <div class="input-wrapper">
+                                    <input asp-for="Nombre"
+                                           class="cartoon-input"
+                                           placeholder="Ej: Coca Cola, Hamburguesa, Cerveza..."
+                                           required
+                                           autocomplete="off" />
+                                    <div class="input-icon">
+                                        <lord-icon src="https://cdn.lordicon.com/dxjqoygy.json"
+                                                   trigger="hover"
+                                                   colors="primary:#6CA8FF"
+                                                   style="width:20px;height:20px">
+                                        </lord-icon>
+                                    </div>
+                                </div>
+                                <span asp-validation-for="Nombre" class="validation-message"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="producto-field">
+                                @* CLASE ACTUALIZADA: producto-field *@
+                                <label asp-for="Precio" class="producto-label">
+                                    @* CLASE ACTUALIZADA: producto-label *@
+                                    <lord-icon src="https://cdn.lordicon.com/abvsilkn.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                    <span>Precio (S/)</span>
+                                    <span class="required-asterisk">*</span>
+                                </label>
+                                <div class="input-wrapper">
+                                    <input asp-for="Precio"
+                                           type="number"
+                                           step="0.01"
+                                           min="0"
+                                           class="cartoon-input"
+                                           placeholder="0.00"
+                                           required />
+                                    <div class="input-icon">
+                                        <lord-icon src="https://cdn.lordicon.com/dxjqoygy.json"
+                                                   trigger="hover"
+                                                   colors="primary:#6CA8FF"
+                                                   style="width:20px;height:20px">
+                                        </lord-icon>
+                                    </div>
+                                </div>
+                                <span asp-validation-for="Precio" class="validation-message"></span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="producto-field">
+                                @* CLASE ACTUALIZADA: producto-field *@
+                                <label asp-for="IdCategoria" class="producto-label">
+                                    @* CLASE ACTUALIZADA: producto-label *@
+                                    <lord-icon src="https://cdn.lordicon.com/srsgifqc.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                    <span>Categoría</span>
+                                    <span class="required-asterisk">*</span>
+                                </label>
+                                <div class="input-wrapper">
+                                    <select asp-for="IdCategoria"
+                                            class="cartoon-input"
+                                            asp-items="ViewBag.Categorias"
+                                            required>
+                                        <option value="">-- Seleccione una categoría --</option>
+                                    </select>
+                                    <div class="input-icon">
+                                        <lord-icon src="https://cdn.lordicon.com/dxjqoygy.json"
+                                                   trigger="hover"
+                                                   colors="primary:#6CA8FF"
+                                                   style="width:20px;height:20px">
+                                        </lord-icon>
+                                    </div>
+                                </div>
+                                <span asp-validation-for="IdCategoria" class="validation-message"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 mt-4">
+                        <div class="producto-field">
+                            @* CLASE ACTUALIZADA: producto-field *@
+                            <label for="ImagenFile" class="producto-label">
+                                @* CLASE ACTUALIZADA: producto-label *@
+                                <lord-icon src="https://cdn.lordicon.com/zyhpyczz.json"
+                                           trigger="hover"
+                                           colors="primary:#6CA8FF"
+                                           style="width:24px;height:24px">
+                                </lord-icon>
+                                <span>Subir Imagen del Producto (Opcional)</span>
+                            </label>
+                            <div class="input-wrapper">
+                                <input type="file"
+                                       id="ImagenFile"
+                                       name="ImagenFile"
+                                       accept="image/*"
+                                       class="cartoon-input file-input" />
+                                <div class="input-icon">
+                                    <lord-icon src="https://cdn.lordicon.com/dxjqoygy.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:20px;height:20px">
+                                    </lord-icon>
+                                </div>
+                            </div>
+                            <span asp-validation-for="ImagenUrl" class="validation-message"></span>
+                        </div>
+                    </div>
+
+
+                    <div class="producto-info-box mt-4">
+                        @* CLASE ACTUALIZADA: producto-info-box *@
+                        <lord-icon src="https://cdn.lordicon.com/abfverha.json"
+                                   trigger="loop"
+                                   colors="primary:#6CA8FF"
+                                   style="width:28px;height:28px">
+                        </lord-icon>
+                        <div>
+                            <strong>Información:</strong> Los productos que registres estarán disponibles
+                            para ser agregados a los consumos de las mesas.
+                        </div>
+                    </div>
+
+                    <div class="producto-form-actions mt-5">
+                        @* CLASE ACTUALIZADA: producto-form-actions *@
+                        <a asp-action="Index" class="producto-btn-cancel cartoon-btn-secondary">
+                            @* CLASE ACTUALIZADA: producto-btn-cancel *@
+                            <lord-icon src="https://cdn.lordicon.com/nqtddedc.json"
+                                       trigger="hover"
+                                       colors="primary:#ffffff"
+                                       style="width:22px;height:22px">
+                            </lord-icon>
+                            <span>Cancelar</span>
+                        </a>
+
+                        <button type="submit" class="producto-btn-submit cartoon-btn-primary">
+                            @* CLASE ACTUALIZADA: producto-btn-submit *@
+                            <lord-icon src="https://cdn.lordicon.com/dangivhk.json"
+                                       trigger="hover"
+                                       colors="primary:#ffffff"
+                                       style="width:22px;height:22px">
+                            </lord-icon>
+                            <span>Registrar Producto</span>
+                        </button>
+                    </div>
+
+                </form>
+
+            </div>
+
+            <div class="text-center mt-4">
+                <a asp-action="Index" class="producto-back-link">
+                    @* CLASE ACTUALIZADA: producto-back-link *@
+                    ← Volver a la lista de productos
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        // Efecto de focus en inputs (Mantenido el script de Edit)
+        document.querySelectorAll('.cartoon-input').forEach(input => {
+            input.addEventListener('focus', function() {
+                this.parentElement.classList.add('input-focused');
+            });
+
+            input.addEventListener('blur', function() {
+                this.parentElement.classList.remove('input-focused');
+            });
+        });
+
+        // Validación de precio positivo (Mantenido el script de Edit)
+        const precioInput = document.querySelector('input[type="number"]');
+        if (precioInput) {
+            precioInput.addEventListener('input', function() {
+                if (this.value < 0) {
+                    this.value = 0;
+                }
+            });
+        }
+    </script>
+}

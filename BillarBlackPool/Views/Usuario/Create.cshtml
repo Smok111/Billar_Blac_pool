@@ -1,0 +1,281 @@
+﻿@model BillarBlackPool.Models.Usuario
+
+@{
+    ViewData["Title"] = "Nuevo Usuario";
+}
+
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;700;900&display=swap" rel="stylesheet" />
+<script src="https://cdn.lordicon.com/lordicon.js"></script>
+<link href="~/css/Cliente.css" rel="stylesheet" />
+
+<div class="container mt-5 mb-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-10">
+
+            <!-- Card del formulario -->
+            <div class="cliente-form-card">
+
+                <!-- Header -->
+                <div class="cliente-form-header">
+                    <div class="cliente-form-icon-wrapper">
+                        <lord-icon src="https://cdn.lordicon.com/mecwbjnp.json"
+                                   trigger="loop"
+                                   colors="primary:#6CA8FF,secondary:#76E6A3"
+                                   style="width:70px;height:70px">
+                        </lord-icon>
+                    </div>
+                    <h2 class="cliente-form-title mb-2">Registrar Nuevo Usuario</h2>
+                    <p class="cliente-form-subtitle">Complete los datos del usuario</p>
+                </div>
+
+                <!-- Formulario -->
+                <form asp-action="Create" method="post" class="cliente-form" id="formUsuario">
+                    @Html.AntiForgeryToken()
+
+                    <div class="row g-4">
+
+                        <!-- Nombre -->
+                        <div class="col-md-6">
+                            <div class="cliente-field">
+                                <label asp-for="NomUsuario" class="cliente-label">
+                                    <lord-icon src="https://cdn.lordicon.com/kthelypq.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                    <span>Nombre</span>
+                                    <span class="required-asterisk">*</span>
+                                </label>
+                                <div class="input-wrapper">
+                                    <input asp-for="NomUsuario"
+                                           class="cartoon-input"
+                                           placeholder="Ej: Juan"
+                                           required
+                                           autocomplete="given-name" />
+                                    <div class="input-icon">
+                                        <lord-icon src="https://cdn.lordicon.com/jxzkkoed.json"
+                                                   trigger="hover"
+                                                   colors="primary:#6CA8FF"
+                                                   style="width:20px;height:20px">
+                                        </lord-icon>
+                                    </div>
+                                </div>
+                                <span asp-validation-for="NomUsuario" class="validation-message"></span>
+                            </div>
+                        </div>
+
+                        <!-- Apellido -->
+                        <div class="col-md-6">
+                            <div class="cliente-field">
+                                <label asp-for="ApeUsuario" class="cliente-label">
+                                    <lord-icon src="https://cdn.lordicon.com/kthelypq.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                    <span>Apellido</span>
+                                    <span class="required-asterisk">*</span>
+                                </label>
+                                <div class="input-wrapper">
+                                    <input asp-for="ApeUsuario"
+                                           class="cartoon-input"
+                                           placeholder="Ej: Pérez"
+                                           required
+                                           autocomplete="family-name" />
+                                    <div class="input-icon">
+                                        <lord-icon src="https://cdn.lordicon.com/jxzkkoed.json"
+                                                   trigger="hover"
+                                                   colors="primary:#6CA8FF"
+                                                   style="width:20px;height:20px">
+                                        </lord-icon>
+                                    </div>
+                                </div>
+                                <span asp-validation-for="ApeUsuario" class="validation-message"></span>
+                            </div>
+                        </div>
+
+                        <!-- Correo -->
+                        <div class="col-12">
+                            <div class="cliente-field">
+                                <label asp-for="Correo" class="cliente-label">
+                                    <lord-icon src="https://cdn.lordicon.com/rhvddzym.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                    <span>Correo Electrónico</span>
+                                    <span class="required-asterisk">*</span>
+                                </label>
+                                <div class="input-wrapper">
+                                    <input asp-for="Correo"
+                                           class="cartoon-input"
+                                           type="email"
+                                           placeholder="usuario@ejemplo.com"
+                                           required
+                                           autocomplete="email" />
+                                    <div class="input-icon">
+                                        <lord-icon src="https://cdn.lordicon.com/rhvddzym.json"
+                                                   trigger="hover"
+                                                   colors="primary:#6CA8FF"
+                                                   style="width:20px;height:20px">
+                                        </lord-icon>
+                                    </div>
+                                </div>
+                                <span asp-validation-for="Correo" class="validation-message"></span>
+                            </div>
+                        </div>
+
+                        <!-- Contraseña -->
+                        <div class="col-md-6">
+                            <div class="cliente-field">
+                                <label asp-for="Password" class="cliente-label">
+                                    <lord-icon src="https://cdn.lordicon.com/uwcrhbur.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                    <span>Contraseña</span>
+                                    <span class="required-asterisk">*</span>
+                                </label>
+                                <div class="input-wrapper">
+                                    <input asp-for="Password"
+                                           class="cartoon-input"
+                                           type="password"
+                                           placeholder="Ingrese la contraseña"
+                                           required
+                                           autocomplete="new-password" />
+                                    <div class="input-icon">
+                                        <lord-icon src="https://cdn.lordicon.com/uwcrhbur.json"
+                                                   trigger="hover"
+                                                   colors="primary:#6CA8FF"
+                                                   style="width:20px;height:20px">
+                                        </lord-icon>
+                                    </div>
+                                </div>
+                                <span asp-validation-for="Password" class="validation-message"></span>
+                            </div>
+                        </div>
+
+                        <!-- Rol -->
+                        <div class="col-md-6">
+                            <div class="cliente-field">
+                                <label asp-for="IdRol" class="cliente-label">
+                                    <lord-icon src="https://cdn.lordicon.com/wloilxuq.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                    <span>Rol</span>
+                                    <span class="required-asterisk">*</span>
+                                </label>
+                                <div class="input-wrapper">
+                                    <select asp-for="IdRol"
+                                            class="cartoon-input"
+                                            asp-items="ViewBag.Roles"
+                                            required>
+                                        <option value="">Seleccione un rol</option>
+                                    </select>
+                                    <div class="input-icon">
+                                        <lord-icon src="https://cdn.lordicon.com/wloilxuq.json"
+                                                   trigger="hover"
+                                                   colors="primary:#6CA8FF"
+                                                   style="width:20px;height:20px">
+                                        </lord-icon>
+                                    </div>
+                                </div>
+                                <span asp-validation-for="IdRol" class="validation-message"></span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Información adicional -->
+                    <div class="cliente-info-box mt-4">
+                        <lord-icon src="https://cdn.lordicon.com/abfverha.json"
+                                   trigger="loop"
+                                   colors="primary:#6CA8FF"
+                                   style="width:28px;height:28px">
+                        </lord-icon>
+                        <div>
+                            <strong>Información:</strong> El usuario podrá acceder al sistema con el correo y contraseña proporcionados.
+                        </div>
+                    </div>
+
+                    <!-- Botones de acción -->
+                    <div class="cliente-form-actions mt-5">
+                        <a asp-action="Index" class="cliente-btn-cancel cartoon-btn-secondary">
+                            <lord-icon src="https://cdn.lordicon.com/nqtddedc.json"
+                                       trigger="hover"
+                                       colors="primary:#ffffff"
+                                       style="width:22px;height:22px">
+                            </lord-icon>
+                            <span>Cancelar</span>
+                        </a>
+
+                        <button type="submit" class="cliente-btn-submit cartoon-btn-primary">
+                            <lord-icon src="https://cdn.lordicon.com/lomfljuq.json"
+                                       trigger="hover"
+                                       colors="primary:#ffffff"
+                                       style="width:22px;height:22px">
+                            </lord-icon>
+                            <span>Registrar Usuario</span>
+                        </button>
+                    </div>
+
+                </form>
+
+            </div>
+
+            <!-- Enlace de retorno adicional -->
+            <div class="text-center mt-4">
+                <a asp-action="Index" class="cliente-back-link">
+                    ← Volver a la lista de usuarios
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        // Validación mejorada en tiempo real
+        document.getElementById('formUsuario').addEventListener('submit', function(e) {
+            const inputs = this.querySelectorAll('input[required], select[required]');
+            let isValid = true;
+
+            inputs.forEach(input => {
+                if (!input.value.trim()) {
+                    isValid = false;
+                    input.classList.add('input-error');
+                } else {
+                    input.classList.remove('input-error');
+                }
+            });
+
+            if (!isValid) {
+                e.preventDefault();
+            }
+        });
+
+        // Efecto de focus en inputs
+        document.querySelectorAll('.cartoon-input').forEach(input => {
+            input.addEventListener('focus', function() {
+                this.parentElement.classList.add('input-focused');
+            });
+
+            input.addEventListener('blur', function() {
+                this.parentElement.classList.remove('input-focused');
+            });
+        });
+
+        // Estilo para select
+        document.querySelectorAll('select.cartoon-input').forEach(select => {
+            select.style.appearance = 'none';
+        });
+    </script>
+}

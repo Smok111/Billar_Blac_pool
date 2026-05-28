@@ -1,0 +1,34 @@
+@model BillarBlackPool.Models.ConsumoDetalle
+
+@{
+    ViewData["Title"] = "Eliminar Detalle";
+}
+
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+<link href="~/css/ConsumoDetalle.css" rel="stylesheet" />
+<script src="https://cdn.lordicon.com/lordicon.js"></script>
+
+<div class="container mt-5 mb-5">
+    <div class="detalle-card p-4">
+        <div class="text-center mb-4">
+            <lord-icon src="https://cdn.lordicon.com/wpyrrmcq.json" trigger="loop" colors="primary:#FF6B6B" style="width:100px;height:100px"></lord-icon>
+            <h2 class="detalle-title mt-3">Eliminar Detalle</h2>
+            <p class="detalle-subtitle">¿Seguro que deseas eliminar este detalle?</p>
+        </div>
+
+        <div class="alert alert-warning">
+            <strong>Consumo:</strong> #@Model.IdConsumo <br />
+            <strong>Producto:</strong> @Model.Producto?.Nombre <br />
+            <strong>Cantidad:</strong> @Model.Cantidad <br />
+            <strong>Precio:</strong> S/ @Model.PrecioUnitario.ToString("0.00") <br />
+            <strong>Subtotal:</strong> S/ @Model.SubTotal.ToString("0.00")
+        </div>
+
+        <form asp-action="Delete" method="post" class="d-flex gap-2 justify-content-end">
+            @Html.AntiForgeryToken()
+            <input type="hidden" asp-for="IdDetalle" />
+            <button type="button" class="btn btn-secondary" onclick="history.back()">Cancelar</button>
+            <button type="submit" class="btn btn-danger">Eliminar</button>
+        </form>
+    </div>
+</div>

@@ -1,0 +1,258 @@
+﻿@model BillarBlackPool.Models.CategoriaProducto
+
+@{
+    ViewData["Title"] = "Editar Categoría";
+}
+
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+<script src="https://cdn.lordicon.com/lordicon.js"></script>
+<link href="~/css/Categoria.css" rel="stylesheet" />
+
+<div class="container mt-5 mb-5">
+
+    <!-- LINK DE REGRESO -->
+    <div class="mb-4">
+        <a asp-action="Index" class="categoria-back-link">
+            <lord-icon src="https://cdn.lordicon.com/zmkotitn.json"
+                       trigger="hover"
+                       colors="primary:#9b59b6"
+                       style="width:24px;height:24px">
+            </lord-icon>
+            Volver a Categorías
+        </a>
+    </div>
+
+    <!-- FORMULARIO -->
+    <div class="categoria-form-card">
+
+        <!-- HEADER DEL FORMULARIO -->
+        <div class="categoria-form-header">
+            <div class="categoria-form-icon-wrapper">
+                <lord-icon src="https://cdn.lordicon.com/wuvorxbv.json"
+                           trigger="loop"
+                           colors="primary:#ffffff"
+                           style="width:70px;height:70px">
+                </lord-icon>
+            </div>
+            <h2 class="categoria-form-title">Editar Categoría</h2>
+            <p class="categoria-form-subtitle">Modifique los datos de la categoría: <strong>@Model.Nombre</strong></p>
+        </div>
+
+        <!-- FORMULARIO -->
+        <form asp-action="Edit" method="post" id="categoriaForm">
+            @Html.AntiForgeryToken()
+            <input type="hidden" asp-for="IdCategoria" />
+
+            <div class="row g-4">
+
+                <!-- ID (SOLO LECTURA) -->
+                <div class="col-md-6">
+                    <label asp-for="IdCategoria" class="categoria-label">
+                        <lord-icon src="https://cdn.lordicon.com/bgebyztw.json"
+                                   trigger="hover"
+                                   colors="primary:#9b59b6"
+                                   style="width:20px;height:20px">
+                        </lord-icon>
+                        ID de Categoría
+                    </label>
+                    <div class="input-wrapper">
+                        <input asp-for="IdCategoria"
+                               class="cartoon-input cartoon-readonly"
+                               readonly />
+                        <div class="input-icon">
+                            <lord-icon src="https://cdn.lordicon.com/egiwmiit.json"
+                                       trigger="hover"
+                                       colors="primary:#6b7280"
+                                       style="width:24px;height:24px">
+                            </lord-icon>
+                        </div>
+                    </div>
+                    <small class="form-text text-muted">Campo de solo lectura</small>
+                </div>
+
+                <!-- NOMBRE -->
+                <div class="col-md-6">
+                    <label asp-for="Nombre" class="categoria-label">
+                        <lord-icon src="https://cdn.lordicon.com/puvaffet.json"
+                                   trigger="hover"
+                                   colors="primary:#9b59b6"
+                                   style="width:20px;height:20px">
+                        </lord-icon>
+                        Nombre de la Categoría
+                        <span class="required-asterisk">*</span>
+                    </label>
+                    <div class="input-wrapper">
+                        <input asp-for="Nombre"
+                               class="cartoon-input @(ViewData.ModelState.ContainsKey("Nombre") && ViewData.ModelState["Nombre"].Errors.Count > 0 ? "input-error" : "")"
+                               placeholder="Nombre de la categoría"
+                               maxlength="50"
+                               autocomplete="off" />
+                        <div class="input-icon">
+                            <lord-icon src="https://cdn.lordicon.com/puvaffet.json"
+                                       trigger="hover"
+                                       colors="primary:#9b59b6"
+                                       style="width:24px;height:24px">
+                            </lord-icon>
+                        </div>
+                    </div>
+                    <span asp-validation-for="Nombre" class="validation-message"></span>
+                    <small class="form-text text-muted">Máximo 50 caracteres</small>
+                </div>
+
+                <!-- INFO DE PRODUCTOS ASOCIADOS -->
+                @if (Model.Productos != null && Model.Productos.Any())
+                {
+                    <div class="col-12">
+                        <div class="categoria-info-box">
+                            <lord-icon src="https://cdn.lordicon.com/qhgmphtg.json"
+                                       trigger="loop"
+                                       colors="primary:#9b59b6"
+                                       style="width:32px;height:32px;flex-shrink:0">
+                            </lord-icon>
+                            <div>
+                                <strong>Productos asociados:</strong>
+                                <p class="mb-0 mt-2">Esta categoría tiene <strong>@Model.Productos.Count productos</strong> asignados. Al cambiar el nombre, todos los productos mantendrán esta categoría actualizada.</p>
+                            </div>
+                        </div>
+                    </div>
+                }
+
+                <!-- WARNING BOX -->
+                <div class="col-12">
+                    <div class="categoria-warning-box">
+                        <lord-icon src="https://cdn.lordicon.com/jxzkkoed.json"
+                                   trigger="loop"
+                                   colors="primary:#f39c12"
+                                   style="width:28px;height:28px;flex-shrink:0">
+                        </lord-icon>
+                        <div>
+                            <strong>Tenga en cuenta:</strong>
+                            <ul class="mb-0 mt-2">
+                                <li>Los cambios se aplicarán inmediatamente al guardar.</li>
+                                <li>El nombre de la categoría debe ser único y descriptivo.</li>
+                                <li>Esta acción no afecta los productos ya asignados.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- BOTONES DE ACCIÓN -->
+            <div class="categoria-form-actions mt-5">
+                <button type="submit" class="cliente-btn-submit cartoon-btn-primary">
+                    <lord-icon src="https://cdn.lordicon.com/dangivhk.json"
+                               trigger="hover"
+                               colors="primary:#ffffff"
+                               style="width:26px;height:26px">
+                    </lord-icon>
+                    Guardar Cambios
+                </button>
+
+                <a asp-action="Index" class="cliente-btn-cancel cartoon-btn-secondary">
+                    <lord-icon src="https://cdn.lordicon.com/nqtddedc.json"
+                               trigger="hover"
+                               colors="primary:#ffffff"
+                               style="width:26px;height:26px">
+                    </lord-icon>
+                    Cancelar
+                </a>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        // GUARDAR VALOR ORIGINAL PARA DETECTAR CAMBIOS
+        const originalNombre = document.querySelector('input[name="Nombre"]').value;
+
+        // EFECTOS DE FOCUS EN INPUTS
+        const inputs = document.querySelectorAll('.cartoon-input:not(.cartoon-readonly)');
+        inputs.forEach(input => {
+            input.addEventListener('focus', function() {
+                this.closest('.input-wrapper').classList.add('input-focused');
+            });
+
+            input.addEventListener('blur', function() {
+                this.closest('.input-wrapper').classList.remove('input-focused');
+            });
+        });
+
+        // VALIDACIÓN EN TIEMPO REAL
+        const nombreInput = document.querySelector('input[name="Nombre"]');
+        if (nombreInput) {
+            nombreInput.addEventListener('input', function() {
+                if (this.value.trim().length > 0) {
+                    this.classList.remove('input-error');
+                    const validationMsg = this.closest('.col-md-6').querySelector('.validation-message');
+                    if (validationMsg) {
+                        validationMsg.textContent = '';
+                    }
+                }
+            });
+        }
+
+        // INDICADOR VISUAL DE CAMBIOS
+        nombreInput.addEventListener('input', function() {
+            if (this.value !== originalNombre) {
+                this.style.borderColor = '#f39c12';
+                this.style.background = '#fff7ed';
+            } else {
+                this.style.borderColor = '';
+                this.style.background = '';
+            }
+        });
+
+        // CONFIRMACIÓN ANTES DE CANCELAR SI HAY CAMBIOS
+        const cancelBtn = document.querySelector('.cliente-btn-cancel');
+
+        cancelBtn.addEventListener('click', function(e) {
+            const currentNombre = nombreInput.value;
+
+            if (currentNombre !== originalNombre) {
+                if (!confirm('¿Está seguro de cancelar? Los cambios realizados se perderán.')) {
+                    e.preventDefault();
+                }
+            }
+        });
+
+        // CONFIRMACIÓN ANTES DE GUARDAR
+        const form = document.getElementById('categoriaForm');
+        form.addEventListener('submit', function(e) {
+            const currentNombre = nombreInput.value.trim();
+
+            if (currentNombre !== originalNombre.trim()) {
+                if (!confirm(`¿Confirma que desea cambiar el nombre de la categoría de "${originalNombre}" a "${currentNombre}"?`)) {
+                    e.preventDefault();
+                }
+            }
+        });
+
+        // ANIMACIÓN DE ENTRADA
+        document.addEventListener('DOMContentLoaded', function() {
+            const formCard = document.querySelector('.categoria-form-card');
+            formCard.style.opacity = '0';
+            formCard.style.transform = 'translateY(30px)';
+
+            setTimeout(() => {
+                formCard.style.transition = 'all 0.6s ease';
+                formCard.style.opacity = '1';
+                formCard.style.transform = 'translateY(0)';
+            }, 100);
+        });
+
+        // FOCUS AUTOMÁTICO EN EL CAMPO NOMBRE
+        window.addEventListener('load', function() {
+            setTimeout(() => {
+                nombreInput.focus();
+                nombreInput.select();
+            }, 700);
+        });
+    </script>
+}

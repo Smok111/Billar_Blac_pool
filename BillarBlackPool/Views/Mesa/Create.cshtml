@@ -1,0 +1,196 @@
+﻿@model BillarBlackPool.Models.Mesa
+
+@{
+    ViewData["Title"] = "Nueva Mesa";
+}
+
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;700;900&display=swap" rel="stylesheet" />
+<script src="https://cdn.lordicon.com/lordicon.js"></script>
+<link href="~/css/Mesa.css" rel="stylesheet" />
+
+<div class="container mt-5 mb-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-6 col-md-8">
+
+            <!-- Card del formulario -->
+            <div class="cliente-form-card">
+
+                <!-- Header con animación -->
+                <div class="cliente-form-header">
+                    <div class="cliente-form-icon-wrapper">
+                        <lord-icon src="https://cdn.lordicon.com/mecwbjnp.json"
+                                   trigger="loop"
+                                   colors="primary:#ffffff,secondary:#ffffff"
+                                   style="width:60px;height:60px">
+                        </lord-icon>
+                    </div>
+                    <h2 class="cliente-form-title mb-2">Registrar Nueva Mesa</h2>
+                    <p class="cliente-form-subtitle">Complete los datos de la mesa</p>
+                </div>
+
+                <!-- Formulario -->
+                <form asp-action="Create" method="post" class="cliente-form" id="formMesa">
+                    @Html.AntiForgeryToken()
+
+                    <div class="row g-4">
+                        <!-- Número de Mesa -->
+                        <div class="col-12">
+                            <div class="cliente-field">
+                                <label asp-for="NumeroMesa" class="cliente-label">
+                                    <lord-icon src="https://cdn.lordicon.com/hrjifpbq.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                    <span>Número de Mesa</span>
+                                    <span class="required-asterisk">*</span>
+                                </label>
+                                <div class="input-wrapper">
+                                    <input asp-for="NumeroMesa"
+                                           type="number"
+                                           min="1"
+                                           class="cartoon-input"
+                                           placeholder="Ej: 1, 2, 3..."
+                                           required
+                                           autocomplete="off" />
+                                    <div class="input-icon">
+                                        <lord-icon src="https://cdn.lordicon.com/dxjqoygy.json"
+                                                   trigger="hover"
+                                                   colors="primary:#6CA8FF"
+                                                   style="width:20px;height:20px">
+                                        </lord-icon>
+                                    </div>
+                                </div>
+                                <span asp-validation-for="NumeroMesa" class="validation-message"></span>
+                            </div>
+                        </div>
+
+                        <!-- Estado -->
+                        <div class="col-12">
+                            <div class="cliente-field">
+                                <label asp-for="Estado" class="cliente-label">
+                                    <lord-icon src="https://cdn.lordicon.com/diihvcfp.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                    <span>Estado</span>
+                                    <span class="required-asterisk">*</span>
+                                </label>
+                                <div class="input-wrapper">
+                                    <select asp-for="Estado" class="cartoon-input" required>
+                                        <option value="">-- Seleccione estado --</option>
+                                        <option value="Disponible">Disponible</option>
+                                        <option value="Ocupada">Ocupada</option>
+                                        <option value="Reservada">Reservada</option>
+                                        <option value="Mantenimiento">Mantenimiento</option>
+                                    </select>
+                                    <div class="input-icon">
+                                        <lord-icon src="https://cdn.lordicon.com/dxjqoygy.json"
+                                                   trigger="hover"
+                                                   colors="primary:#6CA8FF"
+                                                   style="width:20px;height:20px">
+                                        </lord-icon>
+                                    </div>
+                                </div>
+                                <span asp-validation-for="Estado" class="validation-message"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Información adicional -->
+                    <div class="cliente-info-box mt-4">
+                        <lord-icon src="https://cdn.lordicon.com/abfverha.json"
+                                   trigger="loop"
+                                   colors="primary:#6CA8FF"
+                                   style="width:28px;height:28px">
+                        </lord-icon>
+                        <div>
+                            <strong>Información:</strong> Las mesas te permitirán organizar el espacio de tu establecimiento
+                            y gestionar las reservas y consumos de manera eficiente.
+                        </div>
+                    </div>
+
+                    <!-- Botones de acción -->
+                    <div class="cliente-form-actions mt-5">
+                        <a asp-action="Index" class="cliente-btn-cancel cartoon-btn-secondary">
+                            <lord-icon src="https://cdn.lordicon.com/nqtddedc.json"
+                                       trigger="hover"
+                                       colors="primary:#ffffff"
+                                       style="width:22px;height:22px">
+                            </lord-icon>
+                            <span>Cancelar</span>
+                        </a>
+
+                        <button type="submit" class="cliente-btn-submit cartoon-btn-primary">
+                            <lord-icon src="https://cdn.lordicon.com/dangivhk.json"
+                                       trigger="hover"
+                                       colors="primary:#ffffff"
+                                       style="width:22px;height:22px">
+                            </lord-icon>
+                            <span>Registrar Mesa</span>
+                        </button>
+                    </div>
+
+                </form>
+
+            </div>
+
+            <!-- Enlace de retorno adicional -->
+            <div class="text-center mt-4">
+                <a asp-action="Index" class="cliente-back-link">
+                    ← Volver a la lista de mesas
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        // Validación mejorada en tiempo real
+        document.getElementById('formMesa').addEventListener('submit', function(e) {
+            const inputs = this.querySelectorAll('input[required], select[required]');
+            let isValid = true;
+
+            inputs.forEach(input => {
+                if (!input.value.trim()) {
+                    isValid = false;
+                    input.classList.add('input-error');
+                } else {
+                    input.classList.remove('input-error');
+                }
+            });
+
+            if (!isValid) {
+                e.preventDefault();
+            }
+        });
+
+        // Efecto de focus en inputs
+        document.querySelectorAll('.cartoon-input').forEach(input => {
+            input.addEventListener('focus', function() {
+                this.parentElement.classList.add('input-focused');
+            });
+
+            input.addEventListener('blur', function() {
+                this.parentElement.classList.remove('input-focused');
+            });
+        });
+
+        // Validación de número positivo
+        const numeroInput = document.querySelector('input[asp-for="NumeroMesa"]');
+        if (numeroInput) {
+            numeroInput.addEventListener('input', function() {
+                if (this.value < 1) {
+                    this.value = 1;
+                }
+            });
+        }
+    </script>
+}

@@ -1,0 +1,596 @@
+﻿@model IEnumerable<BillarBlackPool.Models.Reserva>
+
+@{
+    ViewData["Title"] = "Reservas";
+}
+
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+<script src="https://cdn.lordicon.com/lordicon.js"></script>
+<link href="~/css/Reserva.css" rel="stylesheet" />
+
+<div class="container mt-5 mb-5">
+
+    <!-- HEADER -->
+    <div class="cliente-header-wrapper">
+        <div class="cliente-header-content">
+            <div class="cliente-header-left">
+                <div class="cliente-header-icon">
+                    <lord-icon src="https://cdn.lordicon.com/mecwbjnp.json"
+                               trigger="loop"
+                               colors="primary:#ffffff,secondary:#ffffff"
+                               style="width:50px;height:50px">
+                    </lord-icon>
+                </div>
+                <div>
+                    <h2 class="cliente-title">Gestión de Reservas</h2>
+                    <p class="cliente-subtitle">
+                        <lord-icon src="https://cdn.lordicon.com/bgebyztw.json"
+                                   trigger="loop"
+                                   colors="primary:#6CA8FF"
+                                   style="width:18px;height:18px">
+                        </lord-icon>
+                        Total: <strong>@(Model?.Count() ?? 0)</strong> reservas registradas
+                    </p>
+                </div>
+            </div>
+
+            <a asp-action="Create" class="cliente-btn-add">
+                <lord-icon src="https://cdn.lordicon.com/mecwbjnp.json"
+                           trigger="hover"
+                           colors="primary:#ffffff"
+                           style="width:28px;height:28px">
+                </lord-icon>
+                <span>Nueva Reserva</span>
+            </a>
+        </div>
+
+        <!-- Barra de búsqueda -->
+        <div class="cliente-search-bar">
+            <lord-icon src="https://cdn.lordicon.com/kkvxgpti.json"
+                       trigger="hover"
+                       colors="primary:#6CA8FF"
+                       style="width:24px;height:24px">
+            </lord-icon>
+
+            <input type="text" id="searchInput"
+                   class="cliente-search-input"
+                   placeholder="Buscar por cliente, mesa o estado..."
+                   autocomplete="off">
+
+            <button class="cliente-search-clear" id="clearSearch" style="display: none;">
+                <lord-icon src="https://cdn.lordicon.com/nqtddedc.json"
+                           trigger="hover"
+                           colors="primary:#6b7280"
+                           style="width:20px;height:20px">
+                </lord-icon>
+            </button>
+        </div>
+
+        <!-- 🆕 Filtros por estado -->
+        <div class="cliente-filter-bar mt-3">
+            <button class="filter-btn active" data-filter="todos">
+                <lord-icon src="https://cdn.lordicon.com/gzmvhjxo.json"
+                           trigger="hover"
+                           colors="primary:#6CA8FF"
+                           style="width:18px;height:18px">
+                </lord-icon>
+                Todos
+            </button>
+            <button class="filter-btn" data-filter="Pendiente">
+                <lord-icon src="https://cdn.lordicon.com/abfverha.json"
+                           trigger="hover"
+                           colors="primary:#FFB86C"
+                           style="width:18px;height:18px">
+                </lord-icon>
+                Pendiente
+            </button>
+            <button class="filter-btn" data-filter="Confirmada">
+                <lord-icon src="https://cdn.lordicon.com/egiwmiit.json"
+                           trigger="hover"
+                           colors="primary:#72D672"
+                           style="width:18px;height:18px">
+                </lord-icon>
+                Confirmada
+            </button>
+            <button class="filter-btn" data-filter="Completada">
+                <lord-icon src="https://cdn.lordicon.com/lomfljuq.json"
+                           trigger="hover"
+                           colors="primary:#4FC3F7"
+                           style="width:18px;height:18px">
+                </lord-icon>
+                Completada
+            </button>
+            <button class="filter-btn" data-filter="Cancelada">
+                <lord-icon src="https://cdn.lordicon.com/wpyrrmcq.json"
+                           trigger="hover"
+                           colors="primary:#FF6B6B"
+                           style="width:18px;height:18px">
+                </lord-icon>
+                Cancelada
+            </button>
+        </div>
+    </div>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    @if (Model == null || !Model.Any())
+    {
+        <div class="empty-state">
+            <lord-icon src="https://cdn.lordicon.com/wloilxuq.json"
+                       trigger="loop"
+                       colors="primary:#6CA8FF,secondary:#72D672"
+                       style="width:120px;height:120px"></lord-icon>
+            <h3>No hay reservas registradas</h3>
+            <p>Comienza agregando tu primera reserva al sistema</p>
+
+            <a asp-action="Create" class="btn-empty-state">
+                <lord-icon src="https://cdn.lordicon.com/mecwbjnp.json"
+                           trigger="hover"
+                           colors="primary:#ffffff"
+                           style="width:24px;height:24px"></lord-icon>
+                Agregar Primera Reserva
+            </a>
+        </div>
+    }
+    else
+    {
+        <!-- TABLA DE RESERVAS -->
+        <div class="cliente-table-card">
+            <div class="table-responsive">
+                <table class="table table-hover text-center align-middle cliente-table" id="reservasTable">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Cliente</th>
+                            <th>Mesa</th>
+                            <th>Fecha</th>
+                            <th>Horario</th>
+                            <th>Personas</th>
+                            <th>Estado</th>
+                            <th>Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var reserva in Model)
+                        {
+                            <tr class="cliente-row"
+                                data-reserva-id="@reserva.IdReserva"
+                                data-reserva-cliente="@reserva.Cliente?.Nombre"
+                                data-reserva-mesa="@reserva.Mesa?.NumeroMesa"
+                                data-reserva-estado="@reserva.Estado">
+                                <td>
+                                    <span class="badge-id">#@reserva.IdReserva</span>
+                                </td>
+                                <td>
+                                    <div class="cliente-name">
+                                        <div class="cliente-avatar">
+                                            @reserva.Cliente?.Nombre?.Substring(0, 1).ToUpper()
+                                        </div>
+                                        <span>@reserva.Cliente?.Nombre</span>
+                                    </div>
+                                </td>
+                                <td>
+                                    <span class="horario-badge">Mesa @reserva.Mesa?.NumeroMesa</span>
+                                </td>
+                                <td>
+                                    <span class="badge-date">@reserva.FechaReserva.ToString("dd/MM/yyyy")</span>
+                                </td>
+                                <td>
+                                    <span class="horario-badge">
+                                        @reserva.HoraInicio.ToString(@"hh\:mm") - @reserva.HoraFin.ToString(@"hh\:mm")
+                                    </span>
+                                </td>
+                                <td>
+                                    <span class="personas-badge">@reserva.NumeroPersonas personas</span>
+                                </td>
+                                <td>
+                                    @{
+                                        var estadoClass = reserva.Estado switch
+                                        {
+                                            "Pendiente" => "estado-badge estado-pendiente",
+                                            "Confirmada" => "estado-badge estado-confirmada",
+                                            "Cancelada" => "estado-badge estado-cancelada",
+                                            "Completada" => "estado-badge estado-completada",
+                                            _ => "estado-badge estado-pendiente"
+                                        };
+                                    }
+                                    <span class="@estadoClass">@reserva.Estado</span>
+                                </td>
+                                <td>
+                                    <div class="actions-wrapper">
+                                        <!-- DETALLES -->
+                                        <button class="action-btn btn-info" title="Ver detalles" data-bs-toggle="modal" data-bs-target="#modalInfo-@reserva.IdReserva">
+                                            <lord-icon src="https://cdn.lordicon.com/yxczfiyc.json"
+                                                       trigger="hover"
+                                                       colors="primary:#ffffff"
+                                                       style="width:20px;height:20px"></lord-icon>
+                                        </button>
+
+                                        <!-- EDITAR -->
+                                        <a asp-action="Edit" asp-route-id="@reserva.IdReserva" class="action-btn btn-edit" title="Editar">
+                                            <lord-icon src="https://cdn.lordicon.com/wuvorxbv.json"
+                                                       trigger="hover"
+                                                       colors="primary:#ffffff"
+                                                       style="width:20px;height:20px"></lord-icon>
+                                        </a>
+
+                                        <!-- ELIMINAR -->
+                                        <button class="action-btn btn-delete" title="Eliminar" data-bs-toggle="modal" data-bs-target="#modalDelete-@reserva.IdReserva">
+                                            <lord-icon src="https://cdn.lordicon.com/wpyrrmcq.json"
+                                                       trigger="hover"
+                                                       colors="primary:#ffffff"
+                                                       style="width:20px;height:20px"></lord-icon>
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="noResultsMessage" class="no-results" style="display: none;">
+                <lord-icon src="https://cdn.lordicon.com/hrqwmuhr.json"
+                           trigger="loop"
+                           colors="primary:#9ca3af"
+                           style="width:80px;height:80px"></lord-icon>
+                <p>No se encontraron reservas con ese criterio de búsqueda</p>
+            </div>
+        </div>
+    }
+</div>
+
+<!-- MODALES -->
+@if (Model != null && Model.Any())
+{
+    @foreach (var reserva in Model)
+    {
+        <!-- Modal Info -->
+        <div class="modal fade" id="modalInfo-@reserva.IdReserva" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content cliente-modal-info">
+                    <div class="modal-header">
+                        <h5 class="modal-title">
+                            <lord-icon src="https://cdn.lordicon.com/yxczfiyc.json"
+                                       trigger="loop"
+                                       colors="primary:#6CA8FF"
+                                       style="width:36px;height:36px">
+                            </lord-icon>
+                            <span>Detalles de la Reserva</span>
+                        </h5>
+                        <button type="button" class="btn-close-custom" data-bs-dismiss="modal" aria-label="Close">
+                            <lord-icon src="https://cdn.lordicon.com/nqtddedc.json"
+                                       trigger="hover"
+                                       colors="primary:#6b7280"
+                                       style="width:24px;height:24px">
+                            </lord-icon>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="cliente-detail-card">
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <lord-icon src="https://cdn.lordicon.com/zpxybbhl.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                </div>
+                                <div class="detail-content">
+                                    <span class="detail-label">ID Reserva</span>
+                                    <span class="detail-value">#@reserva.IdReserva</span>
+                                </div>
+                            </div>
+
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <lord-icon src="https://cdn.lordicon.com/hrjifpbq.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                </div>
+                                <div class="detail-content">
+                                    <span class="detail-label">Cliente</span>
+                                    <span class="detail-value">@reserva.Cliente?.Nombre</span>
+                                </div>
+                            </div>
+
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <lord-icon src="https://cdn.lordicon.com/srsgifqc.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                </div>
+                                <div class="detail-content">
+                                    <span class="detail-label">Mesa</span>
+                                    <span class="detail-value">Mesa @reserva.Mesa?.NumeroMesa</span>
+                                </div>
+                            </div>
+
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <lord-icon src="https://cdn.lordicon.com/abvsilkn.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                </div>
+                                <div class="detail-content">
+                                    <span class="detail-label">Fecha</span>
+                                    <span class="detail-value">@reserva.FechaReserva.ToString("dd/MM/yyyy")</span>
+                                </div>
+                            </div>
+
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <lord-icon src="https://cdn.lordicon.com/ehiglnfr.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                </div>
+                                <div class="detail-content">
+                                    <span class="detail-label">Horario Programado</span>
+                                    <span class="detail-value">
+                                        @reserva.HoraInicio.ToString(@"hh\:mm") - @reserva.HoraFin.ToString(@"hh\:mm")
+                                    </span>
+                                </div>
+                            </div>
+
+                            <!-- 🆕 Tiempos de juego real -->
+                            @if (reserva.FechaHoraInicioJuego.HasValue || reserva.FechaHoraFinJuego.HasValue)
+                            {
+                                <div class="detail-item">
+                                    <div class="detail-icon">
+                                        <lord-icon src="https://cdn.lordicon.com/flcstobf.json"
+                                                   trigger="hover"
+                                                   colors="primary:#72D672"
+                                                   style="width:24px;height:24px">
+                                        </lord-icon>
+                                    </div>
+                                    <div class="detail-content">
+                                        <span class="detail-label">Inicio Real del Juego</span>
+                                        <span class="detail-value">
+                                            @(reserva.FechaHoraInicioJuego.HasValue
+                                                                            ? reserva.FechaHoraInicioJuego.Value.ToString("dd/MM/yyyy HH:mm")
+                                                                            : "No registrado")
+                                                                                          </span>
+                                                                                      </div>
+                                                                                  </div>
+
+                                <div class="detail-item">
+                                    <div class="detail-icon">
+                                        <lord-icon src="https://cdn.lordicon.com/jxwksmzq.json"
+                                                   trigger="hover"
+                                                   colors="primary:#FF6B6B"
+                                                   style="width:24px;height:24px">
+                                        </lord-icon>
+                                    </div>
+                                    <div class="detail-content">
+                                        <span class="detail-label">Fin Real del Juego</span>
+                                        <span class="detail-value">
+                                            @(reserva.FechaHoraFinJuego.HasValue
+                                                                            ? reserva.FechaHoraFinJuego.Value.ToString("dd/MM/yyyy HH:mm")
+                                                                            : "No registrado")
+                            </span>
+                        </div>
+                    </div>
+
+                    @if (reserva.FechaHoraInicioJuego.HasValue && reserva.FechaHoraFinJuego.HasValue)
+                                {
+                                    var duracion = reserva.FechaHoraFinJuego.Value - reserva.FechaHoraInicioJuego.Value;
+                                    <div class="detail-item">
+                                        <div class="detail-icon">
+                                            <lord-icon src="https://cdn.lordicon.com/yqzmiobz.json"
+                                                       trigger="hover"
+                                                       colors="primary:#FFB86C"
+                                                       style="width:24px;height:24px">
+                                            </lord-icon>
+                                        </div>
+                                        <div class="detail-content">
+                                            <span class="detail-label">Duración del Juego</span>
+                                            <span class="detail-value">
+                                                @duracion.Hours horas @duracion.Minutes minutos
+                                            </span>
+                                        </div>
+                                    </div>
+                                }
+                            }
+
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <lord-icon src="https://cdn.lordicon.com/zzcjjxew.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                </div>
+                                <div class="detail-content">
+                                    <span class="detail-label">Número de Personas</span>
+                                    <span class="detail-value">@reserva.NumeroPersonas personas</span>
+                                </div>
+                            </div>
+
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <lord-icon src="https://cdn.lordicon.com/diihvcfp.json"
+                                               trigger="hover"
+                                               colors="primary:#6CA8FF"
+                                               style="width:24px;height:24px">
+                                    </lord-icon>
+                                </div>
+                                <div class="detail-content">
+                                    <span class="detail-label">Estado</span>
+                                    <span class="detail-value">
+                                        @{
+                                            var estadoClassModal = reserva.Estado switch
+                                            {
+                                                "Pendiente" => "estado-badge estado-pendiente",
+                                                "Confirmada" => "estado-badge estado-confirmada",
+                                                "Cancelada" => "estado-badge estado-cancelada",
+                                                "Completada" => "estado-badge estado-completada",
+                                                _ => "estado-badge estado-pendiente"
+                                            };
+                                        }
+                                        <span class="@estadoClassModal">@reserva.Estado</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="modal-btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <a asp-action="Edit" asp-route-id="@reserva.IdReserva" class="modal-btn-primary">
+                            <lord-icon src="https://cdn.lordicon.com/wuvorxbv.json"
+                                       trigger="hover"
+                                       colors="primary:#ffffff"
+                                       style="width:20px;height:20px"></lord-icon>
+                            Editar
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Delete -->
+        <div class="modal fade" id="modalDelete-@reserva.IdReserva" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content cliente-modal-delete">
+                    <div class="modal-header">
+                        <h5 class="modal-title">
+                            <lord-icon src="https://cdn.lordicon.com/wpyrrmcq.json"
+                                       trigger="loop"
+                                       colors="primary:#FF6B6B"
+                                       style="width:36px;height:36px"></lord-icon>
+                            <span>Confirmar Eliminación</span>
+                        </h5>
+                        <button type="button" class="btn-close-custom" data-bs-dismiss="modal" aria-label="Close">
+                            <lord-icon src="https://cdn.lordicon.com/nqtddedc.json"
+                                       trigger="hover"
+                                       colors="primary:#6b7280"
+                                       style="width:24px;height:24px"></lord-icon>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="delete-warning">
+                            <lord-icon src="https://cdn.lordicon.com/tdrtiskw.json"
+                                       trigger="loop"
+                                       colors="primary:#FF6B6B"
+                                       style="width:100px;height:100px"></lord-icon>
+
+                            <h4>¿Estás seguro?</h4>
+                            <p>Vas a eliminar la reserva:</p>
+
+                            <div class="delete-client-name">
+                                <lord-icon src="https://cdn.lordicon.com/hrjifpbq.json"
+                                           trigger="hover"
+                                           colors="primary:#FF6B6B"
+                                           style="width:24px;height:24px"></lord-icon>
+                                <strong>Reserva #@reserva.IdReserva - @reserva.Cliente?.Nombre</strong>
+                            </div>
+
+                            <div class="delete-alert">
+                                <lord-icon src="https://cdn.lordicon.com/keaiyjcx.json"
+                                           trigger="loop"
+                                           colors="primary:#FF6B6B"
+                                           style="width:20px;height:20px"></lord-icon>
+                                Esta acción no se puede deshacer
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="modal-btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                        <form asp-action="Delete" method="post" style="display:inline;">
+                            <input type="hidden" name="id" value="@reserva.IdReserva" />
+                            <button type="submit" class="modal-btn-danger">
+                                <lord-icon src="https://cdn.lordicon.com/wpyrrmcq.json"
+                                           trigger="hover"
+                                           colors="primary:#ffffff"
+                                           style="width:20px;height:20px"></lord-icon>
+                                Eliminar Reserva
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+}
+
+@section Scripts {
+    <script>
+        // BÚSQUEDA EN TIEMPO REAL
+        document.addEventListener('DOMContentLoaded', function () {
+            const searchInput = document.getElementById('searchInput');
+            const clearSearch = document.getElementById('clearSearch');
+            const table = document.getElementById('reservasTable');
+            const noResults = document.getElementById('noResultsMessage');
+            const filterButtons = document.querySelectorAll('.filter-btn');
+
+            let currentFilter = 'todos';
+
+            // Función para aplicar filtros
+            function applyFilters() {
+                const searchTerm = searchInput ? searchInput.value.toLowerCase() : '';
+                const rows = table ? table.querySelectorAll('tbody tr') : [];
+                let visibleCount = 0;
+
+                rows.forEach(row => {
+                    const cliente = row.getAttribute('data-reserva-cliente').toLowerCase();
+                    const mesa = row.getAttribute('data-reserva-mesa').toLowerCase();
+                    const estado = row.getAttribute('data-reserva-estado');
+
+                    const matchesSearch = cliente.includes(searchTerm) || mesa.includes(searchTerm) || estado.toLowerCase().includes(searchTerm);
+                    const matchesFilter = currentFilter === 'todos' || estado === currentFilter;
+
+                    if (matchesSearch && matchesFilter) {
+                        row.style.display = '';
+                        visibleCount++;
+                    } else {
+                        row.style.display = 'none';
+                    }
+                });
+
+                if (noResults) {
+                    noResults.style.display = (visibleCount === 0) ? 'flex' : 'none';
+                }
+                if (clearSearch && searchInput) {
+                    clearSearch.style.display = searchInput.value ? 'flex' : 'none';
+                }
+            }
+
+            // Búsqueda
+            if (searchInput) {
+                searchInput.addEventListener('input', applyFilters);
+            }
+
+            // Limpiar búsqueda
+            if (clearSearch && searchInput) {
+                clearSearch.addEventListener('click', function () {
+                    searchInput.value = '';
+                    applyFilters();
+                    searchInput.focus();
+                });
+            }
+
+            // Filtros por estado
+            filterButtons.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    filterButtons.forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+                    currentFilter = this.getAttribute('data-filter');
+                    applyFilters();
+                });
+            });
+
+            // ANIMACIÓN DE FILAS
+            const rows = document.querySelectorAll('.cliente-row');
+            rows.forEach((row, index) => {
+                row.style.animation = `fadeInUp 0.5s ease forwards ${index * 0.05}s`;
+                row.style.opacity = '0';
+            });
+        });
+    </script>
+}

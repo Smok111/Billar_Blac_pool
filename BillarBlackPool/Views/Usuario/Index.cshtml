@@ -1,0 +1,374 @@
+﻿@model IEnumerable<BillarBlackPool.Models.Usuario>
+
+@{
+    ViewData["Title"] = "Usuarios";
+}
+
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+<script src="https://cdn.lordicon.com/lordicon.js"></script>
+<link href="~/css/Cliente.css" rel="stylesheet" />
+
+<div class="container mt-5 mb-5">
+
+    <!-- HEADER -->
+    <div class="cliente-header-wrapper">
+        <div class="cliente-header-content">
+            <div class="cliente-header-left">
+                <div class="cliente-header-icon">
+                    <lord-icon src="https://cdn.lordicon.com/wxnxiano.json"
+                               trigger="loop"
+                               state="hover-looking-around"
+                               colors="primary:#6CA8FF,secondary:#72D672"
+                               style="width:70px;height:70px">
+                    </lord-icon>
+                </div>
+                <div>
+                    <h2 class="cliente-title">Gestión de Usuarios</h2>
+                    <p class="cliente-subtitle">
+                        <lord-icon src="https://cdn.lordicon.com/bgebyztw.json"
+                                   trigger="loop"
+                                   colors="primary:#6CA8FF"
+                                   style="width:18px;height:18px">
+                        </lord-icon>
+                        Total: <strong>@Model.Count()</strong> usuarios registrados
+                    </p>
+                </div>
+            </div>
+            <a asp-action="Create" class="cliente-btn-add">
+                <lord-icon src="https://cdn.lordicon.com/mecwbjnp.json"
+                           trigger="hover"
+                           colors="primary:#ffffff"
+                           style="width:28px;height:28px">
+                </lord-icon>
+                <span>Nuevo Usuario</span>
+            </a>
+        </div>
+
+        <!-- Barra de búsqueda -->
+        <div class="cliente-search-bar">
+            <lord-icon src="https://cdn.lordicon.com/kkvxgpti.json"
+                       trigger="hover"
+                       colors="primary:#6CA8FF"
+                       style="width:24px;height:24px">
+            </lord-icon>
+            <input type="text" id="searchInput"
+                   class="cliente-search-input"
+                   placeholder="Buscar por nombre, apellido, correo o rol..."
+                   autocomplete="off">
+            <button class="cliente-search-clear" id="clearSearch" style="display: none;">
+                <lord-icon src="https://cdn.lordicon.com/nqtddedc.json"
+                           trigger="hover"
+                           colors="primary:#6b7280"
+                           style="width:20px;height:20px">
+                </lord-icon>
+            </button>
+        </div>
+    </div>
+
+    <!-- TABLA -->
+    @if (Model.Any())
+    {
+        <div class="cliente-table-card">
+            <div class="table-responsive">
+                <table class="table table-hover cliente-table" id="usuariosTable">
+                    <thead>
+                        <tr>
+                            <th class="text-center" style="width: 80px;">ID</th>
+                            <th class="text-center" style="width: 250px;">Usuario</th>
+                            <th class="text-center" style="width: 250px;">Correo</th>
+                            <th class="text-center" style="width: 150px;">Rol</th>
+                            <th class="text-center" style="width: 180px;">Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var u in Model)
+                        {
+                            <tr class="cliente-row" data-usuario-id="@u.IdUsuario">
+                                <td class="text-center align-middle">
+                                    <span class="badge-id">#@u.IdUsuario</span>
+                                </td>
+                                <td class="align-middle">
+                                    <div class="d-flex align-items-center justify-content-start gap-3">
+                                        <div class="cliente-avatar">
+                                            @u.NomUsuario.Substring(0, 1).ToUpper()
+                                        </div>
+                                        <div class="text-start">
+                                            <div class="fw-bold">@u.NomUsuario @u.ApeUsuario</div>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="align-middle">
+                                    <div class="d-flex align-items-center justify-content-center gap-2">
+                                        <lord-icon src="https://cdn.lordicon.com/rhvddzym.json"
+                                                   trigger="hover"
+                                                   colors="primary:#6CA8FF"
+                                                   style="width:18px;height:18px">
+                                        </lord-icon>
+                                        <span class="text-truncate">@u.Correo</span>
+                                    </div>
+                                </td>
+                                <td class="text-center align-middle">
+                                    <span class="badge-date">@u.Rol?.NomRol</span>
+                                </td>
+                                <td class="text-center align-middle">
+                                    <div class="actions-wrapper">
+                                        <!-- DETALLES -->
+                                        <button class="action-btn btn-info" title="Ver detalles" data-bs-toggle="modal" data-bs-target="#modalInfo-@u.IdUsuario">
+                                            <lord-icon src="https://cdn.lordicon.com/yxczfiyc.json"
+                                                       trigger="hover"
+                                                       colors="primary:#ffffff"
+                                                       style="width:20px;height:20px"></lord-icon>
+                                        </button>
+
+                                        <!-- EDITAR -->
+                                        <a asp-action="Edit" asp-route-id="@u.IdUsuario" class="action-btn btn-edit" title="Editar">
+                                            <lord-icon src="https://cdn.lordicon.com/wuvorxbv.json"
+                                                       trigger="hover"
+                                                       colors="primary:#ffffff"
+                                                       style="width:20px;height:20px"></lord-icon>
+                                        </a>
+
+                                        <!-- ELIMINAR -->
+                                        <button class="action-btn btn-delete" title="Eliminar" data-bs-toggle="modal" data-bs-target="#modalDelete-@u.IdUsuario">
+                                            <lord-icon src="https://cdn.lordicon.com/wpyrrmcq.json"
+                                                       trigger="hover"
+                                                       colors="primary:#ffffff"
+                                                       style="width:20px;height:20px"></lord-icon>
+                                        </button>
+                                    </div>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+            <div id="noResultsMessage" class="no-results" style="display: none;">
+                <lord-icon src="https://cdn.lordicon.com/hrqwmuhr.json"
+                           trigger="loop"
+                           colors="primary:#9ca3af"
+                           style="width:80px;height:80px"></lord-icon>
+                <p>No se encontraron usuarios con ese criterio de búsqueda</p>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="empty-state">
+            <lord-icon src="https://cdn.lordicon.com/wxnxiano.json"
+                       trigger="loop"
+                       colors="primary:#6CA8FF,secondary:#72D672"
+                       style="width:120px;height:120px"></lord-icon>
+            <h3>No hay usuarios registrados</h3>
+            <p>Comienza agregando tu primer usuario al sistema</p>
+            <a asp-action="Create" class="btn-empty-state">
+                <lord-icon src="https://cdn.lordicon.com/mecwbjnp.json"
+                           trigger="hover"
+                           colors="primary:#ffffff"
+                           style="width:24px;height:24px"></lord-icon>
+                Agregar Primer Usuario
+            </a>
+        </div>
+    }
+</div>
+
+<!-- MODALES -->
+@foreach (var u in Model)
+{
+    <!-- Modal Info -->
+    <div class="modal fade" id="modalInfo-@u.IdUsuario" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content cliente-modal-info">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <lord-icon src="https://cdn.lordicon.com/yxczfiyc.json"
+                                   trigger="loop"
+                                   colors="primary:#6CA8FF"
+                                   style="width:36px;height:36px">
+                        </lord-icon>
+                        <span>Detalles del Usuario</span>
+                    </h5>
+                    <button type="button" class="btn-close-custom" data-bs-dismiss="modal">
+                        <lord-icon src="https://cdn.lordicon.com/nqtddedc.json"
+                                   trigger="hover"
+                                   colors="primary:#6b7280"
+                                   style="width:24px;height:24px">
+                        </lord-icon>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="cliente-detail-card">
+                        <div class="detail-item">
+                            <div class="detail-icon">
+                                <lord-icon src="https://cdn.lordicon.com/zpxybbhl.json"
+                                           trigger="hover"
+                                           colors="primary:#6CA8FF"
+                                           style="width:24px;height:24px">
+                                </lord-icon>
+                            </div>
+                            <div class="detail-content">
+                                <span class="detail-label">ID Usuario</span>
+                                <span class="detail-value">#@u.IdUsuario</span>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-icon">
+                                <lord-icon src="https://cdn.lordicon.com/hrjifpbq.json"
+                                           trigger="hover"
+                                           colors="primary:#6CA8FF"
+                                           style="width:24px;height:24px">
+                                </lord-icon>
+                            </div>
+                            <div class="detail-content">
+                                <span class="detail-label">Nombre Completo</span>
+                                <span class="detail-value">@u.NomUsuario @u.ApeUsuario</span>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-icon">
+                                <lord-icon src="https://cdn.lordicon.com/rhvddzym.json"
+                                           trigger="hover"
+                                           colors="primary:#6CA8FF"
+                                           style="width:24px;height:24px">
+                                </lord-icon>
+                            </div>
+                            <div class="detail-content">
+                                <span class="detail-label">Correo Electrónico</span>
+                                <span class="detail-value">@u.Correo</span>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <div class="detail-icon">
+                                <lord-icon src="https://cdn.lordicon.com/wloilxuq.json"
+                                           trigger="hover"
+                                           colors="primary:#6CA8FF"
+                                           style="width:24px;height:24px">
+                                </lord-icon>
+                            </div>
+                            <div class="detail-content">
+                                <span class="detail-label">Rol</span>
+                                <span class="detail-value">@u.Rol?.NomRol</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="modal-btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    <a asp-action="Edit" asp-route-id="@u.IdUsuario" class="modal-btn-primary">
+                        <lord-icon src="https://cdn.lordicon.com/wuvorxbv.json"
+                                   trigger="hover"
+                                   colors="primary:#ffffff"
+                                   style="width:20px;height:20px"></lord-icon>
+                        Editar
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal Delete -->
+    <div class="modal fade" id="modalDelete-@u.IdUsuario" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content cliente-modal-delete">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <lord-icon src="https://cdn.lordicon.com/wpyrrmcq.json"
+                                   trigger="loop"
+                                   colors="primary:#FF6B6B"
+                                   style="width:36px;height:36px"></lord-icon>
+                        <span>Confirmar Eliminación</span>
+                    </h5>
+                    <button type="button" class="btn-close-custom" data-bs-dismiss="modal">
+                        <lord-icon src="https://cdn.lordicon.com/nqtddedc.json"
+                                   trigger="hover"
+                                   colors="primary:#6b7280"
+                                   style="width:24px;height:24px"></lord-icon>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="delete-warning">
+                        <lord-icon src="https://cdn.lordicon.com/tdrtiskw.json"
+                                   trigger="loop"
+                                   colors="primary:#FF6B6B"
+                                   style="width:100px;height:100px"></lord-icon>
+                        <h4>¿Estás seguro?</h4>
+                        <p>Vas a eliminar al usuario:</p>
+                        <div class="delete-client-name">
+                            <lord-icon src="https://cdn.lordicon.com/hrjifpbq.json"
+                                       trigger="hover"
+                                       colors="primary:#FF6B6B"
+                                       style="width:24px;height:24px"></lord-icon>
+                            <strong>@u.NomUsuario @u.ApeUsuario</strong>
+                        </div>
+                        <div class="delete-alert">
+                            <lord-icon src="https://cdn.lordicon.com/keaiyjcx.json"
+                                       trigger="loop"
+                                       colors="primary:#FF6B6B"
+                                       style="width:20px;height:20px"></lord-icon>
+                            Esta acción no se puede deshacer
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="modal-btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <form asp-action="Delete" method="post" style="display:inline;">
+                        <input type="hidden" name="id" value="@u.IdUsuario" />
+                        <button type="submit" class="modal-btn-danger">
+                            <lord-icon src="https://cdn.lordicon.com/wpyrrmcq.json"
+                                       trigger="hover"
+                                       colors="primary:#ffffff"
+                                       style="width:20px;height:20px"></lord-icon>
+                            Eliminar Usuario
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    <script>
+        // BÚSQUEDA EN TIEMPO REAL
+        const searchInput = document.getElementById('searchInput');
+        const clearSearch = document.getElementById('clearSearch');
+        const table = document.getElementById('usuariosTable');
+        const noResults = document.getElementById('noResultsMessage');
+
+        if (searchInput && table) {
+            searchInput.addEventListener('input', function () {
+                const searchTerm = this.value.toLowerCase();
+                const rows = table.querySelectorAll('tbody tr');
+                let visibleCount = 0;
+
+                rows.forEach(row => {
+                    const text = row.textContent.toLowerCase();
+                    if (text.includes(searchTerm)) {
+                        row.style.display = '';
+                        visibleCount++;
+                    } else {
+                        row.style.display = 'none';
+                    }
+                });
+
+                noResults.style.display = (visibleCount === 0) ? 'flex' : 'none';
+                clearSearch.style.display = searchTerm ? 'flex' : 'none';
+            });
+
+            clearSearch.addEventListener('click', function () {
+                searchInput.value = '';
+                searchInput.dispatchEvent(new Event('input'));
+                searchInput.focus();
+            });
+        }
+
+        // ANIMACIÓN DE FILAS
+        document.addEventListener('DOMContentLoaded', function () {
+            const rows = document.querySelectorAll('.cliente-row');
+            rows.forEach((row, index) => {
+                row.style.animation = `fadeInUp 0.5s ease forwards ${index * 0.05}s`;
+                row.style.opacity = '0';
+            });
+        });
+    </script>
+}

@@ -1,0 +1,189 @@
+﻿@model BillarBlackPool.Models.CategoriaProducto
+
+@{
+    ViewData["Title"] = "Nueva Categoría";
+}
+
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+<script src="https://cdn.lordicon.com/lordicon.js"></script>
+<link href="~/css/Categoria.css" rel="stylesheet" />
+
+<div class="container mt-5 mb-5">
+
+    <!-- LINK DE REGRESO -->
+    <div class="mb-4">
+        <a asp-action="Index" class="categoria-back-link">
+            <lord-icon src="https://cdn.lordicon.com/zmkotitn.json"
+                       trigger="hover"
+                       colors="primary:#9b59b6"
+                       style="width:24px;height:24px">
+            </lord-icon>
+            Volver a Categorías
+        </a>
+    </div>
+
+    <!-- FORMULARIO -->
+    <div class="categoria-form-card">
+
+        <!-- HEADER DEL FORMULARIO -->
+        <div class="categoria-form-header">
+            <div class="categoria-form-icon-wrapper">
+                <lord-icon src="https://cdn.lordicon.com/mecwbjnp.json"
+                           trigger="loop"
+                           colors="primary:#ffffff"
+                           style="width:70px;height:70px">
+                </lord-icon>
+            </div>
+            <h2 class="categoria-form-title">Nueva Categoría</h2>
+            <p class="categoria-form-subtitle">Complete el formulario para registrar una nueva categoría</p>
+        </div>
+
+        <!-- FORMULARIO -->
+        <form asp-action="Create" method="post" id="categoriaForm">
+            @Html.AntiForgeryToken()
+
+            <div class="row g-4">
+
+                <!-- NOMBRE -->
+                <div class="col-12">
+                    <label asp-for="Nombre" class="categoria-label">
+                        <lord-icon src="https://cdn.lordicon.com/puvaffet.json"
+                                   trigger="hover"
+                                   colors="primary:#9b59b6"
+                                   style="width:20px;height:20px">
+                        </lord-icon>
+                        Nombre de la Categoría
+                        <span class="required-asterisk">*</span>
+                    </label>
+                    <div class="input-wrapper">
+                        <input asp-for="Nombre"
+                               class="cartoon-input @(ViewData.ModelState.ContainsKey("Nombre") && ViewData.ModelState["Nombre"].Errors.Count > 0 ? "input-error" : "")"
+                               placeholder="Ej: Bebidas, Snacks, Accesorios..."
+                               maxlength="50"
+                               autocomplete="off" />
+                        <div class="input-icon">
+                            <lord-icon src="https://cdn.lordicon.com/puvaffet.json"
+                                       trigger="hover"
+                                       colors="primary:#9b59b6"
+                                       style="width:24px;height:24px">
+                            </lord-icon>
+                        </div>
+                    </div>
+                    <span asp-validation-for="Nombre" class="validation-message"></span>
+                    <small class="form-text text-muted">Máximo 50 caracteres</small>
+                </div>
+
+                <!-- INFO BOX -->
+                <div class="col-12">
+                    <div class="categoria-info-box">
+                        <lord-icon src="https://cdn.lordicon.com/fhtaantg.json"
+                                   trigger="loop"
+                                   colors="primary:#9b59b6"
+                                   style="width:28px;height:28px;flex-shrink:0">
+                        </lord-icon>
+                        <div>
+                            <strong>Información importante:</strong>
+                            <ul class="mb-0 mt-2">
+                                <li>El nombre de la categoría debe ser único y descriptivo.</li>
+                                <li>Podrá asignar productos a esta categoría después de crearla.</li>
+                                <li>Elija un nombre claro para facilitar la organización de sus productos.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- BOTONES DE ACCIÓN -->
+            <div class="categoria-form-actions mt-5">
+                <button type="submit" class="categoria-btn-submit categoria-btn-primary">
+                    <lord-icon src="https://cdn.lordicon.com/dangivhk.json"
+                               trigger="hover"
+                               colors="primary:#ffffff"
+                               style="width:26px;height:26px">
+                    </lord-icon>
+                    Guardar Categoría
+                </button>
+
+                <a asp-action="Index" class="categoria-btn-cancel categoria-btn-secondary">
+                    <lord-icon src="https://cdn.lordicon.com/nqtddedc.json"
+                               trigger="hover"
+                               colors="primary:#ffffff"
+                               style="width:26px;height:26px">
+                    </lord-icon>
+                    Cancelar
+                </a>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        // EFECTOS DE FOCUS EN INPUTS
+        const inputs = document.querySelectorAll('.cartoon-input');
+        inputs.forEach(input => {
+            input.addEventListener('focus', function() {
+                this.closest('.input-wrapper').classList.add('input-focused');
+            });
+
+            input.addEventListener('blur', function() {
+                this.closest('.input-wrapper').classList.remove('input-focused');
+            });
+        });
+
+        // VALIDACIÓN EN TIEMPO REAL
+        const nombreInput = document.querySelector('input[name="Nombre"]');
+        if (nombreInput) {
+            nombreInput.addEventListener('input', function() {
+                if (this.value.trim().length > 0) {
+                    this.classList.remove('input-error');
+                    const validationMsg = this.closest('.col-12').querySelector('.validation-message');
+                    if (validationMsg) {
+                        validationMsg.textContent = '';
+                    }
+                }
+            });
+        }
+
+        // CONFIRMACIÓN ANTES DE CANCELAR SI HAY DATOS
+        const cancelBtn = document.querySelector('.categoria-btn-cancel');
+        const form = document.getElementById('categoriaForm');
+
+        cancelBtn.addEventListener('click', function(e) {
+            const formData = new FormData(form);
+            let hasData = false;
+
+            for (let [key, value] of formData) {
+                if (key !== '__RequestVerificationToken' && value.trim() !== '') {
+                    hasData = true;
+                    break;
+                }
+            }
+
+            if (hasData) {
+                if (!confirm('¿Está seguro de cancelar? Los datos ingresados se perderán.')) {
+                    e.preventDefault();
+                }
+            }
+        });
+
+        // ANIMACIÓN DE ENTRADA
+        document.addEventListener('DOMContentLoaded', function() {
+            const formCard = document.querySelector('.categoria-form-card');
+            formCard.style.opacity = '0';
+            formCard.style.transform = 'translateY(30px)';
+
+            setTimeout(() => {
+                formCard.style.transition = 'all 0.6s ease';
+                formCard.style.opacity = '1';
+                formCard.style.transform = 'translateY(0)';
+            }, 100);
+        });
+    </script>
+}
