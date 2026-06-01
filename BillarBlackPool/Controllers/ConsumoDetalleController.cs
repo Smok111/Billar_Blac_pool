@@ -502,9 +502,10 @@ namespace BillarBlackPool.Controllers
                 return;
             }
 
+            // EF Core no puede traducir propiedades [NotMapped] en SQL (SubTotal), sumar usando la expresión enviada a la base de datos
             var totalProductos = await _context.ConsumoDetalles
                 .Where(d => d.IdConsumo == idConsumo)
-                .SumAsync(d => (decimal?)d.SubTotal) ?? 0m;
+                .SumAsync(d => (decimal?)(d.Cantidad * d.PrecioUnitario)) ?? 0m;
 
             consumo.TotalProductos = totalProductos;
             consumo.Total = Math.Round(consumo.TotalProductos + consumo.CostoMesa, 2, MidpointRounding.AwayFromZero);
