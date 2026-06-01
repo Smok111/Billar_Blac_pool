@@ -22,7 +22,7 @@ namespace BillarBlackPool.Models
 
         [Required]
         [Display(Name = "Fecha de Inicio")]
-        public DateTime FechaInicio { get; set; } = DateTime.Now;
+        public DateTime FechaInicio { get; set; } = DateTime.UtcNow;
 
         [Display(Name = "Fecha de Fin")]
         public DateTime? FechaFin { get; set; }

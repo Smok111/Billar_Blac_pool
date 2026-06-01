@@ -145,7 +145,7 @@ namespace BillarBlackPool.Controllers
                 return View(consumo);
             }
 
-            consumo.FechaInicio = DateTime.Now;
+            consumo.FechaInicio = DateTime.UtcNow;
             consumo.FechaFin = null;
             consumo.Estado = "Abierto";
             consumo.TotalProductos = 0m;
@@ -293,7 +293,7 @@ namespace BillarBlackPool.Controllers
             }
 
             consumo.Estado = "Cerrado";
-            consumo.FechaFin = DateTime.Now;
+            consumo.FechaFin = DateTime.UtcNow;
             consumo.TotalProductos = await CalcularTotalProductosAsync(consumo.IdConsumo);
             RecalcularTotales(consumo);
 

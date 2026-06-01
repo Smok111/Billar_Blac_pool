@@ -89,7 +89,7 @@ namespace BillarBlackPool.Controllers
 
             try
             {
-                cliente.FechaRegistro = DateTime.Now;
+                cliente.FechaRegistro = DateTime.UtcNow;
                 _context.Add(cliente);
                 await _context.SaveChangesAsync();
                 TempData["Success"] = "Cliente registrado exitosamente.";

@@ -34,6 +34,6 @@ namespace BillarBlackPool.Models
         public decimal SubTotal => Cantidad * PrecioUnitario;
 
         [Display(Name = "Fecha de Registro")]
-        public DateTime FechaRegistro { get; set; } = DateTime.Now;
+        public DateTime FechaRegistro { get; set; } = DateTime.UtcNow;
     }
 }

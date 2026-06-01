@@ -80,7 +80,7 @@ namespace BillarBlackPool.Controllers
 
             if (ModelState.IsValid)
             {
-                detalle.FechaRegistro = DateTime.Now;
+                detalle.FechaRegistro = DateTime.UtcNow;
                 _context.Add(detalle);
                 await _context.SaveChangesAsync();
                 await RecalcularTotalesConsumoAsync(detalle.IdConsumo);
@@ -122,7 +122,7 @@ namespace BillarBlackPool.Controllers
                         return Json(new { success = false, message = $"El producto {detalle.IdProducto} no existe" });
 
                     detalle.PrecioUnitario = producto.Precio;
-                    detalle.FechaRegistro = DateTime.Now;
+                    detalle.FechaRegistro = DateTime.UtcNow;
                     detalle.IdDetalle = 0;
 
                     _context.Add(detalle);
